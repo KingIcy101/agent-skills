@@ -25,11 +25,13 @@
 ## Halo Marketing - Current State (from full intel doc)
 - Official launch: January 19, 2026 | HQ: Maryland (remote)
 - 1 paying client: Renee (chiropractor, $1K/month)
+- Client: Jacek (supplement company) — added per Matt
 - 1 strategic partnership: Alex (3 locations, free trial — learning competitor's system)
 - Pipeline rebuilding: Suzanne (dental) and Mike/Andy (telehealth brain injury) fell off
 - Former team member: Vanessa Herrera (Client Success Manager, departed — big gap)
-- Monthly burn: $20K ($10K each from Matt + Preston)
-- Break-even: 10 clients ($20K MRR)
+- Monthly burn: UNKNOWN — $20K figure in doc is NOT accurate per Matt
+- Break-even: TBD (depends on actual burn)
+- NOTE: Intel doc has inaccuracies — weight direct conversations with Matt over doc
 
 ## Halo Marketing - Pricing
 - Standard: $1,950/month (dental, chiro)
