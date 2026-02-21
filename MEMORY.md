@@ -40,8 +40,16 @@
 - Also want me "in a meeting" — could be a conference line they add me to
 - Smart cost idea: use existing memory/workspace files as context instead of sending everything via API each call (reduces token costs)
 - Tech stack: Twilio + either OpenAI Realtime API OR cheaper pipeline (Deepgram STT + Claude + ElevenLabs TTS)
-- Need: Twilio account + OpenAI API key to build
-- On the backlog — Matt wants full cost breakdown first
+- Need: Twilio account + Deepgram (or similar) — not yet set up
+- On the backlog — needs dedicated accounts first
+- Matt only has Anthropic API key currently (powers me)
+- Matt wants separate logins for everything Halo uses — key principle
+
+## Accounts & Access - Key Principle
+- Matt wants dedicated accounts for Halo's tools — separate from his personal ones
+- Currently I only have access via: Anthropic API key (already set up)
+- To-do: set up dedicated accounts for Twilio, Deepgram, ElevenLabs, etc. as needed
+- Security priority: separate logins for everything
 
 ## GHL Integration - On the List
 - Connect leads and pipeline into GoHighLevel automatically
