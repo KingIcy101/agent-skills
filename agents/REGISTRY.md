@@ -57,6 +57,13 @@
 
 ---
 
+## Titan — Entrepreneur Mentor
+📁 `agents/mentor/`  
+**Job:** Strategic advisor, decision reviewer, mindset calibrator, alignment keeper. Composite of Hormozi, Naval, Bezos, Gadzhi, Frisella, Buffett, Musk, Cuban and more. Pushes back, gives verdicts, keeps the 150-client vision front and center.  
+**Trigger:** "Titan, what do you think about [decision]?" · "Mentor session" · "Am I thinking too small?" · "Critique my offer" · "What's holding us back?" · "Weekly board session"
+
+---
+
 ## Oracle — Prediction Market Trader *(Build Last)*
 📁 `agents/oracle/`  
 **Job:** Scans Polymarket for mispriced outcomes, researches probability, executes trades with Matt's approval, tracks P&L  

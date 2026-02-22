@@ -50,12 +50,17 @@
 - Appointment booking integration
 
 ## Halo Marketing - Tech Stack
-- GoHighLevel (GHL): CRM, landing pages, pipelines, client dashboards
+- GoHighLevel (GHL): CRM, landing pages, pipelines — dual use: Halo's own prospect pipeline + client dashboards for their patients
 - Saleshandy: cold email outreach (domain: trygohalomarketing.com)
-- Bland.ai: AI calling (positioned as human team)
-- Slack: internal comms
+- Aloware: cold calling platform for sales team (SDRs/closers)
+- PandaDoc: contracts and proposals
+- Bland.ai: AI calling for clients (positioned as human appointment reminder team)
+- Slack: internal team comms
 - Tally: client intake forms
 - Trello: task management
+- Notion: internal SOPs, playbooks, onboarding docs (token saved to voice-server/.env)
+- Notion token: NOTION_TOKEN_REDACTED
+- Notion workspace root page ID: 72189dac574583309ba7816bbb4a81c3
 
 ## Halo Marketing - Sales Flow
 - Cold outreach (calls + email) → book discovery call
@@ -85,7 +90,18 @@
 - **JD ready**: Job description draft in `memory/sdr-job-description.md` (needs email before posting)
 - Recommended comp: $800–$1,000 base + $100–$150/booked-and-held discovery call
 
-## Voice Call System - Plan
+## Voice Call System - LIVE ✅
+- Matt's business number: (703) 389-3533
+- Inbound: Matt calls (703) 822-5792, Alo answers and converses
+- Outbound: I trigger a call via POST /call with a briefing — Alo calls on Matt's behalf
+- SMS: Send via POST /sms/send, receive via /sms/receive webhook (Twilio configured)
+- Stack: Twilio + Deepgram nova-2 + claude-haiku-4-5 + Cartesia sonic-3 (Lindsey voice, 0.85x speed)
+- **IMPORTANT: Only `claude-haiku-4-5` works on Matt's API account** (claude-3-haiku-20240307 and claude-3-5-haiku-20241022 return 404)
+- Test harness: `voice-server/test-conversation.js` — run `node test-conversation.js all --no-tts`
+- Banned opener strip in code (catches "Absolutely/Certainly/Of course" even if Claude slips)
+- A2P 10DLC SMS registration still needed for outbound SMS at scale
+
+## Voice Call System - Original Plan (superseded)
 - Goal: Matt or Preston can call a number and have a natural voice conversation with Halo
 - Also want me "in a meeting" — could be a conference line they add me to
 - Smart cost idea: use existing memory/workspace files as context instead of sending everything via API each call (reduces token costs)
@@ -110,26 +126,62 @@
 - Estimated build: 1–2 days once I have the API key
 
 ## Marketing Knowledge Base
-- Full research library in `memory/marketing-mastery/` (14 files)
+- Full research library in `halo-marketing/knowledge/marketing-mastery/` (14 files)
 - Covers: industry landscape, Facebook ads, Google ads, agency scaling, patient funnel, cold outreach, niche playbooks (chiro/dental/telehealth), sales framework, agency owner lessons, ad creative swipe file, client onboarding/retention, marketing Halo itself, full financial model
 - Ask me anything about digital marketing for healthcare and I'll have the answer
 - Key lesson: Halo's differentiator = full-funnel (ads + AI follow-up). No competitor does this at the mid-market price point.
-- Lead scraper: `tools/lead_scraper.py` — pulls from NPI Registry. Pre-built: 500 VA chiros + 500 VA dentists in `tools/`
+- Lead scraper: `halo-marketing/tools/lead_scraper.py` — pulls from NPI Registry. Pre-built: 500 VA chiros + 500 VA dentists in `halo-marketing/tools/`
 
 ## My Role
-- Personal assistant → eventually managing agent teams for his business
+- Personal assistant + agent team manager
 - Priority: Halo Marketing growth
-- Upcoming: security setup (personal + business)
-- Matt may share Halo Marketing cloud/Notion info for deeper context
+- Build agents one at a time for all areas of Matt's life and businesses
+
+## Mission Control Dashboard
+- File: `mission-control/index.html` — open in any browser
+- Shows: org chart, all 8 agents with skills/triggers, Kanban board, daily wins, progress bars, streak
+- Serve locally: `cd mission-control && python3 -m http.server 7899` → http://localhost:7899
+- Click any agent in the left rail → opens detail card with skills + dispatch box
+- Cmd+K opens Quick Dispatch from anywhere
+
+## Agent Team Architecture
+- Agents live inside each business folder, each has IDENTITY.md + PLAYBOOK.md
+- I act as manager/dispatcher — Matt says what he needs, I route to the right agent
+- **Scout** (Sales Intel) — `agents/sales/` — pre-call research, post-discovery follow-up, proposal prep, pipeline health
+- **Rex** (Outreach) — `agents/outreach/` — cold email/call sequences, lead lists, follow-up cadences, handoff to Scout
+- **Ember** (Client Success) — `agents/client-success/` — onboarding, monthly reports, retention risk, referral asks
+- **Volt** (Ads) — `agents/ads/` — Facebook/Google campaigns, ad copy, creative briefs, performance audits
+- **Prism** (Content & Personal Brand) — `agents/content/` — two lanes: Halo brand content + Matt's personal brand (LinkedIn, building-in-public, founder content)
+- **Kargo** (Amazon/Walmart) — `agents/amazon/` — inventory health, pricing, P&L, VA coordination, Mateo sync
+- **Atlas** (Chief of Staff) — `agents/atlas/` — 3 daily briefings (9am/1pm/7pm ET via cron), win logging, blocker detection, client health watch, streak tracking. Fully active.
+- **Titan** (Entrepreneur Mentor) — `agents/mentor/` — Composite of Hormozi, Naval, Bezos, Gadzhi, Frisella, Musk, Buffett. Decision advisor, offer critique, mindset calibrator, weekly board sessions. Pushes back, gives verdicts, keeps 150-client vision front and center. Reports directly to Matt (not Alo).
+- **Oracle** (Polymarket Trader) — `agents/oracle/` — BLUEPRINT ONLY. Scans Polymarket for mispriced outcomes, researches probability, executes trades. Build last after Halo agents running. Needs: Polygon wallet + USDC + Polymarket API key.
+- Orchestrator definition: `agents/ORCHESTRATOR.md` — my role, delegation rules, QA checklist, cost routing
+- Registry: `agents/REGISTRY.md` — all agents with triggers
+
+## Twilio A2P 10DLC
+- Brand: BNb7106d4585def3d145750d8f8bb5af2b (APPROVED)
+- Campaign: CM46249100768a6f8c6ee84b707995a8be (PENDING — blocks SMS until approved)
+- Cron job `a2p-sms-check` monitors every 4 hours, notifies Matt + self-deletes when approved
+- Script: `voice-server/check-sms-status.js`
+
+## Termly Links (live)
+- Privacy Policy: https://app.termly.io/document/privacy-policy/2262f577-c4c4-47f8-aefe-1cc006a41b85
+- Terms & Conditions: https://app.termly.io/document/terms-of-conditions/2262f577-c4c4-47f8-aefe-1cc006a41b85
 
 ## Name
-- I'm named Halo (Matt chose it)
-- Coincidentally same name as his marketing agency — Halo Marketing
+- I'm named Alo (Matt chose it, updated 2026-02-21)
+- Previously named Halo; coincidentally same name as his marketing agency — Halo Marketing
 
 ## Matt's Rules for Me
 - **Always ask before downloading anything** — no surprise installs
 - **Always ask before using personal info** — flag it, don't assume
 - Security measures coming at some point (TBD)
+
+## Learned Preferences
+*(Permanent rules saved from feedback — updated over time)*
+- [2026-02-21] Greetings: Don't use slang like "What's good" — keep it professional but warm
+- [2026-02-21] Voice system: Only implement improvements if they're genuinely better — don't add complexity for its own sake
 
 ## Setup Notes
 - Telegram is the main channel

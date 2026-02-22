@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mission Control</title>
+<style>
+:root {
+  --bg: #07070f;
+  --rail: #0d0d18;
+  --surface: #10101c;
+  --surface2: #16162a;
+  --border: #1e1e32;
+  --border2: #262640;
+  --accent: #6c63ff;
+  --accent-dim: rgba(108,99,255,0.12);
+  --accent-glow: rgba(108,99,255,0.25);
+  --green: #00d48a;
+  --green-dim: rgba(0,212,138,0.1);
+  --yellow: #f5b731;
+  --yellow-dim: rgba(245,183,49,0.1);
+  --red: #ff5e6c;
+  --red-dim: rgba(255,94,108,0.1);
+  --blue: #3b9eff;
+  --text: #e0e0f0;
+  --text2: #9090b0;
+  --text3: #50506a;
+  --rail-width: 220px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; overflow: hidden; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* ─── TOPBAR ─── */
+.topbar {
+  height: 46px;
+  background: var(--rail);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  padding: 0 18px;
+  gap: 14px;
+  flex-shrink: 0;
+  z-index: 20;
+}
+.topbar-logo {
+  display: flex; align-items: center; gap: 8px;
+  font-weight: 800; font-size: 14px; letter-spacing: -0.3px;
+  margin-right: 8px;
+}
+.logo-pulse {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 6px var(--accent);
+  animation: pulse 2.4s ease-in-out infinite;
+}
+@keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.5;transform:scale(0.85)} }
+
+.topbar-tab {
+  height: 46px;
+  display: flex; align-items: center;
+  padding: 0 14px;
+  font-size: 12px; font-weight: 600; color: var(--text3);
+  border-bottom: 2px solid transparent;
+  cursor: pointer; transition: all 0.15s;
+}
+.topbar-tab:hover { color: var(--text2); }
+.topbar-tab.active { color: var(--text); border-bottom-color: var(--accent); }
+
+.topbar-right {
+  margin-left: auto; display: flex; align-items: center; gap: 10px;
+}
+.topbar-clock { font-size: 11px; color: var(--text3); }
+.topbar-badge {
+  font-size: 10px; font-weight: 700;
+  padding: 3px 9px; border-radius: 20px;
+  background: var(--green-dim); color: var(--green);
+  border: 1px solid rgba(0,212,138,0.2);
+}
+
+/* ─── LAYOUT ─── */
+.layout {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* ─── RAIL ─── */
+.rail {
+  width: var(--rail-width);
+  background: var(--rail);
+  border-right: 1px solid var(--border);
+  display: flex; flex-direction: column;
+  overflow-y: auto;
+  flex-shrink: 0;
+}
+.rail::-webkit-scrollbar { width: 0; }
+
+.rail-section { padding: 14px 12px 6px; }
+.rail-label {
+  font-size: 9px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.8px; color: var(--text3); padding: 0 6px;
+  margin-bottom: 6px;
+}
+.agent-row {
+  display: flex; align-items: center; gap: 9px;
+  padding: 7px 8px; border-radius: 8px;
+  cursor: pointer; transition: all 0.15s;
+  border: 1px solid transparent;
+  margin-bottom: 2px;
+}
+.agent-row:hover { background: var(--surface); border-color: var(--border); }
+.agent-row.active { background: var(--accent-dim); border-color: rgba(108,99,255,0.3); }
+
+.agent-avatar {
+  width: 30px; height: 30px; border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px; flex-shrink: 0;
+}
+.av-purple { background: rgba(108,99,255,0.15); }
+.av-blue   { background: rgba(59,158,255,0.12); }
+.av-red    { background: rgba(255,94,108,0.12); }
+.av-gold   { background: rgba(245,183,49,0.12); }
+.av-green  { background: rgba(0,212,138,0.12); }
+.av-pink   { background: rgba(255,100,180,0.12); }
+.av-teal   { background: rgba(0,200,180,0.12); }
+.av-orange { background: rgba(255,140,60,0.12); }
+
+.agent-info { flex: 1; min-width: 0; }
+.agent-name { font-size: 12px; font-weight: 700; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.agent-role-mini { font-size: 10px; color: var(--text3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.agent-status-dot {
+  width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0;
+}
+.dot-green { background: var(--green); box-shadow: 0 0 4px var(--green); }
+.dot-yellow { background: var(--yellow); }
+.dot-gray { background: var(--text3); }
+
+.rail-divider { height: 1px; background: var(--border); margin: 8px 12px; }
+
+/* ─── MAIN CONTENT ─── */
+.main {
+  flex: 1; overflow-y: auto; padding: 18px 20px;
+  display: flex; flex-direction: column; gap: 18px;
+}
+.main::-webkit-scrollbar { width: 4px; }
+.main::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 4px; }
+
+/* ─── WINS PANEL ─── */
+.wins-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+}
+.wins-header {
+  padding: 14px 18px 0;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.wins-title {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 13px; font-weight: 800;
+}
+.wins-title .flame { font-size: 16px; }
+.wins-date { font-size: 11px; color: var(--text3); }
+
+.wins-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
+/* Progress goals */
+.goals-col {
+  padding: 14px 18px 16px;
+  border-right: 1px solid var(--border);
+}
+.goals-title { font-size: 11px; font-weight: 700; color: var(--text3); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; }
+
+.goal-item { margin-bottom: 14px; }
+.goal-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 5px; }
+.goal-label { font-size: 12px; font-weight: 600; }
+.goal-value { font-size: 11px; color: var(--text3); }
+.goal-bar-bg {
+  height: 6px; background: var(--surface2); border-radius: 6px; overflow: hidden;
+}
+.goal-bar-fill {
+  height: 100%; border-radius: 6px;
+  transition: width 1s cubic-bezier(0.4,0,0.2,1);
+}
+.bar-accent { background: linear-gradient(90deg, var(--accent), #9c8fff); }
+.bar-green  { background: linear-gradient(90deg, var(--green), #40f0b0); }
+.bar-yellow { background: linear-gradient(90deg, var(--yellow), #ffd060); }
+.goal-sub { font-size: 10px; color: var(--text3); margin-top: 3px; }
+
+/* Today's wins feed */
+.wins-col { padding: 14px 18px 16px; }
+.wins-feed-title { font-size: 11px; font-weight: 700; color: var(--text3); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px; }
+.win-item {
+  display: flex; align-items: flex-start; gap: 8px;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--border);
+}
+.win-item:last-child { border-bottom: none; }
+.win-icon { font-size: 14px; flex-shrink: 0; margin-top: 0px; }
+.win-text { flex: 1; }
+.win-label { font-size: 12px; font-weight: 600; color: var(--text); line-height: 1.3; }
+.win-agent { font-size: 10px; color: var(--text3); margin-top: 2px; }
+.win-badge {
+  font-size: 9px; font-weight: 700; padding: 2px 7px; border-radius: 10px;
+  text-transform: uppercase; letter-spacing: 0.3px; flex-shrink: 0; margin-top: 2px;
+}
+.badge-done { background: var(--green-dim); color: var(--green); }
+.badge-new  { background: var(--accent-dim); color: #9c8fff; }
+
+/* Streak */
+.streak-row {
+  padding: 10px 18px;
+  background: var(--surface2);
+  border-top: 1px solid var(--border);
+  display: flex; align-items: center; gap: 10px;
+}
+.streak-label { font-size: 11px; color: var(--text3); }
+.streak-days { display: flex; gap: 4px; }
+.streak-day {
+  width: 22px; height: 22px; border-radius: 5px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 9px; font-weight: 700;
+}
+.sd-done { background: var(--accent-dim); color: var(--accent); border: 1px solid rgba(108,99,255,0.3); }
+.sd-today { background: var(--accent); color: white; box-shadow: 0 0 8px var(--accent-glow); }
+.sd-empty { background: var(--surface); color: var(--text3); border: 1px solid var(--border); }
+.streak-count { margin-left: auto; font-size: 12px; font-weight: 800; color: var(--accent); }
+
+/* ─── SECTION HEADER ─── */
+.section-header {
+  display: flex; align-items: center; justify-content: space-between;
+}
+.section-title {
+  font-size: 11px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.8px; color: var(--text3);
+}
+.section-action {
+  font-size: 11px; color: var(--accent); cursor: pointer;
+  padding: 4px 10px; border-radius: 6px;
+  border: 1px solid rgba(108,99,255,0.25);
+  background: var(--accent-dim);
+  transition: all 0.15s;
+}
+.section-action:hover { background: rgba(108,99,255,0.2); }
+
+/* ─── KANBAN ─── */
+.kanban {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+.kanban-col {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px;
+  min-height: 180px;
+}
+.col-header {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 10px;
+}
+.col-title {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 11px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.5px;
+  color: var(--text3);
+}
+.col-dot { width: 6px; height: 6px; border-radius: 50%; }
+.col-count {
+  font-size: 10px; color: var(--text3);
+  background: var(--surface2);
+  width: 18px; height: 18px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+}
+
+.task-card {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 11px;
+  margin-bottom: 7px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.task-card:hover { border-color: var(--accent); transform: translateY(-1px); }
+.task-card:last-child { margin-bottom: 0; }
+
+.task-title { font-size: 12px; font-weight: 600; margin-bottom: 7px; line-height: 1.35; }
+.task-footer { display: flex; align-items: center; justify-content: space-between; }
+.task-agent-chip {
+  font-size: 10px; padding: 2px 7px; border-radius: 10px;
+  background: var(--accent-dim); color: #9c8fff;
+}
+.task-priority {
+  font-size: 9px; font-weight: 700; text-transform: uppercase;
+  padding: 2px 6px; border-radius: 4px;
+}
+.pri-high { background: var(--red-dim); color: var(--red); }
+.pri-med  { background: var(--yellow-dim); color: var(--yellow); }
+.pri-done { background: var(--green-dim); color: var(--green); }
+.pri-low  { background: var(--surface); color: var(--text3); border: 1px solid var(--border); }
+
+.add-task {
+  width: 100%; padding: 7px; border-radius: 7px; margin-top: 6px;
+  border: 1px dashed var(--border2); background: transparent; color: var(--text3);
+  font-size: 11px; cursor: pointer; transition: all 0.15s; text-align: left;
+  display: flex; align-items: center; gap: 5px;
+}
+.add-task:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
+
+/* ─── AGENT DETAIL PANEL ─── */
+.agent-detail-backdrop {
+  display: none;
+  position: fixed; inset: 0;
+  background: rgba(7,7,15,0.7);
+  z-index: 50;
+  backdrop-filter: blur(4px);
+}
+.agent-detail-backdrop.open { display: flex; align-items: center; justify-content: center; }
+.agent-detail {
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-radius: 16px;
+  width: 460px; max-width: 94vw;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+}
+.agent-detail::-webkit-scrollbar { width: 0; }
+.detail-header {
+  padding: 20px 22px 16px;
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; gap: 12px;
+}
+.detail-avatar {
+  width: 48px; height: 48px; border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 24px;
+}
+.detail-meta { flex: 1; }
+.detail-name { font-size: 18px; font-weight: 800; }
+.detail-role { font-size: 12px; color: var(--text3); margin-top: 2px; }
+.detail-close {
+  width: 30px; height: 30px; border-radius: 8px;
+  background: var(--surface2); border: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; color: var(--text3); font-size: 14px;
+}
+.detail-close:hover { color: var(--text); background: var(--border); }
+
+.detail-body { padding: 18px 22px 22px; }
+.detail-section { margin-bottom: 18px; }
+.detail-section-title {
+  font-size: 10px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.8px; color: var(--text3); margin-bottom: 8px;
+}
+.detail-focus {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-size: 13px; line-height: 1.6; color: var(--text2);
+}
+.skills-list { display: flex; flex-wrap: wrap; gap: 6px; }
+.skill-chip {
+  font-size: 11px; padding: 4px 10px; border-radius: 20px;
+  background: var(--accent-dim); color: #9c8fff;
+  border: 1px solid rgba(108,99,255,0.2);
+}
+.trigger-box {
+  background: var(--surface2); border: 1px solid var(--border);
+  border-radius: 8px; padding: 10px 12px;
+}
+.trigger-phrase {
+  font-size: 11px; font-family: monospace;
+  color: var(--green); margin-bottom: 4px;
+}
+.trigger-phrase:last-child { margin-bottom: 0; }
+
+.dispatch-box {
+  background: var(--surface2);
+  border: 1px solid var(--border2);
+  border-radius: 10px;
+  padding: 12px;
+}
+.dispatch-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text3); margin-bottom: 8px; }
+.dispatch-input-row { display: flex; gap: 8px; }
+.dispatch-input {
+  flex: 1; background: var(--bg); border: 1px solid var(--border2);
+  border-radius: 7px; padding: 8px 12px; color: var(--text);
+  font-size: 12px; outline: none;
+}
+.dispatch-input:focus { border-color: var(--accent); }
+.dispatch-btn {
+  padding: 8px 14px; border-radius: 7px;
+  background: var(--accent); color: white; border: none;
+  font-size: 12px; font-weight: 700; cursor: pointer;
+  transition: background 0.15s;
+}
+.dispatch-btn:hover { background: #7c73ff; }
+
+/* ─── DISPATCH MODAL ─── */
+.dispatch-modal-bd {
+  display: none; position: fixed; inset: 0;
+  background: rgba(7,7,15,0.75); z-index: 60;
+  backdrop-filter: blur(4px);
+  align-items: center; justify-content: center;
+}
+.dispatch-modal-bd.open { display: flex; }
+.dispatch-modal {
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-radius: 14px;
+  width: 480px; max-width: 94vw;
+  padding: 22px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+}
+.dm-title { font-size: 16px; font-weight: 800; margin-bottom: 4px; }
+.dm-sub { font-size: 12px; color: var(--text3); margin-bottom: 16px; }
+.dm-input {
+  width: 100%; background: var(--surface2);
+  border: 1px solid var(--border2); border-radius: 8px;
+  padding: 10px 12px; color: var(--text); font-size: 13px;
+  outline: none; resize: none; min-height: 80px;
+  font-family: inherit;
+}
+.dm-input:focus { border-color: var(--accent); }
+.dm-agents { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0; }
+.dm-agent-chip {
+  font-size: 11px; padding: 5px 12px; border-radius: 20px;
+  border: 1px solid var(--border2); cursor: pointer;
+  background: var(--surface2); color: var(--text3);
+  transition: all 0.15s;
+}
+.dm-agent-chip.sel { background: var(--accent-dim); border-color: rgba(108,99,255,0.4); color: #9c8fff; }
+.dm-footer { display: flex; gap: 8px; justify-content: flex-end; }
+.dm-cancel {
+  padding: 9px 16px; border-radius: 8px; border: 1px solid var(--border2);
+  background: var(--surface2); color: var(--text3); cursor: pointer; font-size: 13px;
+}
+.dm-cancel:hover { color: var(--text); }
+.dm-send {
+  padding: 9px 18px; border-radius: 8px; border: none;
+  background: var(--accent); color: white; font-size: 13px; font-weight: 700;
+  cursor: pointer; transition: background 0.15s;
+}
+.dm-send:hover { background: #7c73ff; }
+
+/* ─── WIN TOAST ─── */
+.toast {
+  position: fixed; bottom: 24px; right: 24px; z-index: 100;
+  background: var(--surface);
+  border: 1px solid var(--green);
+  border-radius: 12px; padding: 14px 18px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5), 0 0 0 1px rgba(0,212,138,0.1);
+  display: flex; align-items: center; gap: 10px;
+  transform: translateY(100px); opacity: 0;
+  transition: all 0.35s cubic-bezier(0.34,1.56,0.64,1);
+  max-width: 300px;
+}
+.toast.show { transform: translateY(0); opacity: 1; }
+.toast-icon { font-size: 20px; }
+.toast-text { font-size: 13px; font-weight: 600; color: var(--green); }
+.toast-sub { font-size: 11px; color: var(--text3); margin-top: 2px; }
+</style>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="topbar-logo">
+    <div class="logo-pulse"></div>
+    Mission Control
+  </div>
+  <div class="topbar-tab active" onclick="switchTab(this,'board')">Board</div>
+  <div class="topbar-tab" onclick="switchTab(this,'agents')">Agents</div>
+  <div class="topbar-tab" onclick="switchTab(this,'clients')">Clients</div>
+  <div class="topbar-right">
+    <span class="topbar-badge">● 9 Active · Oracle on deck</span>
+    <span class="topbar-clock" id="clock"></span>
+  </div>
+</div>
+
+<!-- LAYOUT -->
+<div class="layout">
+
+  <!-- RAIL -->
+  <div class="rail">
+    <div class="rail-section">
+      <div class="rail-label">Your Team</div>
+
+      <div class="agent-row active" onclick="openAgent('alo')">
+        <div class="agent-avatar av-purple">🌟</div>
+        <div class="agent-info">
+          <div class="agent-name">Alo</div>
+          <div class="agent-role-mini">Orchestrator</div>
+        </div>
+        <div class="agent-status-dot dot-green"></div>
+      </div>
+
+      <div class="agent-row" onclick="openAgent('scout')">
+        <div class="agent-avatar av-blue">🔍</div>
+        <div class="agent-info">
+          <div class="agent-name">Scout</div>
+          <div class="agent-role-mini">Sales Intelligence</div>
+        </div>
+        <div class="agent-status-dot dot-green"></div>
+      </div>
+
+      <div class="agent-row" onclick="openAgent('rex')">
+        <div class="agent-avatar av-red">🎯</div>
+        <div class="agent-info">
+          <div class="agent-name">Rex</div>
+          <div class="agent-role-mini">Outreach</div>
+        </div>
+        <div class="agent-status-dot dot-green"></div>
+      </div>
+
+      <div class="agent-row" onclick="openAgent('ember')">
+        <div class="agent-avatar av-gold">💛</div>
+        <div class="agent-info">
+          <div class="agent-name">Ember</div>
+          <div class="agent-role-mini">Client Success</div>
+        </div>
+        <div class="agent-status-dot dot-green"></div>
+      </div>
+
+      <div class="agent-row" onclick="openAgent('volt')">
+        <div class="agent-avatar av-green">⚡</div>
+        <div class="agent-info">
+          <div class="agent-name">Volt</div>
+          <div class="agent-role-mini">Paid Ads</div>
+        </div>
+        <div class="agent-status-dot dot-green"></div>
+      </div>
+
+      <div class="agent-row" onclick="openAgent('prism')">
+        <div class="agent-avatar av-pink">🎨</div>
+        <div class="agent-info">
+          <div class="agent-name">Prism</div>
+          <div class="agent-role-mini">Content & Brand</div>
+        </div>
+        <div class="agent-status-dot dot-green"></div>
+      </div>
+
+      <div class="agent-row" onclick="openAgent('kargo')">
+        <div class="agent-avatar av-teal">📦</div>
+        <div class="agent-info">
+          <div class="agent-name">Kargo</div>
+          <div class="agent-role-mini">Amazon / Walmart</div>
+        </div>
+        <div class="agent-status-dot dot-green"></div>
+      </div>
+    </div>
+
+    <div class="rail-divider"></div>
+
+    <div class="rail-section">
+      <div class="rail-label">Strategic</div>
+      <div class="agent-row" onclick="openAgent('titan')">
+        <div class="agent-avatar" style="background:rgba(255,183,49,0.15)">👑</div>
+        <div class="agent-info">
+          <div class="agent-name">Titan</div>
+          <div class="agent-role-mini">Entrepreneur Mentor</div>
+        </div>
+        <div class="agent-status-dot dot-green"></div>
+      </div>
+    </div>
+
+    <div class="rail-divider"></div>
+
+    <div class="rail-section">
+      <div class="rail-label">System Intelligence</div>
+      <div class="agent-row" onclick="openAgent('atlas')">
+        <div class="agent-avatar av-orange">🧭</div>
+        <div class="agent-info">
+          <div class="agent-name">Atlas</div>
+          <div class="agent-role-mini">Chief of Staff</div>
+        </div>
+        <div class="agent-status-dot dot-gray"></div>
+      </div>
+    </div>
+
+    <div style="flex:1"></div>
+
+    <div class="rail-section" style="padding-bottom:14px">
+      <div style="padding:10px 8px;background:var(--surface);border:1px solid var(--border);border-radius:10px;cursor:pointer" onclick="openDispatch()" class="dispatch-quick">
+        <div style="font-size:11px;font-weight:700;color:var(--text2);margin-bottom:6px">⚡ Quick Dispatch</div>
+        <div style="font-size:10px;color:var(--text3)">Send a task to any agent</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN -->
+  <div class="main" id="main-board">
+
+    <!-- WINS + PROGRESS -->
+    <div class="wins-panel">
+      <div class="wins-header">
+        <div class="wins-title">
+          <span class="flame">🔥</span>
+          Daily Wins & Progress
+        </div>
+        <span class="wins-date" id="todayDate"></span>
+      </div>
+      <div class="wins-body">
+        <!-- Goals -->
+        <div class="goals-col">
+          <div class="goals-title">Halo Marketing Goals</div>
+
+          <div class="goal-item">
+            <div class="goal-row">
+              <span class="goal-label">Active Clients</span>
+              <span class="goal-value">2 / 150</span>
+            </div>
+            <div class="goal-bar-bg"><div class="goal-bar-fill bar-accent" style="width:1.4%"></div></div>
+            <div class="goal-sub">Next milestone: 5 clients</div>
+          </div>
+
+          <div class="goal-item">
+            <div class="goal-row">
+              <span class="goal-label">Monthly Revenue</span>
+              <span class="goal-value">~$1K / $300K</span>
+            </div>
+            <div class="goal-bar-bg"><div class="goal-bar-fill bar-green" style="width:0.4%"></div></div>
+            <div class="goal-sub">Target: $300K MRR by end of 2026</div>
+          </div>
+
+          <div class="goal-item">
+            <div class="goal-row">
+              <span class="goal-label">Pipeline Built</span>
+              <span class="goal-value">~1,000 leads</span>
+            </div>
+            <div class="goal-bar-bg"><div class="goal-bar-fill bar-yellow" style="width:20%"></div></div>
+            <div class="goal-sub">VA chiros + dentists scraped ✓</div>
+          </div>
+        </div>
+
+        <!-- Wins feed -->
+        <div class="wins-col">
+          <div class="wins-feed-title">Today's Wins</div>
+
+          <div class="win-item">
+            <span class="win-icon">🏗️</span>
+            <div class="win-text">
+              <div class="win-label">Full agent team built & deployed</div>
+              <div class="win-agent">Alo — 7 agents, all roles defined</div>
+            </div>
+            <span class="win-badge badge-done">Done</span>
+          </div>
+
+          <div class="win-item">
+            <span class="win-icon">🎛️</span>
+            <div class="win-text">
+              <div class="win-label">Mission Control launched</div>
+              <div class="win-agent">Alo — dashboard live</div>
+            </div>
+            <span class="win-badge badge-new">New</span>
+          </div>
+
+          <div class="win-item">
+            <span class="win-icon">📞</span>
+            <div class="win-text">
+              <div class="win-label">Voice call system live</div>
+              <div class="win-agent">Alo — call (703) 822-5792</div>
+            </div>
+            <span class="win-badge badge-done">Done</span>
+          </div>
+
+          <div class="win-item">
+            <span class="win-icon">📋</span>
+            <div class="win-text">
+              <div class="win-label">A2P 10DLC brand approved</div>
+              <div class="win-agent">Alo — SMS campaign pending</div>
+            </div>
+            <span class="win-badge badge-done">Done</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Streak -->
+      <div class="streak-row">
+        <span class="streak-label">Active Days</span>
+        <div class="streak-days">
+          <div class="streak-day sd-done" title="Feb 20">20</div>
+          <div class="streak-day sd-today" title="Feb 21">21</div>
+          <div class="streak-day sd-empty">22</div>
+          <div class="streak-day sd-empty">23</div>
+          <div class="streak-day sd-empty">24</div>
+          <div class="streak-day sd-empty">25</div>
+          <div class="streak-day sd-empty">26</div>
+        </div>
+        <div class="streak-count">2-day streak 🔥</div>
+      </div>
+    </div>
+
+    <!-- KANBAN -->
+    <div>
+      <div class="section-header" style="margin-bottom:12px">
+        <span class="section-title">Active Board</span>
+        <span class="section-action" onclick="openDispatch()">+ New Task</span>
+      </div>
+      <div class="kanban">
+
+        <div class="kanban-col">
+          <div class="col-header">
+            <div class="col-title"><div class="col-dot" style="background:#3b9eff"></div>To Do</div>
+            <div class="col-count" id="cnt-todo">3</div>
+          </div>
+
+          <div class="task-card" onclick="showWin('Onboarding started for Renee!','Ember is on it.')">
+            <div class="task-title">Onboard Renee (full GHL setup)</div>
+            <div class="task-footer">
+              <span class="task-agent-chip">Ember</span>
+              <span class="task-priority pri-high">High</span>
+            </div>
+          </div>
+
+          <div class="task-card" onclick="showWin('Re-engagement drafted for Suzanne!','Rex built the sequence.')">
+            <div class="task-title">Re-engage Suzanne (dental)</div>
+            <div class="task-footer">
+              <span class="task-agent-chip">Rex</span>
+              <span class="task-priority pri-high">High</span>
+            </div>
+          </div>
+
+          <div class="task-card">
+            <div class="task-title">Re-engage Mike/Andy (telehealth)</div>
+            <div class="task-footer">
+              <span class="task-agent-chip">Rex</span>
+              <span class="task-priority pri-med">Med</span>
+            </div>
+          </div>
+
+          <button class="add-task" onclick="openDispatch()">+ Add task</button>
+        </div>
+
+        <div class="kanban-col">
+          <div class="col-header">
+            <div class="col-title"><div class="col-dot" style="background:var(--yellow)"></div>In Progress</div>
+            <div class="col-count">3</div>
+          </div>
+
+          <div class="task-card">
+            <div class="task-title">Deliver Month 1 results for Renee</div>
+            <div class="task-footer">
+              <span class="task-agent-chip">Volt + Ember</span>
+              <span class="task-priority pri-high">High</span>
+            </div>
+          </div>
+
+          <div class="task-card">
+            <div class="task-title">A2P 10DLC campaign approval</div>
+            <div class="task-footer">
+              <span class="task-agent-chip">Alo monitoring</span>
+              <span class="task-priority pri-med">Waiting</span>
+            </div>
+          </div>
+
+          <div class="task-card">
+            <div class="task-title">Document Alex's competitive intel</div>
+            <div class="task-footer">
+              <span class="task-agent-chip">Scout</span>
+              <span class="task-priority pri-med">Med</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="kanban-col">
+          <div class="col-header">
+            <div class="col-title"><div class="col-dot" style="background:var(--red)"></div>Blocked</div>
+            <div class="col-count">2</div>
+          </div>
+
+          <div class="task-card">
+            <div class="task-title">GHL integration build</div>
+            <div class="task-footer">
+              <span class="task-agent-chip">Alo</span>
+              <span class="task-priority pri-high">Needs API key</span>
+            </div>
+          </div>
+
+          <div class="task-card">
+            <div class="task-title">Post Colombia SDR job listing</div>
+            <div class="task-footer">
+              <span class="task-agent-chip">Rex</span>
+              <span class="task-priority pri-high">Needs email</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="kanban-col">
+          <div class="col-header">
+            <div class="col-title"><div class="col-dot" style="background:var(--green)"></div>Done</div>
+            <div class="col-count">7</div>
+          </div>
+
+          <div class="task-card" style="opacity:0.7">
+            <div class="task-title">Voice call system live</div>
+            <div class="task-footer">
+              <span class="task-agent-chip">Alo</span>
+              <span class="task-priority pri-done">✓ Done</span>
+            </div>
+          </div>
+
+          <div class="task-card" style="opacity:0.7">
+            <div class="task-title">1,000 VA leads scraped</div>
+            <div class="task-footer">
+              <span class="task-agent-chip">Rex</span>
+              <span class="task-priority pri-done">✓ Done</span>
+            </div>
+          </div>
+
+          <div class="task-card" style="opacity:0.7">
+            <div class="task-title">Marketing knowledge base (14 files)</div>
+            <div class="task-footer">
+              <span class="task-agent-chip">Alo</span>
+              <span class="task-priority pri-done">✓ Done</span>
+            </div>
+          </div>
+
+          <div class="task-card" style="opacity:0.7">
+            <div class="task-title">Notion workspace integrated</div>
+            <div class="task-footer">
+              <span class="task-agent-chip">Alo</span>
+              <span class="task-priority pri-done">✓ Done</span>
+            </div>
+          </div>
+
+          <div class="task-card" style="opacity:0.7">
+            <div class="task-title">Colombia SDR research + JD written</div>
+            <div class="task-footer">
+              <span class="task-agent-chip">Alo</span>
+              <span class="task-priority pri-done">✓ Done</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div><!-- /main-board -->
+
+</div><!-- /layout -->
+
+<!-- AGENT DETAIL MODAL -->
+<div class="agent-detail-backdrop" id="agentBackdrop" onclick="closeAgent(event)">
+  <div class="agent-detail" id="agentDetail">
+    <div class="detail-header">
+      <div class="detail-avatar" id="d-avatar"></div>
+      <div class="detail-meta">
+        <div class="detail-name" id="d-name"></div>
+        <div class="detail-role" id="d-role"></div>
+      </div>
+      <div class="detail-close" onclick="closeAgentDirect()">✕</div>
+    </div>
+    <div class="detail-body">
+      <div class="detail-section">
+        <div class="detail-section-title">Only responsible for</div>
+        <div class="detail-focus" id="d-focus"></div>
+      </div>
+      <div class="detail-section">
+        <div class="detail-section-title">Skills</div>
+        <div class="skills-list" id="d-skills"></div>
+      </div>
+      <div class="detail-section">
+        <div class="detail-section-title">How to trigger</div>
+        <div class="trigger-box" id="d-triggers"></div>
+      </div>
+      <div class="detail-section" style="margin-bottom:0">
+        <div class="dispatch-box">
+          <div class="dispatch-label">Send a task to this agent</div>
+          <div class="dispatch-input-row">
+            <input class="dispatch-input" id="d-task-input" placeholder="What do you need?">
+            <button class="dispatch-btn" onclick="sendDetailTask()">Send →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- DISPATCH MODAL -->
+<div class="dispatch-modal-bd" id="dispatchBd" onclick="closeDispatch(event)">
+  <div class="dispatch-modal">
+    <div class="dm-title">⚡ Quick Dispatch</div>
+    <div class="dm-sub">Describe what you need — Alo will route it, or pick an agent directly.</div>
+    <textarea class="dm-input" id="dm-input" placeholder="e.g. Write a cold email sequence for chiropractors in Virginia..."></textarea>
+    <div class="dm-agents" id="dm-agents"></div>
+    <div class="dm-footer">
+      <div class="dm-cancel" onclick="closeDispatchDirect()">Cancel</div>
+      <button class="dm-send" onclick="sendDispatch()">Dispatch →</button>
+    </div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast">
+  <span class="toast-icon">🎉</span>
+  <div>
+    <div class="toast-text" id="toast-text">Win logged!</div>
+    <div class="toast-sub" id="toast-sub"></div>
+  </div>
+</div>
+
+<script>
+// ── Data ──
+const AGENTS = {
+  alo: {
+    emoji: '🌟', av: 'av-purple',
+    name: 'Alo', role: 'Orchestrator · Squad Lead',
+    focus: 'Receiving tasks from Matt, routing them to the right agent, QA-ing all output before delivery, and managing Matt\'s personal life. Everything flows through Alo first.',
+    skills: ['Mission Brief Builder','Department Dispatch','Output QA','Context Loading','Personal Assistant','Memory Management'],
+    triggers: ['"Anything you need" — Alo is the default for all requests','Use specific agent names to go direct','Alo auto-routes when unsure']
+  },
+  scout: {
+    emoji: '🔍', av: 'av-blue',
+    name: 'Scout', role: 'Sales Intelligence',
+    focus: 'Pre-call research on prospects, post-discovery follow-up packages, proposal prep, and pipeline health checks. Scout only touches sales intelligence — not outreach, not client management.',
+    skills: ['Prospect Research','Post-Discovery Package','Proposal Builder','Pipeline Health','ROI Calculator','Objection Prep'],
+    triggers: ['"Research [name / website]"','"Just finished discovery with [name]"','"Prep proposal for [name]"','"Pipeline health check"']
+  },
+  rex: {
+    emoji: '🎯', av: 'av-red',
+    name: 'Rex', role: 'Cold Outreach Specialist',
+    focus: 'Everything before a prospect agrees to a discovery call. Cold emails, cold call scripts, lead lists, follow-up cadences. Rex hands off to Scout once someone books.',
+    skills: ['Email Sequences','Call Scripts','Lead Pull (NPI)','Follow-up Cadences','Objection Handling','Lead Handoff to Scout'],
+    triggers: ['"Rex, email sequence for [niche]"','"Cold call script for [niche]"','"Pull leads for [city] [niche]"','"Follow-up plan for [name]"','"Rex, handoff for [name]"']
+  },
+  ember: {
+    emoji: '💛', av: 'av-gold',
+    name: 'Ember', role: 'Client Success Manager',
+    focus: 'Everything after the contract is signed. Onboarding, 30/60/90 check-ins, monthly reports, churn risk monitoring, and referral asks. Ember does not touch sales or ads.',
+    skills: ['Onboarding Checklist','Monthly Report Builder','Retention Risk Scan','Check-in Prep','Referral Ask Script'],
+    triggers: ['"Ember, onboard [client]"','"Monthly report for [client]"','"Who\'s at churn risk?"','"Prep check-in with [client]"','"Referral ask for [client]"']
+  },
+  volt: {
+    emoji: '⚡', av: 'av-green',
+    name: 'Volt', role: 'Paid Ads Specialist',
+    focus: 'Facebook and Google ad campaigns for Halo\'s clients only. Campaign briefs, ad copy, creative direction, performance audits, budget optimization. Volt does not write social content or emails.',
+    skills: ['Campaign Briefs','Facebook Ad Copy','Google RSAs','Performance Audit','Creative Briefs','Healthcare Compliance'],
+    triggers: ['"Volt, build campaign for [client]"','"Write Facebook ads for [niche]"','"Audit [client]\'s ad performance"','"Write Google RSAs for [client]"']
+  },
+  prism: {
+    emoji: '🎨', av: 'av-pink',
+    name: 'Prism', role: 'Content & Personal Brand',
+    focus: 'Two lanes: (1) Halo Marketing content — social posts, email copy, brand voice for clients. (2) Matt\'s personal brand — LinkedIn thought leadership, founder story, building-in-public content. Prism does not run ads.',
+    skills: ['Social Post Sets','Email Newsletters','Ad Creative Briefs','Brand Voice Guides','Blog Posts','Matt Personal Brand','LinkedIn Founder Content','Building-in-Public'],
+    triggers: ['"Prism, social posts for [topic]"','"Content calendar for [month]"','"Email to prospect list about [topic]"','"Brand voice guide for [client]"','"Matt LinkedIn post about [topic]"','"Personal brand content for [theme]"']
+  },
+  kargo: {
+    emoji: '📦', av: 'av-teal',
+    name: 'Kargo', role: 'Amazon / Walmart Ops',
+    focus: 'Keeping the e-commerce business running quietly. Inventory health, pricing, monthly P&L, VA instructions, Mateo coordination. Kargo never makes purchase decisions without Matt approval.',
+    skills: ['Inventory Health Check','Pricing Review','Monthly P&L Summary','VA Task Prep','Supplement Channel Monitor','Mateo Sync'],
+    triggers: ['"Kargo, inventory check"','"What needs restocking?"','"Monthly Amazon/Walmart summary"','"VA instructions for [situation]"','"Pricing review for [category]"']
+  },
+  titan: {
+    emoji: '👑', av: 'av-gold',
+    name: 'Titan', role: 'Billionaire Entrepreneur Mentor',
+    focus: 'A composite of the greatest entrepreneurial minds — Hormozi, Naval, Bezos, Gadzhi, Frisella, Musk, Buffett and more. Titan studies them, synthesizes their frameworks, and applies them directly to Matt's situation. Pushes back. Gives verdicts. Keeps the 150-client vision locked in.',
+    skills: ['Decision Advisor','Offer Critique (Hormozi)','Constraint Identification','Mindset Reality Check','Thinking Small Detector','Weekly Board Session','Strategic Challenge'],
+    triggers: ['"Titan, what do you think about [decision]?"','"Am I thinking too small?"','"Critique my offer"','"What's holding us back?"','"Mentor session"','"Weekly board session"','"What would [Hormozi / Naval / etc.] say?"']
+  },
+  oracle: {
+    emoji: '🔮', av: 'av-green',
+    name: 'Oracle', role: 'Prediction Market Trader — Build Last',
+    focus: 'Scans Polymarket for mispriced prediction markets. Researches real probability vs. market price, finds the edge, and executes trades on Matt's behalf with approved limits. Paper trades first to validate the approach before real money.',
+    skills: ['Market Scanner','Probability Research','Trade Execution','Portfolio Review','P&L Tracking','Opportunity Alerts','Paper Trade Mode','Risk Management'],
+    triggers: ['"Oracle, scan for edges"','"Oracle, research [market question]"','"Oracle, portfolio review"','"What's Oracle's take on [topic]?"','Build order: wallet → API key → paper trade → go live']
+  },
+  atlas: {
+    emoji: '🧭', av: 'av-orange',
+    name: 'Atlas', role: 'Chief of Staff',
+    focus: 'Runs the meta-layer. Atlas reads the board, win log, and client tracker — then briefs Matt three times a day (9am, 1pm, 7pm ET) automatically. Spots blockers, logs wins, watches client health. The system stays current without anyone manually updating it.',
+    skills: ['Morning Brief 9am','Midday Check-in 1pm','Evening Wrap 7pm','Win Logger','Blocker Spotter','Client Watch','Streak Tracking','Cross-Agent Insights'],
+    triggers: ['Runs automatically 3x/day via cron','"Atlas, where do things stand?"','"Log that as a win: [what]"','"Atlas, whats been stuck?"','"Brief me" — Alo routes to Atlas']
+  }
+};
+
+const allAgentNames = ['Alo','Scout','Rex','Ember','Volt','Prism','Kargo','Atlas'];
+let selectedAgent = null;
+let currentDetailAgent = null;
+
+// ── Clock ──
+function updateClock() {
+  document.getElementById('clock').textContent = new Date().toLocaleString('en-US',{
+    timeZone:'America/New_York', weekday:'short', month:'short', day:'numeric',
+    hour:'2-digit', minute:'2-digit'
+  }) + ' ET';
+}
+updateClock(); setInterval(updateClock,30000);
+
+// ── Today date ──
+document.getElementById('todayDate').textContent = new Date().toLocaleDateString('en-US',{
+  timeZone:'America/New_York', weekday:'long', month:'long', day:'numeric'
+});
+
+// ── Tab switching ──
+function switchTab(el, tab) {
+  document.querySelectorAll('.topbar-tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+}
+
+// ── Agent detail modal ──
+function openAgent(id) {
+  const a = AGENTS[id];
+  if (!a) return;
+  currentDetailAgent = id;
+  document.getElementById('d-avatar').textContent = a.emoji;
+  document.getElementById('d-avatar').className = 'detail-avatar ' + a.av;
+  document.getElementById('d-name').textContent = a.name;
+  document.getElementById('d-role').textContent = a.role;
+  document.getElementById('d-focus').textContent = a.focus;
+  document.getElementById('d-skills').innerHTML = a.skills.map(s=>`<span class="skill-chip">${s}</span>`).join('');
+  document.getElementById('d-triggers').innerHTML = a.triggers.map(t=>`<div class="trigger-phrase">"${t}"</div>`).join('');
+  document.getElementById('d-task-input').value = '';
+  document.querySelectorAll('.agent-row').forEach(r => r.classList.remove('active'));
+  document.querySelectorAll('.agent-row').forEach(r => {
+    if (r.querySelector('.agent-name')?.textContent === a.name) r.classList.add('active');
+  });
+  document.getElementById('agentBackdrop').classList.add('open');
+}
+function closeAgent(e) {
+  if (e.target === document.getElementById('agentBackdrop')) closeAgentDirect();
+}
+function closeAgentDirect() {
+  document.getElementById('agentBackdrop').classList.remove('open');
+}
+function sendDetailTask() {
+  const val = document.getElementById('d-task-input').value.trim();
+  if (!val || !currentDetailAgent) return;
+  const a = AGENTS[currentDetailAgent];
+  closeAgentDirect();
+  showWin(`Task sent to ${a.name}!`, val.length > 50 ? val.slice(0,50)+'…' : val);
+  document.getElementById('d-task-input').value = '';
+}
+
+// ── Dispatch modal ──
+function buildDispatchAgents() {
+  const container = document.getElementById('dm-agents');
+  container.innerHTML = allAgentNames.map(n =>
+    `<div class="dm-agent-chip" onclick="toggleAgent(this)">${n}</div>`
+  ).join('');
+}
+function toggleAgent(el) {
+  el.classList.toggle('sel');
+}
+function openDispatch() {
+  buildDispatchAgents();
+  document.getElementById('dm-input').value = '';
+  document.getElementById('dispatchBd').classList.add('open');
+  setTimeout(()=>document.getElementById('dm-input').focus(), 100);
+}
+function closeDispatch(e) {
+  if (e.target === document.getElementById('dispatchBd')) closeDispatchDirect();
+}
+function closeDispatchDirect() {
+  document.getElementById('dispatchBd').classList.remove('open');
+}
+function sendDispatch() {
+  const val = document.getElementById('dm-input').value.trim();
+  if (!val) return;
+  const selected = [...document.querySelectorAll('.dm-agent-chip.sel')].map(e=>e.textContent);
+  const target = selected.length ? selected.join(', ') : 'Alo';
+  closeDispatchDirect();
+  showWin(`Dispatched to ${target}!`, val.length > 50 ? val.slice(0,50)+'…' : val);
+}
+
+// ── Toast ──
+function showWin(title, sub) {
+  const t = document.getElementById('toast');
+  document.getElementById('toast-text').textContent = title;
+  document.getElementById('toast-sub').textContent = sub || '';
+  t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'), 3500);
+}
+
+// Keyboard shortcut: press K to open dispatch
+document.addEventListener('keydown', e => {
+  if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openDispatch(); }
+  if (e.key === 'Escape') { closeAgentDirect(); closeDispatchDirect(); }
+});
+</script>
+</body>
+</html>
