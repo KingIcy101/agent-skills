@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "created": 1772692800000,
+  "lastUpdated": 1772692800000,
+  "insights": [
+    {
+      "agent": "nash",
+      "insight": "Multi-source verification (3+ sources) doubles lead accuracy despite 30% time cost",
+      "category": "success-pattern",
+      "timestamp": 1772692800000
+    },
+    {
+      "agent": "quinn",
+      "insight": "Personalized email openers (research recipient first) increase response rate 3x",
+      "category": "success-pattern",
+      "timestamp": 1772692800000
+    }
+  ],
+  "categories": [
+    "success-pattern",
+    "meta-learning",
+    "optimization",
+    "research",
+    "communication",
+    "general"
+  ]
+}
