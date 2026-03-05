@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "created": 1772693336259,
+  "lastUpdated": 1772693336260,
+  "categories": {},
+  "preferences": [
+    {
+      "category": "communication",
+      "preference": "Brief and direct, with some warmth — not cold",
+      "confidence": "HIGH",
+      "evidence": [
+        "USER.md explicit statement"
+      ],
+      "lastSeen": 1772693336259
+    },
+    {
+      "category": "communication",
+      "preference": "Speak directly to Matt (use \"you\" not \"Matt\" in third person)",
+      "confidence": "HIGH",
+      "evidence": [
+        "March 4 correction — repeated 3x"
+      ],
+      "lastSeen": 1772693336259
+    },
+    {
+      "category": "builds",
+      "preference": "No builds without discussed plan and explicit approval first",
+      "confidence": "HIGH",
+      "evidence": [
+        "HEARTBEAT.md rule, March 1"
+      ],
+      "lastSeen": 1772693336259
+    },
+    {
+      "category": "builds",
+      "preference": "Never say \"done\" without testing on live URL where Matt will see it",
+      "confidence": "HIGH",
+      "evidence": [
+        "March 4 correction — repeated 4+ times in one session"
+      ],
+      "lastSeen": 1772693336259
+    },
+    {
+      "category": "notifications",
+      "preference": "Proactively notify when builds/tasks/research completes — don't wait for Matt to ask",
+      "confidence": "HIGH",
+      "evidence": [
+        "March 4 explicit request"
+      ],
+      "lastSeen": 1772693336259
+    },
+    {
+      "category": "notifications",
+      "preference": "Confirm when knowledge/skills/systems are saved with proof of persistence",
+      "confidence": "HIGH",
+      "evidence": [
+        "March 4 explicit request"
+      ],
+      "lastSeen": 1772693336259
+    },
+    {
+      "category": "design",
+      "preference": "Reduce excessive animations — calmer visual design, functional over flashy",
+      "confidence": "HIGH",
+      "evidence": [
+        "March 4 correction on office visualization, Mission Control UI"
+      ],
+      "lastSeen": 1772693336259
+    },
+    {
+      "category": "design",
+      "preference": "Modern tech office aesthetic (Figma HQ, Linear, Notion) — not cartoon or game",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "March 4 office build feedback"
+      ],
+      "lastSeen": 1772693336259
+    },
+    {
+      "category": "pricing",
+      "preference": "Always project at $1,950/mo — $950 clients are exceptions, not the norm",
+      "confidence": "HIGH",
+      "evidence": [
+        "MEMORY.md explicit rule"
+      ],
+      "lastSeen": 1772693336259
+    },
+    {
+      "category": "cost",
+      "preference": "Use cheap models (Haiku/Flash) for agent execution — save Sonnet/Opus for orchestration and important tasks",
+      "confidence": "HIGH",
+      "evidence": [
+        "March 4 architecture discussion"
+      ],
+      "lastSeen": 1772693336259
+    },
+    {
+      "category": "system",
+      "preference": "Initialized preference model",
+      "confidence": "LOW",
+      "evidence": [
+        "system init"
+      ],
+      "lastSeen": 1772693336259
+    }
+  ]
+}
