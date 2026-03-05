@@ -1,0 +1,19 @@
+[
+  {
+    "id": "gap-1772424341871",
+    "gap": "Scheduled Task Trigger",
+    "needs": [
+      "Cron-based delegation trigger",
+      "Time-parsing layer for natural language schedules"
+    ],
+    "suggested_agent": null,
+    "task": "Ensure dashboard is mobile compatible fully at 3am est.",
+    "examples": [
+      "Ensure dashboard is mobile compatible fully at 3am est."
+    ],
+    "count": 1,
+    "created": "2026-03-02T04:05:41.871Z",
+    "last_seen": "2026-03-02T04:05:41.871Z",
+    "status": "open"
+  }
+]

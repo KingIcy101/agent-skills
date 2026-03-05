@@ -1,0 +1,1896 @@
+{
+  "generatedAt": "2026-02-23T23:53:12.332Z",
+  "totalTrackedOrders": 206,
+  "summaries": {
+    "Carlson__Dr. Scott": {
+      "brand": "Carlson",
+      "account": "Dr. Scott",
+      "orderCount": 2,
+      "avgAmount": 3115,
+      "minAmount": 3115,
+      "maxAmount": 3115,
+      "firstOrder": "2024-11-11",
+      "lastOrder": "2025-02-05",
+      "recentAmounts": [
+        {
+          "amount": 3114.94,
+          "date": "2024-11-11"
+        },
+        {
+          "amount": 3114.94,
+          "date": "2025-02-05"
+        }
+      ]
+    },
+    "Standard Process__Carl": {
+      "brand": "Standard Process",
+      "account": "Carl",
+      "orderCount": 8,
+      "avgAmount": 6126,
+      "minAmount": 1819,
+      "maxAmount": 7525,
+      "firstOrder": "2024-07-14",
+      "lastOrder": "2024-11-11",
+      "recentAmounts": [
+        {
+          "amount": 7524.82,
+          "date": "2024-09-05"
+        },
+        {
+          "amount": 6717.7,
+          "date": "2024-09-05"
+        },
+        {
+          "amount": 6580.56,
+          "date": "2024-10-14"
+        },
+        {
+          "amount": 6812.49,
+          "date": "2024-10-14"
+        },
+        {
+          "amount": 1819.23,
+          "date": "2024-11-11"
+        }
+      ]
+    },
+    "BodyBio__Dr. Scott": {
+      "brand": "BodyBio",
+      "account": "Dr. Scott",
+      "orderCount": 3,
+      "avgAmount": 5655,
+      "minAmount": 3135,
+      "maxAmount": 8922,
+      "firstOrder": "2024-09-05",
+      "lastOrder": "2024-11-11",
+      "recentAmounts": [
+        {
+          "amount": 3135,
+          "date": "2024-09-05"
+        },
+        {
+          "amount": 8921.66,
+          "date": "2024-10-22"
+        },
+        {
+          "amount": 4908.62,
+          "date": "2024-11-11"
+        }
+      ]
+    },
+    "Standard Process__Pierce": {
+      "brand": "Standard Process",
+      "account": "Pierce",
+      "orderCount": 2,
+      "avgAmount": 577,
+      "minAmount": 574,
+      "maxAmount": 581,
+      "firstOrder": "2024-12-11",
+      "lastOrder": "2025-01-12",
+      "recentAmounts": [
+        {
+          "amount": 580.75,
+          "date": "2024-12-11"
+        },
+        {
+          "amount": 573.76,
+          "date": "2025-01-12"
+        }
+      ]
+    },
+    "Standard Process__Rich": {
+      "brand": "Standard Process",
+      "account": "Rich",
+      "orderCount": 1,
+      "avgAmount": 579,
+      "minAmount": 579,
+      "maxAmount": 579,
+      "firstOrder": "2024-12-11",
+      "lastOrder": "2024-12-11",
+      "recentAmounts": [
+        {
+          "amount": 578.71,
+          "date": "2024-12-11"
+        }
+      ]
+    },
+    "Standard Process__Catherine": {
+      "brand": "Standard Process",
+      "account": "Catherine",
+      "orderCount": 12,
+      "avgAmount": 2235,
+      "minAmount": 1733,
+      "maxAmount": 2938,
+      "firstOrder": "2025-01-05",
+      "lastOrder": "2026-01-07",
+      "recentAmounts": [
+        {
+          "amount": 2600.64,
+          "date": "2025-08-21"
+        },
+        {
+          "amount": 2279.07,
+          "date": "2025-09-24"
+        },
+        {
+          "amount": 2938.26,
+          "date": "2025-10-24"
+        },
+        {
+          "amount": 2670.3,
+          "date": "2025-11-12"
+        },
+        {
+          "amount": 2307.95,
+          "date": "2026-01-07"
+        }
+      ]
+    },
+    "Carlson__Rich": {
+      "brand": "Carlson",
+      "account": "Rich",
+      "orderCount": 1,
+      "avgAmount": 4287,
+      "minAmount": 4287,
+      "maxAmount": 4287,
+      "firstOrder": "2025-01-16",
+      "lastOrder": "2025-01-16",
+      "recentAmounts": [
+        {
+          "amount": 4286.96,
+          "date": "2025-01-16"
+        }
+      ]
+    },
+    "Metagenics__Catherine": {
+      "brand": "Metagenics",
+      "account": "Catherine",
+      "orderCount": 1,
+      "avgAmount": 5892,
+      "minAmount": 5892,
+      "maxAmount": 5892,
+      "firstOrder": "2025-01-27",
+      "lastOrder": "2025-01-27",
+      "recentAmounts": [
+        {
+          "amount": 5891.75,
+          "date": "2025-01-27"
+        }
+      ]
+    },
+    "Ortho Molecular__Lisa": {
+      "brand": "Ortho Molecular",
+      "account": "Lisa",
+      "orderCount": 3,
+      "avgAmount": 1365,
+      "minAmount": 700,
+      "maxAmount": 2244,
+      "firstOrder": "2024-07-14",
+      "lastOrder": "2024-07-31",
+      "recentAmounts": [
+        {
+          "amount": 700,
+          "date": "2024-07-14"
+        },
+        {
+          "amount": 1150,
+          "date": "2024-07-31"
+        },
+        {
+          "amount": 2244,
+          "date": "2024-07-31"
+        }
+      ]
+    },
+    "Standard Process__Jacob": {
+      "brand": "Standard Process",
+      "account": "Jacob",
+      "orderCount": 22,
+      "avgAmount": 2714,
+      "minAmount": 2288,
+      "maxAmount": 3168,
+      "firstOrder": "2025-02-07",
+      "lastOrder": "2025-10-20",
+      "recentAmounts": [
+        {
+          "amount": 2655.45,
+          "date": "2025-09-07"
+        },
+        {
+          "amount": 2742.2,
+          "date": "2025-09-16"
+        },
+        {
+          "amount": 2790.17,
+          "date": "2025-09-22"
+        },
+        {
+          "amount": 2701.34,
+          "date": "2025-10-15"
+        },
+        {
+          "amount": 2662,
+          "date": "2025-10-20"
+        }
+      ]
+    },
+    "Standard Process__Mateo": {
+      "brand": "Standard Process",
+      "account": "Mateo",
+      "orderCount": 4,
+      "avgAmount": 2225,
+      "minAmount": 1323,
+      "maxAmount": 2614,
+      "firstOrder": "2025-02-25",
+      "lastOrder": "2025-07-21",
+      "recentAmounts": [
+        {
+          "amount": 1323,
+          "date": "2025-02-25"
+        },
+        {
+          "amount": 2520.4,
+          "date": "2025-06-03"
+        },
+        {
+          "amount": 2614.23,
+          "date": "2025-07-17"
+        },
+        {
+          "amount": 2443.39,
+          "date": "2025-07-21"
+        }
+      ]
+    },
+    "BodyBio__Lisa": {
+      "brand": "BodyBio",
+      "account": "Lisa",
+      "orderCount": 5,
+      "avgAmount": 3416,
+      "minAmount": 1417,
+      "maxAmount": 5242,
+      "firstOrder": "2025-03-04",
+      "lastOrder": "2025-11-11",
+      "recentAmounts": [
+        {
+          "amount": 3645,
+          "date": "2025-03-04"
+        },
+        {
+          "amount": 1416.83,
+          "date": "2025-03-18"
+        },
+        {
+          "amount": 4994.33,
+          "date": "2025-08-12"
+        },
+        {
+          "amount": 1783.84,
+          "date": "2025-09-16"
+        },
+        {
+          "amount": 5241.87,
+          "date": "2025-11-11"
+        }
+      ]
+    },
+    "Standard Process__Renee": {
+      "brand": "Standard Process",
+      "account": "Renee",
+      "orderCount": 7,
+      "avgAmount": 2320,
+      "minAmount": 2027,
+      "maxAmount": 2452,
+      "firstOrder": "2025-03-06",
+      "lastOrder": "2026-01-08",
+      "recentAmounts": [
+        {
+          "amount": 2418.38,
+          "date": "2025-07-03"
+        },
+        {
+          "amount": 2300.43,
+          "date": "2025-08-21"
+        },
+        {
+          "amount": 2367.44,
+          "date": "2025-10-01"
+        },
+        {
+          "amount": 2451.73,
+          "date": "2025-12-17"
+        },
+        {
+          "amount": 2235.9,
+          "date": "2026-01-08"
+        }
+      ]
+    },
+    "Carlson__Pierce": {
+      "brand": "Carlson",
+      "account": "Pierce",
+      "orderCount": 1,
+      "avgAmount": 2244,
+      "minAmount": 2244,
+      "maxAmount": 2244,
+      "firstOrder": "2025-03-12",
+      "lastOrder": "2025-03-12",
+      "recentAmounts": [
+        {
+          "amount": 2243.5,
+          "date": "2025-03-12"
+        }
+      ]
+    },
+    "BodyBio__Suzanne": {
+      "brand": "BodyBio",
+      "account": "Suzanne",
+      "orderCount": 1,
+      "avgAmount": 5828,
+      "minAmount": 5828,
+      "maxAmount": 5828,
+      "firstOrder": "2025-03-18",
+      "lastOrder": "2025-03-18",
+      "recentAmounts": [
+        {
+          "amount": 5828.44,
+          "date": "2025-03-18"
+        }
+      ]
+    },
+    "Standard Process__Suzanne": {
+      "brand": "Standard Process",
+      "account": "Suzanne",
+      "orderCount": 7,
+      "avgAmount": 2232,
+      "minAmount": 1862,
+      "maxAmount": 2896,
+      "firstOrder": "2025-04-28",
+      "lastOrder": "2026-01-08",
+      "recentAmounts": [
+        {
+          "amount": 2061.64,
+          "date": "2025-07-11"
+        },
+        {
+          "amount": 2385.63,
+          "date": "2025-08-12"
+        },
+        {
+          "amount": 2157.56,
+          "date": "2025-10-10"
+        },
+        {
+          "amount": 2895.97,
+          "date": "2025-11-11"
+        },
+        {
+          "amount": 2170.89,
+          "date": "2026-01-08"
+        }
+      ]
+    },
+    "Metagenics__Mateo": {
+      "brand": "Metagenics",
+      "account": "Mateo",
+      "orderCount": 1,
+      "avgAmount": 10080,
+      "minAmount": 10080,
+      "maxAmount": 10080,
+      "firstOrder": "2024-07-29",
+      "lastOrder": "2024-07-29",
+      "recentAmounts": [
+        {
+          "amount": 10080,
+          "date": "2024-07-29"
+        }
+      ]
+    },
+    "BodyHealth__Carl": {
+      "brand": "BodyHealth",
+      "account": "Carl",
+      "orderCount": 6,
+      "avgAmount": 3356,
+      "minAmount": 2724,
+      "maxAmount": 4074,
+      "firstOrder": "2025-06-12",
+      "lastOrder": "2026-01-01",
+      "recentAmounts": [
+        {
+          "amount": 3043.54,
+          "date": "2025-08-11"
+        },
+        {
+          "amount": 2724,
+          "date": "2025-09-05"
+        },
+        {
+          "amount": 3298.74,
+          "date": "2025-10-13"
+        },
+        {
+          "amount": 3919.6,
+          "date": "2025-11-25"
+        },
+        {
+          "amount": 4074,
+          "date": "2026-01-01"
+        }
+      ]
+    },
+    "BodyHealth__Catherine": {
+      "brand": "BodyHealth",
+      "account": "Catherine",
+      "orderCount": 7,
+      "avgAmount": 3301,
+      "minAmount": 3077,
+      "maxAmount": 3612,
+      "firstOrder": "2025-06-27",
+      "lastOrder": "2026-01-06",
+      "recentAmounts": [
+        {
+          "amount": 3207.15,
+          "date": "2025-10-01"
+        },
+        {
+          "amount": 3119.95,
+          "date": "2025-11-03"
+        },
+        {
+          "amount": 3556.35,
+          "date": "2025-11-13"
+        },
+        {
+          "amount": 3405.76,
+          "date": "2025-12-15"
+        },
+        {
+          "amount": 3612.27,
+          "date": "2026-01-06"
+        }
+      ]
+    },
+    "BodyHealth__Lisa": {
+      "brand": "BodyHealth",
+      "account": "Lisa",
+      "orderCount": 6,
+      "avgAmount": 2943,
+      "minAmount": 2055,
+      "maxAmount": 3736,
+      "firstOrder": "2025-06-27",
+      "lastOrder": "2026-01-30",
+      "recentAmounts": [
+        {
+          "amount": 2945.36,
+          "date": "2025-08-27"
+        },
+        {
+          "amount": 2517.99,
+          "date": "2025-10-03"
+        },
+        {
+          "amount": 3736.48,
+          "date": "2025-11-25"
+        },
+        {
+          "amount": 3470.44,
+          "date": "2026-01-01"
+        },
+        {
+          "amount": 2054.89,
+          "date": "2026-01-30"
+        }
+      ]
+    },
+    "BodyBio__Mateo": {
+      "brand": "BodyBio",
+      "account": "Mateo",
+      "orderCount": 3,
+      "avgAmount": 4496,
+      "minAmount": 2861,
+      "maxAmount": 5893,
+      "firstOrder": "2025-07-14",
+      "lastOrder": "2025-12-20",
+      "recentAmounts": [
+        {
+          "amount": 2861.45,
+          "date": "2025-07-14"
+        },
+        {
+          "amount": 5892.79,
+          "date": "2025-11-13"
+        },
+        {
+          "amount": 4734.41,
+          "date": "2025-12-20"
+        }
+      ]
+    },
+    "BodyHealth__Mike": {
+      "brand": "BodyHealth",
+      "account": "Mike",
+      "orderCount": 5,
+      "avgAmount": 3028,
+      "minAmount": 2073,
+      "maxAmount": 3669,
+      "firstOrder": "2025-07-17",
+      "lastOrder": "2026-02-02",
+      "recentAmounts": [
+        {
+          "amount": 3479.48,
+          "date": "2025-07-17"
+        },
+        {
+          "amount": 2453,
+          "date": "2025-07-21"
+        },
+        {
+          "amount": 3465.68,
+          "date": "2025-12-19"
+        },
+        {
+          "amount": 3668.66,
+          "date": "2026-01-01"
+        },
+        {
+          "amount": 2073.02,
+          "date": "2026-02-02"
+        }
+      ]
+    },
+    "BodyHealth__Pierce": {
+      "brand": "BodyHealth",
+      "account": "Pierce",
+      "orderCount": 7,
+      "avgAmount": 3160,
+      "minAmount": 1923,
+      "maxAmount": 3688,
+      "firstOrder": "2025-07-24",
+      "lastOrder": "2026-01-30",
+      "recentAmounts": [
+        {
+          "amount": 2968.09,
+          "date": "2025-10-06"
+        },
+        {
+          "amount": 3585.42,
+          "date": "2025-11-25"
+        },
+        {
+          "amount": 3408.24,
+          "date": "2025-12-04"
+        },
+        {
+          "amount": 3408.34,
+          "date": "2026-01-01"
+        },
+        {
+          "amount": 3687.83,
+          "date": "2026-01-30"
+        }
+      ]
+    },
+    "BodyHealth__Marco": {
+      "brand": "BodyHealth",
+      "account": "Marco",
+      "orderCount": 6,
+      "avgAmount": 3357,
+      "minAmount": 2591,
+      "maxAmount": 4168,
+      "firstOrder": "2025-07-29",
+      "lastOrder": "2026-01-13",
+      "recentAmounts": [
+        {
+          "amount": 2771.57,
+          "date": "2025-09-05"
+        },
+        {
+          "amount": 2591.39,
+          "date": "2025-10-01"
+        },
+        {
+          "amount": 3711.25,
+          "date": "2025-11-11"
+        },
+        {
+          "amount": 3868.8,
+          "date": "2025-12-11"
+        },
+        {
+          "amount": 4168.11,
+          "date": "2026-01-13"
+        }
+      ]
+    },
+    "BodyHealth__Rich": {
+      "brand": "BodyHealth",
+      "account": "Rich",
+      "orderCount": 1,
+      "avgAmount": 3343,
+      "minAmount": 3343,
+      "maxAmount": 3343,
+      "firstOrder": "2025-07-29",
+      "lastOrder": "2025-07-29",
+      "recentAmounts": [
+        {
+          "amount": 3342.72,
+          "date": "2025-07-29"
+        }
+      ]
+    },
+    "BodyHealth__Renee": {
+      "brand": "BodyHealth",
+      "account": "Renee",
+      "orderCount": 5,
+      "avgAmount": 2950,
+      "minAmount": 2608,
+      "maxAmount": 3615,
+      "firstOrder": "2025-07-29",
+      "lastOrder": "2026-01-30",
+      "recentAmounts": [
+        {
+          "amount": 2608.2,
+          "date": "2025-07-29"
+        },
+        {
+          "amount": 3198.08,
+          "date": "2025-08-29"
+        },
+        {
+          "amount": 2610.78,
+          "date": "2025-10-01"
+        },
+        {
+          "amount": 3614.68,
+          "date": "2025-12-18"
+        },
+        {
+          "amount": 2716.71,
+          "date": "2026-01-30"
+        }
+      ]
+    },
+    "BodyBio__Renee": {
+      "brand": "BodyBio",
+      "account": "Renee",
+      "orderCount": 4,
+      "avgAmount": 3532,
+      "minAmount": 1562,
+      "maxAmount": 5556,
+      "firstOrder": "2025-07-29",
+      "lastOrder": "2026-01-05",
+      "recentAmounts": [
+        {
+          "amount": 2930.64,
+          "date": "2025-07-29"
+        },
+        {
+          "amount": 1561.54,
+          "date": "2025-09-16"
+        },
+        {
+          "amount": 5556.26,
+          "date": "2025-11-11"
+        },
+        {
+          "amount": 4079.61,
+          "date": "2026-01-05"
+        }
+      ]
+    },
+    "Klaire Labs__Pierce": {
+      "brand": "Klaire Labs",
+      "account": "Pierce",
+      "orderCount": 4,
+      "avgAmount": 3170,
+      "minAmount": 3066,
+      "maxAmount": 3317,
+      "firstOrder": "2025-09-07",
+      "lastOrder": "2026-01-30",
+      "recentAmounts": [
+        {
+          "amount": 3168.76,
+          "date": "2025-09-07"
+        },
+        {
+          "amount": 3129.07,
+          "date": "2025-12-11"
+        },
+        {
+          "amount": 3316.82,
+          "date": "2026-01-13"
+        },
+        {
+          "amount": 3065.88,
+          "date": "2026-01-30"
+        }
+      ]
+    },
+    "BodyHealth__Mateo": {
+      "brand": "BodyHealth",
+      "account": "Mateo",
+      "orderCount": 2,
+      "avgAmount": 3434,
+      "minAmount": 3050,
+      "maxAmount": 3818,
+      "firstOrder": "2025-09-16",
+      "lastOrder": "2025-09-22",
+      "recentAmounts": [
+        {
+          "amount": 3050,
+          "date": "2025-09-16"
+        },
+        {
+          "amount": 3818.33,
+          "date": "2025-09-22"
+        }
+      ]
+    },
+    "Klaire Labs__Lisa": {
+      "brand": "Klaire Labs",
+      "account": "Lisa",
+      "orderCount": 1,
+      "avgAmount": 3184,
+      "minAmount": 3184,
+      "maxAmount": 3184,
+      "firstOrder": "2025-10-20",
+      "lastOrder": "2025-10-20",
+      "recentAmounts": [
+        {
+          "amount": 3183.66,
+          "date": "2025-10-20"
+        }
+      ]
+    },
+    "Klaire Labs__Marco": {
+      "brand": "Klaire Labs",
+      "account": "Marco",
+      "orderCount": 3,
+      "avgAmount": 4014,
+      "minAmount": 3504,
+      "maxAmount": 5034,
+      "firstOrder": "2024-07-19",
+      "lastOrder": "2026-01-06",
+      "recentAmounts": [
+        {
+          "amount": 5034,
+          "date": "2024-07-19"
+        },
+        {
+          "amount": 3503.88,
+          "date": "2025-10-20"
+        },
+        {
+          "amount": 3505.22,
+          "date": "2026-01-06"
+        }
+      ]
+    },
+    "Momentous__Pierce": {
+      "brand": "Momentous",
+      "account": "Pierce",
+      "orderCount": 3,
+      "avgAmount": 3391,
+      "minAmount": 3231,
+      "maxAmount": 3499,
+      "firstOrder": "2025-10-20",
+      "lastOrder": "2026-01-01",
+      "recentAmounts": [
+        {
+          "amount": 3499.46,
+          "date": "2025-10-20"
+        },
+        {
+          "amount": 3443.48,
+          "date": "2025-12-04"
+        },
+        {
+          "amount": 3230.82,
+          "date": "2026-01-01"
+        }
+      ]
+    },
+    "BodyHealth__Ari": {
+      "brand": "BodyHealth",
+      "account": "Ari",
+      "orderCount": 3,
+      "avgAmount": 3341,
+      "minAmount": 2973,
+      "maxAmount": 3829,
+      "firstOrder": "2025-10-22",
+      "lastOrder": "2026-01-01",
+      "recentAmounts": [
+        {
+          "amount": 2972.57,
+          "date": "2025-10-22"
+        },
+        {
+          "amount": 3828.96,
+          "date": "2025-11-25"
+        },
+        {
+          "amount": 3221.87,
+          "date": "2026-01-01"
+        }
+      ]
+    },
+    "BodyBio__Jacob": {
+      "brand": "BodyBio",
+      "account": "Jacob",
+      "orderCount": 2,
+      "avgAmount": 5794,
+      "minAmount": 5711,
+      "maxAmount": 5878,
+      "firstOrder": "2025-11-12",
+      "lastOrder": "2025-11-12",
+      "recentAmounts": [
+        {
+          "amount": 5877.5,
+          "date": "2025-11-12"
+        },
+        {
+          "amount": 5711.02,
+          "date": "2025-11-12"
+        }
+      ]
+    },
+    "Metagenics__Dr. Matt": {
+      "brand": "Metagenics",
+      "account": "Dr. Matt",
+      "orderCount": 1,
+      "avgAmount": 1716,
+      "minAmount": 1716,
+      "maxAmount": 1716,
+      "firstOrder": "2025-12-17",
+      "lastOrder": "2025-12-17",
+      "recentAmounts": [
+        {
+          "amount": 1715.51,
+          "date": "2025-12-17"
+        }
+      ]
+    },
+    "Metagenics__Dr Eric": {
+      "brand": "Metagenics",
+      "account": "Dr Eric",
+      "orderCount": 1,
+      "avgAmount": 2296,
+      "minAmount": 2296,
+      "maxAmount": 2296,
+      "firstOrder": "2025-12-17",
+      "lastOrder": "2025-12-17",
+      "recentAmounts": [
+        {
+          "amount": 2296.15,
+          "date": "2025-12-17"
+        }
+      ]
+    },
+    "Econugenics__Pierce": {
+      "brand": "Econugenics",
+      "account": "Pierce",
+      "orderCount": 2,
+      "avgAmount": 3049,
+      "minAmount": 2803,
+      "maxAmount": 3294,
+      "firstOrder": "2025-12-18",
+      "lastOrder": "2026-01-30",
+      "recentAmounts": [
+        {
+          "amount": 2802.78,
+          "date": "2025-12-18"
+        },
+        {
+          "amount": 3294.41,
+          "date": "2026-01-30"
+        }
+      ]
+    },
+    "Standard Process__Kristen": {
+      "brand": "Standard Process",
+      "account": "Kristen",
+      "orderCount": 1,
+      "avgAmount": 2646,
+      "minAmount": 2646,
+      "maxAmount": 2646,
+      "firstOrder": "2025-12-18",
+      "lastOrder": "2025-12-18",
+      "recentAmounts": [
+        {
+          "amount": 2646.27,
+          "date": "2025-12-18"
+        }
+      ]
+    },
+    "Metagenics__Renee": {
+      "brand": "Metagenics",
+      "account": "Renee",
+      "orderCount": 2,
+      "avgAmount": 1792,
+      "minAmount": 1570,
+      "maxAmount": 2013,
+      "firstOrder": "2025-12-18",
+      "lastOrder": "2026-02-03",
+      "recentAmounts": [
+        {
+          "amount": 1570.43,
+          "date": "2025-12-18"
+        },
+        {
+          "amount": 2013.15,
+          "date": "2026-02-03"
+        }
+      ]
+    },
+    "Momentous__Lisa": {
+      "brand": "Momentous",
+      "account": "Lisa",
+      "orderCount": 2,
+      "avgAmount": 2614,
+      "minAmount": 2451,
+      "maxAmount": 2778,
+      "firstOrder": "2025-12-18",
+      "lastOrder": "2026-01-01",
+      "recentAmounts": [
+        {
+          "amount": 2777.58,
+          "date": "2025-12-18"
+        },
+        {
+          "amount": 2451.05,
+          "date": "2026-01-01"
+        }
+      ]
+    },
+    "BodyHealth__Angelica": {
+      "brand": "BodyHealth",
+      "account": "Angelica",
+      "orderCount": 2,
+      "avgAmount": 3111,
+      "minAmount": 2980,
+      "maxAmount": 3242,
+      "firstOrder": "2025-12-19",
+      "lastOrder": "2026-01-01",
+      "recentAmounts": [
+        {
+          "amount": 2979.72,
+          "date": "2025-12-19"
+        },
+        {
+          "amount": 3242.45,
+          "date": "2026-01-01"
+        }
+      ]
+    },
+    "BodyHealth__Kristen": {
+      "brand": "BodyHealth",
+      "account": "Kristen",
+      "orderCount": 2,
+      "avgAmount": 2951,
+      "minAmount": 2284,
+      "maxAmount": 3617,
+      "firstOrder": "2025-12-20",
+      "lastOrder": "2026-01-30",
+      "recentAmounts": [
+        {
+          "amount": 3617.49,
+          "date": "2025-12-20"
+        },
+        {
+          "amount": 2283.62,
+          "date": "2026-01-30"
+        }
+      ]
+    },
+    "Designs for Health__Mateo": {
+      "brand": "Designs for Health",
+      "account": "Mateo",
+      "orderCount": 3,
+      "avgAmount": 1861,
+      "minAmount": 1723,
+      "maxAmount": 2036,
+      "firstOrder": "2025-12-20",
+      "lastOrder": "2026-01-30",
+      "recentAmounts": [
+        {
+          "amount": 1723.21,
+          "date": "2025-12-20"
+        },
+        {
+          "amount": 2036.41,
+          "date": "2026-01-13"
+        },
+        {
+          "amount": 1823.28,
+          "date": "2026-01-30"
+        }
+      ]
+    },
+    "Designs for Health__Dr Eric": {
+      "brand": "Designs for Health",
+      "account": "Dr Eric",
+      "orderCount": 1,
+      "avgAmount": 2162,
+      "minAmount": 2162,
+      "maxAmount": 2162,
+      "firstOrder": "2025-12-20",
+      "lastOrder": "2025-12-20",
+      "recentAmounts": [
+        {
+          "amount": 2162.36,
+          "date": "2025-12-20"
+        }
+      ]
+    },
+    "Designs for Health__Mike": {
+      "brand": "Designs for Health",
+      "account": "Mike",
+      "orderCount": 2,
+      "avgAmount": 1932,
+      "minAmount": 1693,
+      "maxAmount": 2170,
+      "firstOrder": "2025-12-20",
+      "lastOrder": "2026-01-01",
+      "recentAmounts": [
+        {
+          "amount": 1692.61,
+          "date": "2025-12-20"
+        },
+        {
+          "amount": 2170.4,
+          "date": "2026-01-01"
+        }
+      ]
+    },
+    "Designs for Health__Renee": {
+      "brand": "Designs for Health",
+      "account": "Renee",
+      "orderCount": 2,
+      "avgAmount": 1691,
+      "minAmount": 1399,
+      "maxAmount": 1983,
+      "firstOrder": "2025-12-20",
+      "lastOrder": "2026-01-30",
+      "recentAmounts": [
+        {
+          "amount": 1398.9,
+          "date": "2025-12-20"
+        },
+        {
+          "amount": 1982.92,
+          "date": "2026-01-30"
+        }
+      ]
+    },
+    "Carlson__Marco": {
+      "brand": "Carlson",
+      "account": "Marco",
+      "orderCount": 2,
+      "avgAmount": 3451,
+      "minAmount": 3398,
+      "maxAmount": 3505,
+      "firstOrder": "2025-12-20",
+      "lastOrder": "2026-02-06",
+      "recentAmounts": [
+        {
+          "amount": 3397.77,
+          "date": "2025-12-20"
+        },
+        {
+          "amount": 3505.22,
+          "date": "2026-02-06"
+        }
+      ]
+    },
+    "Designs for Health__Dr. Matt": {
+      "brand": "Designs for Health",
+      "account": "Dr. Matt",
+      "orderCount": 2,
+      "avgAmount": 2219,
+      "minAmount": 2075,
+      "maxAmount": 2362,
+      "firstOrder": "2025-12-22",
+      "lastOrder": "2026-02-02",
+      "recentAmounts": [
+        {
+          "amount": 2075.07,
+          "date": "2025-12-22"
+        },
+        {
+          "amount": 2362.39,
+          "date": "2026-02-02"
+        }
+      ]
+    },
+    "Econugenics__Lisa": {
+      "brand": "Econugenics",
+      "account": "Lisa",
+      "orderCount": 3,
+      "avgAmount": 2396,
+      "minAmount": 2248,
+      "maxAmount": 2691,
+      "firstOrder": "2025-12-22",
+      "lastOrder": "2026-01-29",
+      "recentAmounts": [
+        {
+          "amount": 2248.36,
+          "date": "2025-12-22"
+        },
+        {
+          "amount": 2248,
+          "date": "2026-01-08"
+        },
+        {
+          "amount": 2691,
+          "date": "2026-01-29"
+        }
+      ]
+    },
+    "Klaire Labs__Carl": {
+      "brand": "Klaire Labs",
+      "account": "Carl",
+      "orderCount": 2,
+      "avgAmount": 7246,
+      "minAmount": 7035,
+      "maxAmount": 7457,
+      "firstOrder": "2024-09-05",
+      "lastOrder": "2024-09-05",
+      "recentAmounts": [
+        {
+          "amount": 7035.09,
+          "date": "2024-09-05"
+        },
+        {
+          "amount": 7456.88,
+          "date": "2024-09-05"
+        }
+      ]
+    },
+    "Designs for Health__Catherine": {
+      "brand": "Designs for Health",
+      "account": "Catherine",
+      "orderCount": 1,
+      "avgAmount": 1317,
+      "minAmount": 1317,
+      "maxAmount": 1317,
+      "firstOrder": "2026-01-01",
+      "lastOrder": "2026-01-01",
+      "recentAmounts": [
+        {
+          "amount": 1316.98,
+          "date": "2026-01-01"
+        }
+      ]
+    },
+    "Metagenics__Mike": {
+      "brand": "Metagenics",
+      "account": "Mike",
+      "orderCount": 1,
+      "avgAmount": 2259,
+      "minAmount": 2259,
+      "maxAmount": 2259,
+      "firstOrder": "2026-01-01",
+      "lastOrder": "2026-01-01",
+      "recentAmounts": [
+        {
+          "amount": 2258.94,
+          "date": "2026-01-01"
+        }
+      ]
+    },
+    "BodyHealth__Carol": {
+      "brand": "BodyHealth",
+      "account": "Carol",
+      "orderCount": 2,
+      "avgAmount": 2117,
+      "minAmount": 800,
+      "maxAmount": 3435,
+      "firstOrder": "2026-01-07",
+      "lastOrder": "2026-01-12",
+      "recentAmounts": [
+        {
+          "amount": 3435.33,
+          "date": "2026-01-07"
+        },
+        {
+          "amount": 799.61,
+          "date": "2026-01-12"
+        }
+      ]
+    },
+    "Momentous__Renee": {
+      "brand": "Momentous",
+      "account": "Renee",
+      "orderCount": 1,
+      "avgAmount": 2965,
+      "minAmount": 2965,
+      "maxAmount": 2965,
+      "firstOrder": "2026-01-07",
+      "lastOrder": "2026-01-07",
+      "recentAmounts": [
+        {
+          "amount": 2965.44,
+          "date": "2026-01-07"
+        }
+      ]
+    },
+    "Econugenics__Renee": {
+      "brand": "Econugenics",
+      "account": "Renee",
+      "orderCount": 3,
+      "avgAmount": 3158,
+      "minAmount": 3158,
+      "maxAmount": 3158,
+      "firstOrder": "2026-01-07",
+      "lastOrder": "2026-02-13",
+      "recentAmounts": [
+        {
+          "amount": 3158.42,
+          "date": "2026-01-07"
+        },
+        {
+          "amount": 3158.42,
+          "date": "2026-01-30"
+        },
+        {
+          "amount": 3158.42,
+          "date": "2026-02-13"
+        }
+      ]
+    },
+    "BodyHealth__Rebecca": {
+      "brand": "BodyHealth",
+      "account": "Rebecca",
+      "orderCount": 5,
+      "avgAmount": 1117,
+      "minAmount": 1089,
+      "maxAmount": 1159,
+      "firstOrder": "2026-01-09",
+      "lastOrder": "2026-02-18",
+      "recentAmounts": [
+        {
+          "amount": 1159.2,
+          "date": "2026-01-09"
+        },
+        {
+          "amount": 1088.82,
+          "date": "2026-01-16"
+        },
+        {
+          "amount": 1088.82,
+          "date": "2026-01-30"
+        },
+        {
+          "amount": 1159.2,
+          "date": "2026-01-30"
+        },
+        {
+          "amount": 1088.82,
+          "date": "2026-02-18"
+        }
+      ]
+    },
+    "BodyHealth__Suzanne": {
+      "brand": "BodyHealth",
+      "account": "Suzanne",
+      "orderCount": 1,
+      "avgAmount": 3255,
+      "minAmount": 3255,
+      "maxAmount": 3255,
+      "firstOrder": "2026-01-13",
+      "lastOrder": "2026-01-13",
+      "recentAmounts": [
+        {
+          "amount": 3254.74,
+          "date": "2026-01-13"
+        }
+      ]
+    },
+    "Econugenics__Alex": {
+      "brand": "Econugenics",
+      "account": "Alex",
+      "orderCount": 1,
+      "avgAmount": 2893,
+      "minAmount": 2893,
+      "maxAmount": 2893,
+      "firstOrder": "2026-01-30",
+      "lastOrder": "2026-01-30",
+      "recentAmounts": [
+        {
+          "amount": 2892.63,
+          "date": "2026-01-30"
+        }
+      ]
+    },
+    "Klaire Labs__Mike": {
+      "brand": "Klaire Labs",
+      "account": "Mike",
+      "orderCount": 1,
+      "avgAmount": 2746,
+      "minAmount": 2746,
+      "maxAmount": 2746,
+      "firstOrder": "2026-01-30",
+      "lastOrder": "2026-01-30",
+      "recentAmounts": [
+        {
+          "amount": 2746.24,
+          "date": "2026-01-30"
+        }
+      ]
+    },
+    "BodyHealth__Jacob": {
+      "brand": "BodyHealth",
+      "account": "Jacob",
+      "orderCount": 1,
+      "avgAmount": 5599,
+      "minAmount": 5599,
+      "maxAmount": 5599,
+      "firstOrder": "2026-01-30",
+      "lastOrder": "2026-01-30",
+      "recentAmounts": [
+        {
+          "amount": 5598.84,
+          "date": "2026-01-30"
+        }
+      ]
+    },
+    "Ortho Molecular__Dr. Scott": {
+      "brand": "Ortho Molecular",
+      "account": "Dr. Scott",
+      "orderCount": 2,
+      "avgAmount": 3734,
+      "minAmount": 3607,
+      "maxAmount": 3860,
+      "firstOrder": "2024-07-31",
+      "lastOrder": "2024-08-19",
+      "recentAmounts": [
+        {
+          "amount": 3860,
+          "date": "2024-07-31"
+        },
+        {
+          "amount": 3607,
+          "date": "2024-08-19"
+        }
+      ]
+    },
+    "Ortho Molecular__Mateo": {
+      "brand": "Ortho Molecular",
+      "account": "Mateo",
+      "orderCount": 2,
+      "avgAmount": 2099,
+      "minAmount": 1098,
+      "maxAmount": 3100,
+      "firstOrder": "2024-07-17",
+      "lastOrder": "2024-07-31",
+      "recentAmounts": [
+        {
+          "amount": 1098,
+          "date": "2024-07-17"
+        },
+        {
+          "amount": 3100,
+          "date": "2024-07-31"
+        }
+      ]
+    },
+    "Ortho Molecular__Jacob": {
+      "brand": "Ortho Molecular",
+      "account": "Jacob",
+      "orderCount": 1,
+      "avgAmount": 825,
+      "minAmount": 825,
+      "maxAmount": 825,
+      "firstOrder": "2024-08-19",
+      "lastOrder": "2024-08-19",
+      "recentAmounts": [
+        {
+          "amount": 824.98,
+          "date": "2024-08-19"
+        }
+      ]
+    },
+    "Ortho Molecular__Catherine": {
+      "brand": "Ortho Molecular",
+      "account": "Catherine",
+      "orderCount": 1,
+      "avgAmount": 4126,
+      "minAmount": 4126,
+      "maxAmount": 4126,
+      "firstOrder": "2024-08-29",
+      "lastOrder": "2024-08-29",
+      "recentAmounts": [
+        {
+          "amount": 4126,
+          "date": "2024-08-29"
+        }
+      ]
+    },
+    "Ortho Molecular__Pierce": {
+      "brand": "Ortho Molecular",
+      "account": "Pierce",
+      "orderCount": 1,
+      "avgAmount": 3912,
+      "minAmount": 3912,
+      "maxAmount": 3912,
+      "firstOrder": "2024-08-19",
+      "lastOrder": "2024-08-19",
+      "recentAmounts": [
+        {
+          "amount": 3912,
+          "date": "2024-08-19"
+        }
+      ]
+    },
+    "Ortho Molecular__Rich": {
+      "brand": "Ortho Molecular",
+      "account": "Rich",
+      "orderCount": 1,
+      "avgAmount": 3395,
+      "minAmount": 3395,
+      "maxAmount": 3395,
+      "firstOrder": "2024-08-19",
+      "lastOrder": "2024-08-19",
+      "recentAmounts": [
+        {
+          "amount": 3395,
+          "date": "2024-08-19"
+        }
+      ]
+    },
+    "Standard Process__Marco": {
+      "brand": "Standard Process",
+      "account": "Marco",
+      "orderCount": 1,
+      "avgAmount": 5160,
+      "minAmount": 5160,
+      "maxAmount": 5160,
+      "firstOrder": "2024-07-14",
+      "lastOrder": "2024-07-14",
+      "recentAmounts": [
+        {
+          "amount": 5160,
+          "date": "2024-07-14"
+        }
+      ]
+    },
+    "Metagenics__Marco": {
+      "brand": "Metagenics",
+      "account": "Marco",
+      "orderCount": 1,
+      "avgAmount": 10733,
+      "minAmount": 10733,
+      "maxAmount": 10733,
+      "firstOrder": "2024-07-14",
+      "lastOrder": "2024-07-14",
+      "recentAmounts": [
+        {
+          "amount": 10732.95,
+          "date": "2024-07-14"
+        }
+      ]
+    }
+  },
+  "byBrand": {
+    "Carlson": {
+      "totalOrders": 6,
+      "totalSpend": 19663,
+      "accounts": [
+        {
+          "account": "Dr. Scott",
+          "orders": 2,
+          "avg": 3115
+        },
+        {
+          "account": "Rich",
+          "orders": 1,
+          "avg": 4287
+        },
+        {
+          "account": "Pierce",
+          "orders": 1,
+          "avg": 2244
+        },
+        {
+          "account": "Marco",
+          "orders": 2,
+          "avg": 3451
+        }
+      ]
+    },
+    "Standard Process": {
+      "totalOrders": 65,
+      "totalSpend": 185839,
+      "accounts": [
+        {
+          "account": "Carl",
+          "orders": 8,
+          "avg": 6126
+        },
+        {
+          "account": "Pierce",
+          "orders": 2,
+          "avg": 577
+        },
+        {
+          "account": "Rich",
+          "orders": 1,
+          "avg": 579
+        },
+        {
+          "account": "Catherine",
+          "orders": 12,
+          "avg": 2235
+        },
+        {
+          "account": "Jacob",
+          "orders": 22,
+          "avg": 2714
+        },
+        {
+          "account": "Mateo",
+          "orders": 4,
+          "avg": 2225
+        },
+        {
+          "account": "Renee",
+          "orders": 7,
+          "avg": 2320
+        },
+        {
+          "account": "Suzanne",
+          "orders": 7,
+          "avg": 2232
+        },
+        {
+          "account": "Kristen",
+          "orders": 1,
+          "avg": 2646
+        },
+        {
+          "account": "Marco",
+          "orders": 1,
+          "avg": 5160
+        }
+      ]
+    },
+    "BodyBio": {
+      "totalOrders": 18,
+      "totalSpend": 79077,
+      "accounts": [
+        {
+          "account": "Dr. Scott",
+          "orders": 3,
+          "avg": 5655
+        },
+        {
+          "account": "Lisa",
+          "orders": 5,
+          "avg": 3416
+        },
+        {
+          "account": "Suzanne",
+          "orders": 1,
+          "avg": 5828
+        },
+        {
+          "account": "Mateo",
+          "orders": 3,
+          "avg": 4496
+        },
+        {
+          "account": "Renee",
+          "orders": 4,
+          "avg": 3532
+        },
+        {
+          "account": "Jacob",
+          "orders": 2,
+          "avg": 5794
+        }
+      ]
+    },
+    "Metagenics": {
+      "totalOrders": 8,
+      "totalSpend": 36560,
+      "accounts": [
+        {
+          "account": "Catherine",
+          "orders": 1,
+          "avg": 5892
+        },
+        {
+          "account": "Mateo",
+          "orders": 1,
+          "avg": 10080
+        },
+        {
+          "account": "Dr. Matt",
+          "orders": 1,
+          "avg": 1716
+        },
+        {
+          "account": "Dr Eric",
+          "orders": 1,
+          "avg": 2296
+        },
+        {
+          "account": "Renee",
+          "orders": 2,
+          "avg": 1792
+        },
+        {
+          "account": "Mike",
+          "orders": 1,
+          "avg": 2259
+        },
+        {
+          "account": "Marco",
+          "orders": 1,
+          "avg": 10733
+        }
+      ]
+    },
+    "Ortho Molecular": {
+      "totalOrders": 11,
+      "totalSpend": 28019,
+      "accounts": [
+        {
+          "account": "Lisa",
+          "orders": 3,
+          "avg": 1365
+        },
+        {
+          "account": "Dr. Scott",
+          "orders": 2,
+          "avg": 3734
+        },
+        {
+          "account": "Mateo",
+          "orders": 2,
+          "avg": 2099
+        },
+        {
+          "account": "Jacob",
+          "orders": 1,
+          "avg": 825
+        },
+        {
+          "account": "Catherine",
+          "orders": 1,
+          "avg": 4126
+        },
+        {
+          "account": "Pierce",
+          "orders": 1,
+          "avg": 3912
+        },
+        {
+          "account": "Rich",
+          "orders": 1,
+          "avg": 3395
+        }
+      ]
+    },
+    "BodyHealth": {
+      "totalOrders": 61,
+      "totalSpend": 184084,
+      "accounts": [
+        {
+          "account": "Carl",
+          "orders": 6,
+          "avg": 3356
+        },
+        {
+          "account": "Catherine",
+          "orders": 7,
+          "avg": 3301
+        },
+        {
+          "account": "Lisa",
+          "orders": 6,
+          "avg": 2943
+        },
+        {
+          "account": "Mike",
+          "orders": 5,
+          "avg": 3028
+        },
+        {
+          "account": "Pierce",
+          "orders": 7,
+          "avg": 3160
+        },
+        {
+          "account": "Marco",
+          "orders": 6,
+          "avg": 3357
+        },
+        {
+          "account": "Rich",
+          "orders": 1,
+          "avg": 3343
+        },
+        {
+          "account": "Renee",
+          "orders": 5,
+          "avg": 2950
+        },
+        {
+          "account": "Mateo",
+          "orders": 2,
+          "avg": 3434
+        },
+        {
+          "account": "Ari",
+          "orders": 3,
+          "avg": 3341
+        },
+        {
+          "account": "Angelica",
+          "orders": 2,
+          "avg": 3111
+        },
+        {
+          "account": "Kristen",
+          "orders": 2,
+          "avg": 2951
+        },
+        {
+          "account": "Carol",
+          "orders": 2,
+          "avg": 2117
+        },
+        {
+          "account": "Rebecca",
+          "orders": 5,
+          "avg": 1117
+        },
+        {
+          "account": "Suzanne",
+          "orders": 1,
+          "avg": 3255
+        },
+        {
+          "account": "Jacob",
+          "orders": 1,
+          "avg": 5599
+        }
+      ]
+    },
+    "Klaire Labs": {
+      "totalOrders": 11,
+      "totalSpend": 45144,
+      "accounts": [
+        {
+          "account": "Pierce",
+          "orders": 4,
+          "avg": 3170
+        },
+        {
+          "account": "Lisa",
+          "orders": 1,
+          "avg": 3184
+        },
+        {
+          "account": "Marco",
+          "orders": 3,
+          "avg": 4014
+        },
+        {
+          "account": "Carl",
+          "orders": 2,
+          "avg": 7246
+        },
+        {
+          "account": "Mike",
+          "orders": 1,
+          "avg": 2746
+        }
+      ]
+    },
+    "Momentous": {
+      "totalOrders": 6,
+      "totalSpend": 18366,
+      "accounts": [
+        {
+          "account": "Pierce",
+          "orders": 3,
+          "avg": 3391
+        },
+        {
+          "account": "Lisa",
+          "orders": 2,
+          "avg": 2614
+        },
+        {
+          "account": "Renee",
+          "orders": 1,
+          "avg": 2965
+        }
+      ]
+    },
+    "Econugenics": {
+      "totalOrders": 9,
+      "totalSpend": 25653,
+      "accounts": [
+        {
+          "account": "Pierce",
+          "orders": 2,
+          "avg": 3049
+        },
+        {
+          "account": "Lisa",
+          "orders": 3,
+          "avg": 2396
+        },
+        {
+          "account": "Renee",
+          "orders": 3,
+          "avg": 3158
+        },
+        {
+          "account": "Alex",
+          "orders": 1,
+          "avg": 2893
+        }
+      ]
+    },
+    "Designs for Health": {
+      "totalOrders": 11,
+      "totalSpend": 20746,
+      "accounts": [
+        {
+          "account": "Mateo",
+          "orders": 3,
+          "avg": 1861
+        },
+        {
+          "account": "Dr Eric",
+          "orders": 1,
+          "avg": 2162
+        },
+        {
+          "account": "Mike",
+          "orders": 2,
+          "avg": 1932
+        },
+        {
+          "account": "Renee",
+          "orders": 2,
+          "avg": 1691
+        },
+        {
+          "account": "Dr. Matt",
+          "orders": 2,
+          "avg": 2219
+        },
+        {
+          "account": "Catherine",
+          "orders": 1,
+          "avg": 1317
+        }
+      ]
+    }
+  }
+}

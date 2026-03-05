@@ -1,0 +1,92 @@
+[
+  {
+    "id": "task-cal-app-001",
+    "from": "matt",
+    "task": "Build standalone Halo Calendar — macOS/web app competing with Akiflow, Cron, Notion Calendar",
+    "priority": "high",
+    "status": "planned",
+    "assigned_at": "2026-03-03T06:15:00.000Z",
+    "completed_at": null,
+    "blocker": "Needs Codex access + scoping session with Matt",
+    "context": "Full spec in agents/dev/CALENDAR_APP_SPEC.md. Vision: standalone productizable calendar with time blocking, task stacking, GCal sync, drag UX. Built in Electron (macOS) + web. Potential AI Systems Agency product. Token estimate: ~2-4M tokens total across build phases.",
+    "phases": [
+      {
+        "phase": 1,
+        "name": "Core shell + time grid",
+        "tokens_est": "400K",
+        "days_est": 1
+      },
+      {
+        "phase": 2,
+        "name": "Event stacking + drag UX",
+        "tokens_est": "500K",
+        "days_est": 1
+      },
+      {
+        "phase": 3,
+        "name": "GCal + task sync",
+        "tokens_est": "400K",
+        "days_est": 1
+      },
+      {
+        "phase": 4,
+        "name": "NLP + templates + AI scheduling",
+        "tokens_est": "600K",
+        "days_est": 2
+      },
+      {
+        "phase": 5,
+        "name": "macOS Electron wrapper + app polish",
+        "tokens_est": "500K",
+        "days_est": 2
+      },
+      {
+        "phase": 6,
+        "name": "Multi-user + auth + monetization",
+        "tokens_est": "700K",
+        "days_est": 3
+      }
+    ],
+    "total_tokens_est": "~3.1M tokens (~$9-25 depending on model mix)",
+    "stack": "Electron + React + Tailwind + SQLite + Google Calendar API + Anthropic API"
+  },
+  {
+    "id": "task-1772424340975-c1at",
+    "from": "atlas",
+    "task": "Ensure dashboard is mobile compatible fully at 900px breakpoint",
+    "context": "",
+    "priority": "medium",
+    "assigned_at": "2026-03-02T04:05:40.975Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-1772356017250-juaw",
+    "from": "atlas",
+    "task": "Build a client onboarding checklist",
+    "context": "Remove duplicate entry task-1772355973551-gqjr",
+    "priority": "medium",
+    "assigned_at": "2026-03-01T09:06:57.250Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-city-sim-001",
+    "from": "matt",
+    "task": "Autonomous City Simulation — living city with AI citizens, emergent behavior, relationships, economy",
+    "priority": "high",
+    "status": "scheduled",
+    "assigned_at": "2026-03-03T06:57:00.000Z",
+    "completed_at": null,
+    "blocker": null,
+    "context": "Full spec in agents/dev/CITY_SIM_SPEC.md. Emergent sim: 1000 AI citizens with needs, memory, relationships, jobs. Three.js rendering + Claude Haiku for deep decisions. ~7 weeks, ~35 dollars build cost.",
+    "stack": "Three.js + WebGL + Vanilla JS + Claude Haiku + A* pathfinding",
+    "phases": 5,
+    "token_est": "~35 total build",
+    "running_cost": "~1.50/day at 1000 citizens",
+    "scheduled": "Thursday March 5, 2026",
+    "phase1_scope": "Three.js scene + Rod Hunt art style + isometric grid + 100 citizens walking with pathfinding + day/night cycle"
+  }
+]

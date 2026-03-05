@@ -1,0 +1,200 @@
+[
+  {
+    "id": "task-1772561615265-ojnu",
+    "from": "atlas",
+    "task": "email me hi how are you doing",
+    "context": "",
+    "priority": "medium",
+    "assigned_at": "2026-03-03T18:13:35.265Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-1772500887850-4nte",
+    "from": "atlas",
+    "task": "email me that this is a test to see if the delegation system works",
+    "context": "",
+    "priority": "medium",
+    "assigned_at": "2026-03-03T01:21:27.850Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-1772486925159-ao9s",
+    "from": "atlas",
+    "task": "email me a nice message saying hi, you are the best",
+    "context": "",
+    "priority": "medium",
+    "assigned_at": "2026-03-02T21:28:45.159Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-1772486900281-1i1k",
+    "from": "atlas",
+    "task": "Email preston hey man",
+    "context": "",
+    "priority": "medium",
+    "assigned_at": "2026-03-02T21:28:20.281Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-1772428436902-xzud",
+    "from": "atlas",
+    "task": "email vanessa hey",
+    "context": "",
+    "priority": "medium",
+    "assigned_at": "2026-03-02T05:13:56.902Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-1772425405020-1ngf",
+    "from": "atlas",
+    "task": "Email vanessa the Luna sleep expert link. Also give her 3-4 things she can ask it so she knows.",
+    "context": "",
+    "priority": "medium",
+    "assigned_at": "2026-03-02T04:23:25.020Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-1772424731063-wy3o",
+    "from": "atlas",
+    "task": "Email Vanessa link to the Luna sleep expert so she can use it. Make sure the sleep expert link works and is smart!",
+    "context": "",
+    "priority": "medium",
+    "assigned_at": "2026-03-02T04:12:11.063Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-1772424017257-uyfq",
+    "from": "atlas",
+    "task": "email vanessa the link to talk to Luna sleep expert",
+    "context": "",
+    "priority": "medium",
+    "assigned_at": "2026-03-02T04:00:17.257Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-1772423533791-x74h",
+    "from": "atlas",
+    "task": "I want a email sent to me about how you rock!",
+    "context": "",
+    "priority": "medium",
+    "assigned_at": "2026-03-02T03:52:13.791Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-1772416712419-4ytf",
+    "from": "atlas",
+    "task": "Send me an email just saying something random like a quote to test this works",
+    "context": "Auto-routed from Brain Dump",
+    "priority": "medium",
+    "assigned_at": "2026-03-02T01:58:32.419Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-1772412625226-rclh",
+    "from": "atlas",
+    "task": "Send me an email just saying something random like a quote to test this works",
+    "context": "Auto-routed from Brain Dump",
+    "priority": "medium",
+    "assigned_at": "2026-03-02T00:50:25.226Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-1772401812426-itli",
+    "from": "atlas",
+    "task": "Email the AkiFlow calendar support email asking them for an API integration for Openclaw so I can hook up my AI to the calendar: support@akiflow.com",
+    "context": "",
+    "priority": "medium",
+    "assigned_at": "2026-03-01T21:50:12.426Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-1772356019053-0nic",
+    "from": "atlas",
+    "task": "Email myself: review the monthly report tonight",
+    "context": "",
+    "priority": "medium",
+    "assigned_at": "2026-03-01T09:06:59.053Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-1772356015498-ljrv",
+    "from": "atlas",
+    "task": "Send Vanessa a quick note saying I miss her",
+    "context": "",
+    "priority": "medium",
+    "assigned_at": "2026-03-01T09:06:55.498Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-1772356014803-qyzf",
+    "from": "atlas",
+    "task": "Email me a good morning message",
+    "context": "",
+    "priority": "medium",
+    "assigned_at": "2026-03-01T09:06:54.803Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-1772355971929-ctbl",
+    "from": "atlas",
+    "task": "Send Vanessa a quick note saying I miss her",
+    "context": "",
+    "priority": "medium",
+    "assigned_at": "2026-03-01T09:06:11.929Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-1772355960096-ovnm",
+    "from": "atlas",
+    "task": "Email me a good morning message",
+    "context": "",
+    "priority": "medium",
+    "assigned_at": "2026-03-01T09:06:00.096Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-1772340100088-ac47",
+    "from": "atlas",
+    "task": "Send me an email to one of my emails: marketviallc@gmail.com just saying hi to me. Also make an email signature for yourself to send in the email",
+    "context": "",
+    "priority": "medium",
+    "assigned_at": "2026-03-01T04:41:40.088Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  }
+]

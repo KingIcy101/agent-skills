@@ -1,0 +1,1655 @@
+{
+  "generatedAt": "2026-02-28T11:00:03.800Z",
+  "summary": {
+    "totalIncomingOrders": 39,
+    "incomingOrderValue": "111672.92",
+    "brandsWithVelocityData": 8
+  },
+  "incomingOrders": [
+    {
+      "platform": "Amazon",
+      "product": "Metagenics",
+      "supplier": "Mike",
+      "status": "Purchased",
+      "amount": 2258.94,
+      "pageId": "2db89dac-5745-8093-9468-ebf30760a5c8"
+    },
+    {
+      "platform": "Amazon",
+      "product": "BodyHealth",
+      "supplier": "Carl",
+      "status": "Purchased",
+      "amount": 4074,
+      "pageId": "2db89dac-5745-8097-9d7b-eccb6570a206"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Designs for Health",
+      "supplier": "Mike",
+      "status": "Purchased",
+      "amount": 2170.4,
+      "pageId": "2db89dac-5745-80eb-9bb4-c9f17edb1498"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Bodyhealth",
+      "supplier": "Marco",
+      "status": "Purchased",
+      "amount": 2569.13,
+      "pageId": "2db89dac-5745-80ec-9789-f5219ab20dd1"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Enzyme science",
+      "supplier": "Dr. Pierce",
+      "status": "Purchased",
+      "amount": 2645.97,
+      "pageId": "2dc89dac-5745-8078-93b6-c4039827a615"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Standard Process",
+      "supplier": "Renee",
+      "status": "Purchased",
+      "amount": 2235.9,
+      "pageId": "2e289dac-5745-8076-b6d9-f8b544559ec3"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Standard Process",
+      "supplier": "Suzanne",
+      "status": "Purchased",
+      "amount": 2170.89,
+      "pageId": "2e289dac-5745-8079-8dc2-c044f39e0a94"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Body Health",
+      "supplier": "Carol",
+      "status": "Purchased",
+      "amount": 2447.69,
+      "pageId": "2e689dac-5745-80ae-a58e-f2c63e95dd27"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Eco Nugenics ",
+      "supplier": "Lisa",
+      "status": "Purchased",
+      "amount": 2691,
+      "pageId": "2f789dac-5745-80ee-af1d-d3e826e88dc9"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Designs for Health",
+      "supplier": "Renee",
+      "status": "Purchased",
+      "amount": 1982.92,
+      "pageId": "2f889dac-5745-8001-a784-ee88a8db944d"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Bodyhealth",
+      "supplier": "Renee",
+      "status": "Purchased",
+      "amount": 2716.71,
+      "pageId": "2f889dac-5745-802e-a0cd-cbf79c047b9b"
+    },
+    {
+      "platform": "Amazon",
+      "product": "EcoNugenics",
+      "supplier": "Dr. Pierce",
+      "status": "Purchased",
+      "amount": 3294.41,
+      "pageId": "2f889dac-5745-8040-a9ea-d0ca0b0d2465"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Bodyhealth",
+      "supplier": "Lisa",
+      "status": "Purchased",
+      "amount": 2054.89,
+      "pageId": "2f889dac-5745-804f-9423-c7c9c6aabeec"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Eco Nugenics",
+      "supplier": "Alex",
+      "status": "Purchased",
+      "amount": 2892.63,
+      "pageId": "2f889dac-5745-8050-a025-fa75f8493b0c"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Body Health",
+      "supplier": "Angelica",
+      "status": "Purchased",
+      "amount": 2596.4,
+      "pageId": "2f889dac-5745-8054-b8c1-f973f49baf9c"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Bodyhealth",
+      "supplier": "Dr. Pierce",
+      "status": "Purchased",
+      "amount": 3687.83,
+      "pageId": "2f889dac-5745-8068-bf26-fe25768448fc"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Klaire Lab",
+      "supplier": "Mike",
+      "status": "Purchased",
+      "amount": 2746.24,
+      "pageId": "2f889dac-5745-806e-b604-e40387db2710"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Econugenics",
+      "supplier": "Renee",
+      "status": "Purchased",
+      "amount": 2934.98,
+      "pageId": "2f889dac-5745-808d-86bd-ea45e3a1372c"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Body Health",
+      "supplier": "Rabecca",
+      "status": "Purchased",
+      "amount": 1088.82,
+      "pageId": "2f889dac-5745-8099-aaec-c288fc437b44"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Faire Heaven",
+      "supplier": "Dr. Pierce",
+      "status": "Purchased",
+      "amount": 3162.59,
+      "pageId": "2f889dac-5745-80a6-900f-d7350c0bd89b"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Body Health",
+      "supplier": "Rabecca",
+      "status": "Purchased",
+      "amount": 1159.2,
+      "pageId": "2f889dac-5745-80aa-987b-d8dd9996b2f0"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Body Health",
+      "supplier": "Jacob",
+      "status": "Purchased",
+      "amount": 5598.84,
+      "pageId": "2f889dac-5745-80d0-b398-da69f6402166"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Bodyhealth",
+      "supplier": "Suzanne",
+      "status": "Purchased",
+      "amount": 2519.6,
+      "pageId": "2f889dac-5745-80dd-ad18-fae548010aaf"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Designs for Health",
+      "supplier": "Dr. Matt",
+      "status": "Purchased",
+      "amount": 2362.39,
+      "pageId": "2fb89dac-5745-803a-b76a-f73c4eef2fcf"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Bodyhealth",
+      "supplier": "Mike",
+      "status": "Purchased",
+      "amount": 2073.02,
+      "pageId": "2fb89dac-5745-80b7-8a2d-f30462c7042b"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Metagenics",
+      "supplier": "Renee",
+      "status": "Purchased",
+      "amount": 2013.15,
+      "pageId": "2fc89dac-5745-80cf-8fb1-f84e76c951fe"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Carlson",
+      "supplier": "Marco",
+      "status": "Purchased",
+      "amount": 3505.22,
+      "pageId": "2ff89dac-5745-80cf-b9a8-c431e721ef3d"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Fairhaven ",
+      "supplier": "Renee",
+      "status": "Purchased",
+      "amount": 2756.44,
+      "pageId": "30289dac-5745-8015-af75-d53ef739a494"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Body Health",
+      "supplier": "Rabecca",
+      "status": "Purchased",
+      "amount": 1088.82,
+      "pageId": "30b89dac-5745-80f1-ba0f-e15a92e7c2af"
+    },
+    {
+      "platform": "Amazon",
+      "product": "Klaire Labs",
+      "supplier": "Angelica",
+      "status": "Purchased",
+      "amount": 2521.38,
+      "pageId": "31189dac-5745-819a-a7bc-e2d362316490"
+    },
+    {
+      "platform": "Amazon",
+      "product": "EcoNugenics",
+      "supplier": "Marco",
+      "status": "Purchased",
+      "amount": 2531.68,
+      "pageId": "31389dac-5745-80c7-a7e2-ca3c58acbacc"
+    },
+    {
+      "platform": "Amazon",
+      "product": "EcoNugenics",
+      "supplier": "Dr. Matt",
+      "status": "Purchased",
+      "amount": 2405.08,
+      "pageId": "31489dac-5745-8025-978d-dc123450dd5c"
+    },
+    {
+      "platform": "Walmart",
+      "product": "Orthomoleculer",
+      "supplier": "Rebecca",
+      "status": "Purchased",
+      "amount": 4880,
+      "pageId": "2e089dac-5745-80ea-a865-ee19c9afb33c"
+    },
+    {
+      "platform": "Walmart",
+      "product": "Orthomoleculer",
+      "supplier": "Suzanne",
+      "status": "Purchased",
+      "amount": 3337.59,
+      "pageId": "2fc89dac-5745-8074-8588-e89c97c32465"
+    },
+    {
+      "platform": "Walmart",
+      "product": "Orthomoleculer",
+      "supplier": "CAROL",
+      "status": "Purchased",
+      "amount": 2075.09,
+      "pageId": "2fe89dac-5745-8065-a3f9-e176c304212f"
+    },
+    {
+      "platform": "Walmart",
+      "product": "Orthomoleculer",
+      "supplier": "Rebecca",
+      "status": "Purchased",
+      "amount": 4880,
+      "pageId": "2ff89dac-5745-80e5-8c46-ef5eb145dc52"
+    },
+    {
+      "platform": "Walmart",
+      "product": "Orthomoleculer",
+      "supplier": "Rebecca",
+      "status": "Purchased",
+      "amount": 4976,
+      "pageId": "30d89dac-5745-8095-ba4c-c40049de547c"
+    },
+    {
+      "platform": "Walmart",
+      "product": "Orthomoleculer",
+      "supplier": "Renee",
+      "status": "Purchased",
+      "amount": 3591.08,
+      "pageId": "31089dac-5745-8080-9c25-fc2672132a10"
+    },
+    {
+      "platform": "Walmart",
+      "product": "Ortho Moleculer",
+      "supplier": "Rebecca",
+      "status": "Purchased",
+      "amount": 4976,
+      "pageId": "31489dac-5745-8073-9086-f9493eab402a"
+    }
+  ],
+  "brands": {
+    "BodyHealth": {
+      "flagging": true,
+      "flagNote": "Currently flagging — keep per-account orders SMALL and spaced out",
+      "accountCount": 7,
+      "maxUnitsOrderable": 100,
+      "accounts": [
+        {
+          "name": "Carol",
+          "discount": 0,
+          "maxCasesPerOrder": 2,
+          "notes": "Monthly orders"
+        },
+        {
+          "name": "Angelica",
+          "discount": 0,
+          "maxCasesPerOrder": 2,
+          "notes": "Monthly orders"
+        },
+        {
+          "name": "Mike",
+          "discount": 0.2,
+          "maxCasesPerOrder": 2,
+          "notes": "First order 20% off (carlos20)"
+        },
+        {
+          "name": "Suzanne",
+          "discount": 0,
+          "maxCasesPerOrder": 2,
+          "notes": "Monthly orders"
+        },
+        {
+          "name": "Renee",
+          "discount": 0,
+          "maxCasesPerOrder": 2,
+          "notes": "Monthly orders"
+        },
+        {
+          "name": "DUFFLE",
+          "discount": 0,
+          "maxCasesPerOrder": 2,
+          "notes": "Via Mateo — extra capacity"
+        },
+        {
+          "name": "Rebecca",
+          "discount": 0,
+          "maxCasesPerOrder": 3,
+          "notes": "Higher markup, overflow only"
+        }
+      ],
+      "incomingOrders": [
+        {
+          "platform": "Amazon",
+          "product": "BodyHealth",
+          "supplier": "Carl",
+          "status": "Purchased",
+          "amount": 4074,
+          "pageId": "2db89dac-5745-8097-9d7b-eccb6570a206"
+        },
+        {
+          "platform": "Amazon",
+          "product": "Bodyhealth",
+          "supplier": "Marco",
+          "status": "Purchased",
+          "amount": 2569.13,
+          "pageId": "2db89dac-5745-80ec-9789-f5219ab20dd1"
+        },
+        {
+          "platform": "Amazon",
+          "product": "Bodyhealth",
+          "supplier": "Renee",
+          "status": "Purchased",
+          "amount": 2716.71,
+          "pageId": "2f889dac-5745-802e-a0cd-cbf79c047b9b"
+        },
+        {
+          "platform": "Amazon",
+          "product": "Bodyhealth",
+          "supplier": "Lisa",
+          "status": "Purchased",
+          "amount": 2054.89,
+          "pageId": "2f889dac-5745-804f-9423-c7c9c6aabeec"
+        },
+        {
+          "platform": "Amazon",
+          "product": "Bodyhealth",
+          "supplier": "Dr. Pierce",
+          "status": "Purchased",
+          "amount": 3687.83,
+          "pageId": "2f889dac-5745-8068-bf26-fe25768448fc"
+        },
+        {
+          "platform": "Amazon",
+          "product": "Bodyhealth",
+          "supplier": "Suzanne",
+          "status": "Purchased",
+          "amount": 2519.6,
+          "pageId": "2f889dac-5745-80dd-ad18-fae548010aaf"
+        },
+        {
+          "platform": "Amazon",
+          "product": "Bodyhealth",
+          "supplier": "Mike",
+          "status": "Purchased",
+          "amount": 2073.02,
+          "pageId": "2fb89dac-5745-80b7-8a2d-f30462c7042b"
+        }
+      ],
+      "incomingOrderCount": 7,
+      "incomingOrderValue": "19695.18",
+      "topProducts": [
+        {
+          "name": "BodyHealth PerfectAmino (300 ct) Easy to Swallow Tablets, Es",
+          "asin": "B09SZQZ4B4",
+          "channel": "FBM",
+          "sales90d": 7396.96,
+          "units90d": 96,
+          "salesPerMonth": 32,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 32,
+          "margin": 26.6,
+          "roi": 54,
+          "urgency": "HIGH"
+        },
+        {
+          "name": "BodyHealth PerfectAmino - BCAA and EAA Powder for Pre and Po",
+          "asin": "B0DVD9WS8V",
+          "channel": "FBM",
+          "sales90d": 6291.67,
+          "units90d": 73,
+          "salesPerMonth": 24,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 24,
+          "margin": 31.5,
+          "roi": 72,
+          "urgency": "HIGH"
+        },
+        {
+          "name": "BodyHealth PerfectAmino (300 Tablets) Essential Amino Acid S",
+          "asin": "B06XPJPKRM",
+          "channel": "FBM",
+          "sales90d": 6157.77,
+          "units90d": 80,
+          "salesPerMonth": 27,
+          "currentStock": 24,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 3,
+          "margin": 24.9,
+          "roi": 48,
+          "urgency": "LOW"
+        },
+        {
+          "name": "BodyHealth PerfectAmino Powder - BCAA and EAA Powder for Pre",
+          "asin": "B0945VXQM3",
+          "channel": "FBM",
+          "sales90d": 5932.78,
+          "units90d": 71,
+          "salesPerMonth": 24,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 24,
+          "margin": 19.8,
+          "roi": 36,
+          "urgency": "HIGH"
+        },
+        {
+          "name": "BodyHealth PerfectAmino, Essential Amino Acid with BCAAs + L",
+          "asin": "B0BB853HL7",
+          "channel": "FBM",
+          "sales90d": 4697.06,
+          "units90d": 32,
+          "salesPerMonth": 11,
+          "currentStock": 25,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 0,
+          "margin": 31.9,
+          "roi": 72,
+          "urgency": "LOW"
+        },
+        {
+          "name": "BodyHealth PerfectAmino Powder - BCAA and EAA Powder for Pre",
+          "asin": "B09CDX45DM",
+          "channel": "FBM",
+          "sales90d": 3792,
+          "units90d": 48,
+          "salesPerMonth": 16,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 16,
+          "margin": 23.6,
+          "roi": 46,
+          "urgency": "HIGH"
+        },
+        {
+          "name": "BodyHealth PerfectAmino (600 ct) Easy to Swallow Tablets, Es",
+          "asin": "B09SZQ64NQ",
+          "channel": "FBM",
+          "sales90d": 3504,
+          "units90d": 24,
+          "salesPerMonth": 8,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 8,
+          "margin": 20.8,
+          "roi": 35,
+          "urgency": "MEDIUM"
+        },
+        {
+          "name": "BodyHealth PerfectAmino Powder - BCAA and EAA Powder for Pre",
+          "asin": "B0CX5NF6ZK",
+          "channel": "FBM",
+          "sales90d": 2363.5,
+          "units90d": 29,
+          "salesPerMonth": 10,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 10,
+          "margin": 28,
+          "roi": 57,
+          "urgency": "MEDIUM"
+        },
+        {
+          "name": "BodyHealth PerfectAmino (150 ct) Easy to Swallow Tablets, Es",
+          "asin": "B09SZQHYSL",
+          "channel": "FBM",
+          "sales90d": 2160.14,
+          "units90d": 51,
+          "salesPerMonth": 17,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 17,
+          "margin": 17.9,
+          "roi": 35,
+          "urgency": "HIGH"
+        },
+        {
+          "name": "BodyHealth PerfectAmino Powder - BCAA and EAA Powder for Pre",
+          "asin": "B09YF6QPVH",
+          "channel": "FBM",
+          "sales90d": 1982.5,
+          "units90d": 13,
+          "salesPerMonth": 4,
+          "currentStock": 7,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 0,
+          "margin": 31.8,
+          "roi": 66,
+          "urgency": "LOW"
+        },
+        {
+          "name": "BodyHealth Multi Complete (120 Ct) Daily Multivitamin for Me",
+          "asin": "B09YJ2Q2D1",
+          "channel": "FBM",
+          "sales90d": 1253.5,
+          "units90d": 23,
+          "salesPerMonth": 8,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 8,
+          "margin": 14.2,
+          "roi": 24,
+          "urgency": "MEDIUM"
+        },
+        {
+          "name": "BodyHealth PerfectAmino Powder - BCAA and EAA Powder for Pre",
+          "asin": "B0945SY1L1",
+          "channel": "FBM",
+          "sales90d": 1092,
+          "units90d": 26,
+          "salesPerMonth": 9,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 9,
+          "margin": 20.4,
+          "roi": 40,
+          "urgency": "MEDIUM"
+        },
+        {
+          "name": "BodyHealth PerfectAmino Tablets (150 ct), Essential Amino Ac",
+          "asin": "B00T55VPLE",
+          "channel": "FBM",
+          "sales90d": 1004.4,
+          "units90d": 24,
+          "salesPerMonth": 8,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 8,
+          "margin": 20.1,
+          "roi": 38,
+          "urgency": "MEDIUM"
+        },
+        {
+          "name": "BodyHealth PerfectAmino Powder - BCAA and EAA Powder for Pre",
+          "asin": "B07M7L4DPV",
+          "channel": "FBM",
+          "sales90d": 970.08,
+          "units90d": 23,
+          "salesPerMonth": 8,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 8,
+          "margin": 9.8,
+          "roi": 15,
+          "urgency": "MEDIUM"
+        },
+        {
+          "name": "BodyHealth PerfectAmino Powder - BCAA and EAA Powder for Pre",
+          "asin": "B095Z66FGL",
+          "channel": "FBM",
+          "sales90d": 616.58,
+          "units90d": 14,
+          "salesPerMonth": 5,
+          "currentStock": 13,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 0,
+          "margin": 15.7,
+          "roi": 28,
+          "urgency": "LOW"
+        }
+      ],
+      "highUrgency": [
+        "BodyHealth PerfectAmino (300 ct) Easy to Swallow Tablets, Es",
+        "BodyHealth PerfectAmino - BCAA and EAA Powder for Pre and Po",
+        "BodyHealth PerfectAmino Powder - BCAA and EAA Powder for Pre",
+        "BodyHealth PerfectAmino Powder - BCAA and EAA Powder for Pre",
+        "BodyHealth PerfectAmino (150 ct) Easy to Swallow Tablets, Es"
+      ],
+      "orderingNote": null
+    },
+    "Ortho Molecular": {
+      "flagging": false,
+      "flagNote": null,
+      "accountCount": 8,
+      "maxUnitsOrderable": 576,
+      "accounts": [
+        {
+          "name": "Rebecca",
+          "discount": 0.1,
+          "markup": {
+            "type": null,
+            "value": null
+          },
+          "notes": "Higher markup (overflow). Read from sheet."
+        },
+        {
+          "name": "Renee",
+          "discount": 0.1,
+          "markup": {
+            "type": null,
+            "value": null
+          },
+          "notes": "5% off at 72+, 10% off at 144+. Read markup from sheet."
+        },
+        {
+          "name": "Suzanne",
+          "discount": 0.1,
+          "markup": {
+            "type": null,
+            "value": null
+          },
+          "notes": "5% off at 72+, 10% off at 144+. Read markup from sheet."
+        },
+        {
+          "name": "Pierce",
+          "discount": 0.1,
+          "markup": {
+            "type": null,
+            "value": null
+          },
+          "notes": "5% off at 72+, 10% off at 144+. Read markup from sheet."
+        },
+        {
+          "name": "Mike",
+          "discount": 0.1,
+          "markup": {
+            "type": "pct",
+            "value": 0.1
+          },
+          "notes": "CONFIRMED Ortho only: 10% off (144+ tier) + 10% markup. Other brands = flat rate (unknown)."
+        },
+        {
+          "name": "Marco",
+          "discount": 0.1,
+          "markup": {
+            "type": null,
+            "value": null
+          },
+          "notes": "5% off at 72+, 10% off at 144+. Read markup from sheet."
+        },
+        {
+          "name": "Carol",
+          "discount": 0.1,
+          "markup": {
+            "type": null,
+            "value": null
+          },
+          "notes": "5% off at 72+, 10% off at 144+. Read markup from sheet."
+        },
+        {
+          "name": "DUFFLE",
+          "discount": 0,
+          "markup": {
+            "type": "flat",
+            "value": 0
+          },
+          "notes": "Via Mateo. No markup."
+        }
+      ],
+      "incomingOrders": [
+        {
+          "platform": "Walmart",
+          "product": "Orthomoleculer",
+          "supplier": "Rebecca",
+          "status": "Purchased",
+          "amount": 4880,
+          "pageId": "2e089dac-5745-80ea-a865-ee19c9afb33c"
+        },
+        {
+          "platform": "Walmart",
+          "product": "Orthomoleculer",
+          "supplier": "Suzanne",
+          "status": "Purchased",
+          "amount": 3337.59,
+          "pageId": "2fc89dac-5745-8074-8588-e89c97c32465"
+        },
+        {
+          "platform": "Walmart",
+          "product": "Orthomoleculer",
+          "supplier": "CAROL",
+          "status": "Purchased",
+          "amount": 2075.09,
+          "pageId": "2fe89dac-5745-8065-a3f9-e176c304212f"
+        },
+        {
+          "platform": "Walmart",
+          "product": "Orthomoleculer",
+          "supplier": "Rebecca",
+          "status": "Purchased",
+          "amount": 4880,
+          "pageId": "2ff89dac-5745-80e5-8c46-ef5eb145dc52"
+        },
+        {
+          "platform": "Walmart",
+          "product": "Orthomoleculer",
+          "supplier": "Rebecca",
+          "status": "Purchased",
+          "amount": 4976,
+          "pageId": "30d89dac-5745-8095-ba4c-c40049de547c"
+        },
+        {
+          "platform": "Walmart",
+          "product": "Orthomoleculer",
+          "supplier": "Renee",
+          "status": "Purchased",
+          "amount": 3591.08,
+          "pageId": "31089dac-5745-8080-9c25-fc2672132a10"
+        },
+        {
+          "platform": "Walmart",
+          "product": "Ortho Moleculer",
+          "supplier": "Rebecca",
+          "status": "Purchased",
+          "amount": 4976,
+          "pageId": "31489dac-5745-8073-9086-f9493eab402a"
+        }
+      ],
+      "incomingOrderCount": 7,
+      "incomingOrderValue": "28715.76",
+      "topProducts": [
+        {
+          "name": "Orthomega 820 Omega-3 Fish Oil (180 Softgels) - Cardiovascul",
+          "asin": "7HKUOJJ5AXIF",
+          "channel": "FBM",
+          "sales90d": 3327.68,
+          "units90d": 32,
+          "salesPerMonth": 11,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 11,
+          "margin": 28.3,
+          "roi": 53,
+          "urgency": "HIGH"
+        },
+        {
+          "name": "Reacted Magnesium (120ct) by Ortho Molecular Products",
+          "asin": "36095BKW78Z8",
+          "channel": "FBM",
+          "sales90d": 3107.8,
+          "units90d": 46,
+          "salesPerMonth": 15,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 15,
+          "margin": 42,
+          "roi": 114,
+          "urgency": "HIGH"
+        },
+        {
+          "name": "Methyl CpG 60ct by Ortho Molecular Products",
+          "asin": "63H8362TCLNR",
+          "channel": "FBM",
+          "sales90d": 2995,
+          "units90d": 50,
+          "salesPerMonth": 17,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 17,
+          "margin": 33.6,
+          "roi": 71,
+          "urgency": "HIGH",
+          "monthlyTarget": 12,
+          "remainingTarget": -83
+        },
+        {
+          "name": "Ortho Molecular OrthoMune 120ct",
+          "asin": "10G3J6HK8SXO",
+          "channel": "FBM",
+          "sales90d": 2988.5,
+          "units90d": 43,
+          "salesPerMonth": 14,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 14,
+          "margin": 30.9,
+          "roi": 62,
+          "urgency": "HIGH",
+          "monthlyTarget": 12,
+          "remainingTarget": -106
+        },
+        {
+          "name": "Natural D-Hist (40 capsules) by Ortho Molecular Products 40c",
+          "asin": "201PERB4KSAH",
+          "channel": "FBM",
+          "sales90d": 2674.3,
+          "units90d": 47,
+          "salesPerMonth": 16,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 16,
+          "margin": 52.2,
+          "roi": 185,
+          "urgency": "HIGH"
+        },
+        {
+          "name": "Reacted Magnesium (60 count) by Ortho Molecular Products (60",
+          "asin": "5FF3Q3NYMPQ9",
+          "channel": "FBM",
+          "sales90d": 2102.5,
+          "units90d": 51,
+          "salesPerMonth": 17,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 17,
+          "margin": 51.1,
+          "roi": 199,
+          "urgency": "HIGH"
+        },
+        {
+          "name": "Ortho Molecular Products Alpha Base Capsules Without Iron - ",
+          "asin": "11JOV8CGN6BE",
+          "channel": "FBM",
+          "sales90d": 1768.7,
+          "units90d": 23,
+          "salesPerMonth": 8,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 8,
+          "margin": 41,
+          "roi": 105,
+          "urgency": "MEDIUM"
+        },
+        {
+          "name": "Ortho Molecular D-Hist Jr.™ - 60 Chewable Tablets | Allergy ",
+          "asin": "5303597YPA6E",
+          "channel": "FBM",
+          "sales90d": 1275.53,
+          "units90d": 31,
+          "salesPerMonth": 10,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 10,
+          "margin": 40.9,
+          "roi": 109,
+          "urgency": "MEDIUM",
+          "monthlyTarget": 35,
+          "remainingTarget": 11
+        },
+        {
+          "name": "5A EstroDIM (60ct) by Ortho Molecular Products",
+          "asin": "4MHIN9DAZPSO",
+          "channel": "FBM",
+          "sales90d": 1210.3,
+          "units90d": 17,
+          "salesPerMonth": 6,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 6,
+          "margin": 33.1,
+          "roi": 71,
+          "urgency": "MEDIUM"
+        },
+        {
+          "name": "Candicid Forte (90 capsules) by Ortho Molecular Products",
+          "asin": "2X2AUE9EI41Z",
+          "channel": "FBM",
+          "sales90d": 1153.5,
+          "units90d": 21,
+          "salesPerMonth": 7,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 7,
+          "margin": 35,
+          "roi": 78,
+          "urgency": "MEDIUM"
+        },
+        {
+          "name": "Ortho Molecular - Sinatrol 60 Capsules",
+          "asin": "29LEUS96W61E",
+          "channel": "FBM",
+          "sales90d": 935,
+          "units90d": 17,
+          "salesPerMonth": 6,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 6,
+          "margin": 30.9,
+          "roi": 64,
+          "urgency": "MEDIUM",
+          "monthlyTarget": 24,
+          "remainingTarget": -6
+        },
+        {
+          "name": "Ortho Molecular Products Citranox (120 Capsules) - Vascular ",
+          "asin": "2WYS5S8L8WW9",
+          "channel": "FBM",
+          "sales90d": 886.8,
+          "units90d": 12,
+          "salesPerMonth": 4,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 4,
+          "margin": 39.8,
+          "roi": 97,
+          "urgency": "MEDIUM",
+          "monthlyTarget": 30,
+          "remainingTarget": 6
+        },
+        {
+          "name": "Ortho Molecular - Methyl B12-60 Tablets",
+          "asin": "4IETAFWV3YFP",
+          "channel": "FBM",
+          "sales90d": 810,
+          "units90d": 18,
+          "salesPerMonth": 6,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 6,
+          "margin": 38.3,
+          "roi": 98,
+          "urgency": "MEDIUM",
+          "monthlyTarget": 46,
+          "remainingTarget": 4
+        },
+        {
+          "name": "Ortho Molecular Digestzyme - 90 Capsules | Comprehensive Dig",
+          "asin": "6AXPCV8VDWO5",
+          "channel": "FBM",
+          "sales90d": 713.7,
+          "units90d": 13,
+          "salesPerMonth": 4,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 4,
+          "margin": 27.3,
+          "roi": 54,
+          "urgency": "MEDIUM"
+        },
+        {
+          "name": "Alpha Base Capsules without Iron (240 capsules) by Ortho Mol",
+          "asin": "4CQ4RGSCF33R",
+          "channel": "FBM",
+          "sales90d": 692.1,
+          "units90d": 9,
+          "salesPerMonth": 3,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 3,
+          "margin": 27.2,
+          "roi": 54,
+          "urgency": "MEDIUM"
+        },
+        {
+          "name": "Ortho Molecular Products - HiPhenolic - 120 capsules",
+          "asin": "73T52EOKEI6B",
+          "channel": "FBM",
+          "sales90d": 648,
+          "units90d": 6,
+          "salesPerMonth": 2,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 2,
+          "margin": 43.6,
+          "roi": 105,
+          "urgency": "MEDIUM"
+        },
+        {
+          "name": "Ortho Molecular Products Turiva 60 capsules",
+          "asin": "22W6DMR3T1QW",
+          "channel": "FBM",
+          "sales90d": 635,
+          "units90d": 10,
+          "salesPerMonth": 3,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 3,
+          "margin": 19.7,
+          "roi": 34,
+          "urgency": "MEDIUM",
+          "monthlyTarget": 35,
+          "remainingTarget": -3
+        },
+        {
+          "name": "Ortho Spore IG Probiotic 90 Capsules",
+          "asin": "65AKEUTZYRK9",
+          "channel": "FBM",
+          "sales90d": 605,
+          "units90d": 11,
+          "salesPerMonth": 4,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 4,
+          "margin": 29.4,
+          "roi": 50,
+          "urgency": "MEDIUM",
+          "monthlyTarget": 12,
+          "remainingTarget": -41
+        },
+        {
+          "name": "Ortho Molecular Products Orthomega 820 - 120 Soft Gel Capsul",
+          "asin": "4RCN5L18G991",
+          "channel": "FBM",
+          "sales90d": 538.65,
+          "units90d": 7,
+          "salesPerMonth": 2,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 2,
+          "margin": 39.2,
+          "roi": 88,
+          "urgency": "MEDIUM"
+        },
+        {
+          "name": "Ortho Digestzyme (180 capsules) by Ortho Molecular Products ",
+          "asin": "290GX1JJXUI7",
+          "channel": "FBM",
+          "sales90d": 461.94,
+          "units90d": 6,
+          "salesPerMonth": 2,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 2,
+          "margin": 38.5,
+          "roi": 92,
+          "urgency": "MEDIUM"
+        },
+        {
+          "name": "Ortho Spore IG 90ct by Ortho Molecular Products",
+          "asin": "4157YKWKRXW2",
+          "channel": "FBM",
+          "sales90d": 455.94,
+          "units90d": 6,
+          "salesPerMonth": 2,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 2,
+          "margin": 26,
+          "roi": 49,
+          "urgency": "MEDIUM",
+          "monthlyTarget": 12,
+          "remainingTarget": -41
+        },
+        {
+          "name": "Ortho Molecular GlutaShield Chocolate Powder",
+          "asin": "2UB6MVJ3HJK7",
+          "channel": "FBM",
+          "sales90d": 437.94,
+          "units90d": 6,
+          "salesPerMonth": 2,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 2,
+          "margin": 39.6,
+          "roi": 100,
+          "urgency": "MEDIUM",
+          "monthlyTarget": 12,
+          "remainingTarget": 5
+        },
+        {
+          "name": "Methyl B12 60ct by Ortho Molecular Products",
+          "asin": "3BH87XQWI0DF",
+          "channel": "FBM",
+          "sales90d": 405,
+          "units90d": 9,
+          "salesPerMonth": 3,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 3,
+          "margin": 29.9,
+          "roi": 59,
+          "urgency": "MEDIUM",
+          "monthlyTarget": 46,
+          "remainingTarget": 4
+        },
+        {
+          "name": "Ortho Molecular Products MitoCORE® 120 Capsules – Cellular E",
+          "asin": "24I7WR0E5H31",
+          "channel": "FBM",
+          "sales90d": 343,
+          "units90d": 7,
+          "salesPerMonth": 2,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 2,
+          "margin": 77.3,
+          "roi": 0,
+          "urgency": "MEDIUM"
+        },
+        {
+          "name": "CollaGEN 8oz (228g) 30 Servings by Ortho Molecular Products",
+          "asin": "6JEF4Q742NT4",
+          "channel": "FBM",
+          "sales90d": 323.6,
+          "units90d": 4,
+          "salesPerMonth": 1,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 1,
+          "margin": 36,
+          "roi": 82,
+          "urgency": "MEDIUM"
+        }
+      ],
+      "highUrgency": [
+        "Orthomega 820 Omega-3 Fish Oil (180 Softgels) - Cardiovascul",
+        "Reacted Magnesium (120ct) by Ortho Molecular Products",
+        "Methyl CpG 60ct by Ortho Molecular Products",
+        "Ortho Molecular OrthoMune 120ct",
+        "Natural D-Hist (40 capsules) by Ortho Molecular Products 40c",
+        "Reacted Magnesium (60 count) by Ortho Molecular Products (60"
+      ],
+      "orderingNote": null
+    },
+    "Standard Process": {
+      "flagging": false,
+      "flagNote": null,
+      "accountCount": 6,
+      "maxUnitsOrderable": 432,
+      "accounts": [
+        {
+          "name": "Carl",
+          "notes": "Shared coordinated restock list"
+        },
+        {
+          "name": "Lisa",
+          "notes": "Same list as Carl"
+        },
+        {
+          "name": "Catherine",
+          "notes": "Same list as Carl"
+        },
+        {
+          "name": "Pierce",
+          "notes": "SP + MediHerb + Ortho"
+        },
+        {
+          "name": "Mike",
+          "notes": "Has SP tab"
+        },
+        {
+          "name": "Marco",
+          "notes": "Marco's BH tab = SP restock list"
+        }
+      ],
+      "incomingOrders": [],
+      "incomingOrderCount": 0,
+      "incomingOrderValue": "0.00",
+      "topProducts": [
+        {
+          "name": "Standard Process Drenamin - Adrenal Function Supplement for ",
+          "asin": "B0BXYBC9YN",
+          "channel": "FBM",
+          "sales90d": 3960.4,
+          "units90d": 31,
+          "salesPerMonth": 10,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 10,
+          "margin": 23.1,
+          "roi": 43,
+          "urgency": "MEDIUM"
+        },
+        {
+          "name": "Standard Process Inc. Immuplex - Daily Immune Support Supple",
+          "asin": "B01LMO65WY",
+          "channel": "FBM",
+          "sales90d": 2080.3,
+          "units90d": 36,
+          "salesPerMonth": 12,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 12,
+          "margin": 19.5,
+          "roi": 34,
+          "urgency": "HIGH"
+        },
+        {
+          "name": "Standard Process Catalyn General Well-Being Dietary Suppleme",
+          "asin": "B0006IID64",
+          "channel": "FBM",
+          "sales90d": 690,
+          "units90d": 12,
+          "salesPerMonth": 4,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 4,
+          "margin": 17.2,
+          "roi": 29,
+          "urgency": "MEDIUM"
+        },
+        {
+          "name": "Standard Process Cyruta Plus - Capillary & Circulation Suppo",
+          "asin": "B012YIAOGU",
+          "channel": "FBM",
+          "sales90d": 605,
+          "units90d": 10,
+          "salesPerMonth": 3,
+          "currentStock": 10,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 0,
+          "margin": 25.7,
+          "roi": 48,
+          "urgency": "LOW"
+        }
+      ],
+      "highUrgency": [
+        "Standard Process Inc. Immuplex - Daily Immune Support Supple"
+      ],
+      "orderingNote": "All 6 share coordinated restock list — split across accounts to stay under brand radar"
+    },
+    "Klaire Labs": {
+      "flagging": false,
+      "flagNote": null,
+      "accountCount": 2,
+      "maxUnitsOrderable": 144,
+      "accounts": [
+        {
+          "name": "Mike",
+          "notes": "Primary. Most recent 2/4/26."
+        },
+        {
+          "name": "Marco",
+          "notes": "Secondary."
+        }
+      ],
+      "incomingOrders": [
+        {
+          "platform": "Amazon",
+          "product": "Klaire Lab",
+          "supplier": "Mike",
+          "status": "Purchased",
+          "amount": 2746.24,
+          "pageId": "2f889dac-5745-806e-b604-e40387db2710"
+        },
+        {
+          "platform": "Amazon",
+          "product": "Klaire Labs",
+          "supplier": "Angelica",
+          "status": "Purchased",
+          "amount": 2521.38,
+          "pageId": "31189dac-5745-819a-a7bc-e2d362316490"
+        }
+      ],
+      "incomingOrderCount": 2,
+      "incomingOrderValue": "5267.62",
+      "topProducts": [
+        {
+          "name": "Klaire Labs SFI Health Ther-Biotic Complete - 25 Billion CFU",
+          "asin": "B0151US0CI",
+          "channel": "FBM",
+          "sales90d": 3676,
+          "units90d": 23,
+          "salesPerMonth": 8,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 8,
+          "margin": 14.1,
+          "roi": 22,
+          "urgency": "MEDIUM"
+        },
+        {
+          "name": "Klaire Labs SFI Health Ther-Biotic Synbiotic - Prebiotics an",
+          "asin": "B09CS819NL",
+          "channel": "FBM",
+          "sales90d": 1710.19,
+          "units90d": 20,
+          "salesPerMonth": 7,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 7,
+          "margin": 21.4,
+          "roi": 37,
+          "urgency": "MEDIUM"
+        },
+        {
+          "name": "Klaire Labs SFI Health Ther-Biotic InterFase - Multi Enzyme ",
+          "asin": "B07CSJ3BGC",
+          "channel": "FBM",
+          "sales90d": 403.1,
+          "units90d": 13,
+          "salesPerMonth": 4,
+          "currentStock": 41,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 0,
+          "margin": -5.1,
+          "roi": -7,
+          "urgency": "LOW"
+        }
+      ],
+      "highUrgency": [],
+      "orderingNote": null
+    },
+    "Metagenics": {
+      "flagging": false,
+      "flagNote": null,
+      "accountCount": 4,
+      "maxUnitsOrderable": 288,
+      "accounts": [
+        {
+          "name": "Mike",
+          "notes": "Most recent data (2/6/26)"
+        },
+        {
+          "name": "DUFFLE",
+          "notes": "Matt Metagenics tab. 12/15/25 order."
+        },
+        {
+          "name": "Suzanne",
+          "notes": "Old data (2024) — confirm active"
+        },
+        {
+          "name": "Renee",
+          "notes": "Active"
+        }
+      ],
+      "incomingOrders": [
+        {
+          "platform": "Amazon",
+          "product": "Metagenics",
+          "supplier": "Mike",
+          "status": "Purchased",
+          "amount": 2258.94,
+          "pageId": "2db89dac-5745-8093-9468-ebf30760a5c8"
+        },
+        {
+          "platform": "Amazon",
+          "product": "Metagenics",
+          "supplier": "Renee",
+          "status": "Purchased",
+          "amount": 2013.15,
+          "pageId": "2fc89dac-5745-80cf-8fb1-f84e76c951fe"
+        }
+      ],
+      "incomingOrderCount": 2,
+      "incomingOrderValue": "4272.09",
+      "topProducts": [
+        {
+          "name": "Metagenics OmegaGenics Mega 10 Omega Supplement- with Omega-",
+          "asin": "B00G2GPJPW",
+          "channel": "FBM",
+          "sales90d": 490.5,
+          "units90d": 9,
+          "salesPerMonth": 3,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 3,
+          "margin": 3.2,
+          "roi": 4,
+          "urgency": "MEDIUM"
+        }
+      ],
+      "highUrgency": [],
+      "orderingNote": null
+    },
+    "Econugenics": {
+      "flagging": false,
+      "flagNote": null,
+      "accountCount": 2,
+      "maxUnitsOrderable": 144,
+      "accounts": [
+        {
+          "name": "Renee",
+          "notes": "Primary. Monthly cadence (~47 units/$2,700-2,900/order). 2/14/26 most recent."
+        },
+        {
+          "name": "DUFFLE",
+          "notes": "Active"
+        }
+      ],
+      "incomingOrders": [
+        {
+          "platform": "Amazon",
+          "product": "EcoNugenics",
+          "supplier": "Dr. Pierce",
+          "status": "Purchased",
+          "amount": 3294.41,
+          "pageId": "2f889dac-5745-8040-a9ea-d0ca0b0d2465"
+        },
+        {
+          "platform": "Amazon",
+          "product": "Econugenics",
+          "supplier": "Renee",
+          "status": "Purchased",
+          "amount": 2934.98,
+          "pageId": "2f889dac-5745-808d-86bd-ea45e3a1372c"
+        },
+        {
+          "platform": "Amazon",
+          "product": "EcoNugenics",
+          "supplier": "Marco",
+          "status": "Purchased",
+          "amount": 2531.68,
+          "pageId": "31389dac-5745-80c7-a7e2-ca3c58acbacc"
+        },
+        {
+          "platform": "Amazon",
+          "product": "EcoNugenics",
+          "supplier": "Dr. Matt",
+          "status": "Purchased",
+          "amount": 2405.08,
+          "pageId": "31489dac-5745-8025-978d-dc123450dd5c"
+        }
+      ],
+      "incomingOrderCount": 4,
+      "incomingOrderValue": "11166.15",
+      "topProducts": [
+        {
+          "name": "PectaSol Modified Citrus Pectin – 454g Powder – Total-Body H",
+          "asin": "B0027VT510",
+          "channel": "FBM",
+          "sales90d": 3927,
+          "units90d": 33,
+          "salesPerMonth": 11,
+          "currentStock": 8,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 3,
+          "margin": 14.2,
+          "roi": 22,
+          "urgency": "LOW"
+        },
+        {
+          "name": "PectaSol Modified Citrus Pectin – 551g Lime Powder – Total-B",
+          "asin": "B000H8BLDU",
+          "channel": "FBM",
+          "sales90d": 2389,
+          "units90d": 20,
+          "salesPerMonth": 7,
+          "currentStock": 25,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 0,
+          "margin": 19.6,
+          "roi": 36,
+          "urgency": "LOW"
+        },
+        {
+          "name": "PectaSol Modified Citrus Pectin – 270 Capsules – Total-Body ",
+          "asin": "B0024NLDV6",
+          "channel": "FBM",
+          "sales90d": 742.5,
+          "units90d": 9,
+          "salesPerMonth": 3,
+          "currentStock": 13,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 0,
+          "margin": 8.1,
+          "roi": 12,
+          "urgency": "LOW"
+        },
+        {
+          "name": "EcoNugenics PectaClear Detox Supplement for Toxic Metal Clea",
+          "asin": "B083L3WW8T",
+          "channel": "FBM",
+          "sales90d": 540,
+          "units90d": 12,
+          "salesPerMonth": 4,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 4,
+          "margin": -4.2,
+          "roi": -6,
+          "urgency": "MEDIUM"
+        }
+      ],
+      "highUrgency": [],
+      "orderingNote": null
+    },
+    "BodyBio": {
+      "flagging": false,
+      "flagNote": null,
+      "accountCount": 5,
+      "maxUnitsOrderable": 360,
+      "accounts": [
+        {
+          "name": "DUFFLE",
+          "notes": "Active. Most recent 1/14/26."
+        },
+        {
+          "name": "Rebecca",
+          "notes": "Has BodyBio tab"
+        },
+        {
+          "name": "Suzanne",
+          "notes": "Has Bodybio tab"
+        },
+        {
+          "name": "Renee",
+          "notes": "Has Bodybio tab"
+        },
+        {
+          "name": "Marco",
+          "notes": "Has BodyBio tab"
+        }
+      ],
+      "incomingOrders": [],
+      "incomingOrderCount": 0,
+      "incomingOrderValue": "0.00",
+      "topProducts": [
+        {
+          "name": "BodyBio PC - Phosphatidylcholine for Brain Health, Mental Cl",
+          "asin": "B00116B6FK",
+          "channel": "FBM",
+          "sales90d": 1397.1,
+          "units90d": 13,
+          "salesPerMonth": 4,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 4,
+          "margin": 2.6,
+          "roi": 5,
+          "urgency": "MEDIUM"
+        },
+        {
+          "name": "BodyBio PC - Phosphatidylcholine for Brain Health, Mental Cl",
+          "asin": "B07N7KFFBP",
+          "channel": "FBM",
+          "sales90d": 580,
+          "units90d": 10,
+          "salesPerMonth": 3,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 3,
+          "margin": 18.4,
+          "roi": 33,
+          "urgency": "MEDIUM"
+        }
+      ],
+      "highUrgency": [],
+      "orderingNote": null
+    },
+    "Arthur Andrew": {
+      "flagging": false,
+      "flagNote": null,
+      "accountCount": 1,
+      "maxUnitsOrderable": 72,
+      "accounts": [
+        {
+          "name": "DUFFLE",
+          "discount": 0.2,
+          "notes": "Only account. 20% off."
+        }
+      ],
+      "incomingOrders": [],
+      "incomingOrderCount": 0,
+      "incomingOrderValue": "0.00",
+      "topProducts": [],
+      "highUrgency": [],
+      "orderingNote": null
+    },
+    "Carlson": {
+      "flagging": false,
+      "flagNote": null,
+      "accountCount": 1,
+      "maxUnitsOrderable": 72,
+      "accounts": [
+        {
+          "name": "Marco",
+          "discount": 0.2,
+          "notes": "Most recent 12/16/25. 20% off."
+        }
+      ],
+      "incomingOrders": [
+        {
+          "platform": "Amazon",
+          "product": "Carlson",
+          "supplier": "Marco",
+          "status": "Purchased",
+          "amount": 3505.22,
+          "pageId": "2ff89dac-5745-80cf-b9a8-c431e721ef3d"
+        }
+      ],
+      "incomingOrderCount": 1,
+      "incomingOrderValue": "3505.22",
+      "topProducts": [
+        {
+          "name": "Carlson - The Very Finest Fish Oil, 1600 mg Omega-3s, Liquid",
+          "asin": "B001LF39RO",
+          "channel": "FBM",
+          "sales90d": 678,
+          "units90d": 12,
+          "salesPerMonth": 4,
+          "currentStock": 0,
+          "incomingApprox": 0,
+          "trueMonthlyGap": 4,
+          "margin": 14.3,
+          "roi": 26,
+          "urgency": "MEDIUM"
+        }
+      ],
+      "highUrgency": [],
+      "orderingNote": null
+    }
+  }
+}

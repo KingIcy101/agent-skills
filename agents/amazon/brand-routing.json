@@ -1,0 +1,54 @@
+{
+  "_note": "Derived from Slack order history — most frequent supplier per brand",
+  "_updated": "2026-02-22",
+  "BH": {
+    "primary": ["Renee", "Lisa"],
+    "secondary": ["Rebecca"],
+    "note": "Renee + Lisa most common; Rebecca for overflow"
+  },
+  "DFH": {
+    "primary": ["Mike"],
+    "secondary": ["Renee"],
+    "note": "Mike is the main DFH account"
+  },
+  "ECO": {
+    "primary": ["Lisa"],
+    "secondary": ["Renee", "Pierce"],
+    "note": "Lisa leads Econugenics orders"
+  },
+  "KLAIRE": {
+    "primary": ["Pierce", "Mike"],
+    "secondary": ["Marco", "Angelica"],
+    "note": "Pierce and Mike both active for Klaire"
+  },
+  "FAIRHAVEN": {
+    "primary": ["Renee"],
+    "secondary": ["Lisa", "Pierce"],
+    "note": "Renee is the main Fairhaven account"
+  },
+  "ORTHO": {
+    "primary": ["Rebecca"],
+    "secondary": ["Marco", "Pierce"],
+    "note": "Rebecca leads Ortho Molecular orders"
+  },
+  "SP": {
+    "primary": ["Suzanne", "Renee"],
+    "secondary": ["Mike"],
+    "note": "Standard Process split across Suzanne + Renee"
+  },
+  "METAGENICS": {
+    "primary": ["Mike"],
+    "secondary": ["Renee"],
+    "note": "Mike is the main Metagenics account"
+  },
+  "ARTHUR_ANDREW": {
+    "primary": ["DUFFLE"],
+    "secondary": [],
+    "note": "Arthur Andrew goes through DUFFLE (Matt's account) — 20% off"
+  },
+  "BODYBIO": {
+    "primary": ["Rebecca"],
+    "secondary": ["Renee"],
+    "note": "Rebecca + Renee for BodyBio"
+  }
+}

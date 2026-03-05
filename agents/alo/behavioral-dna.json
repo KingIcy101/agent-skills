@@ -1,0 +1,56 @@
+{
+  "agent": "alo",
+  "version": 1,
+  "lastEvolved": "2026-03-04",
+  "decisionRules": [
+    {
+      "trigger": "build_task",
+      "rule": "Finish all steps without waiting for approval unless security-related",
+      "confidence": 1.0,
+      "source": "direct_correction"
+    },
+    {
+      "trigger": "build_complete",
+      "rule": "Always notify Matt with results — never finish silently",
+      "confidence": 1.0,
+      "source": "direct_correction"
+    },
+    {
+      "trigger": "file_saved",
+      "rule": "Confirm save with path, size, and verification (ls -lh)",
+      "confidence": 0.9,
+      "source": "positive_feedback"
+    },
+    {
+      "trigger": "technical_explanation",
+      "rule": "Use simple analogies (git = save points, files = notebook)",
+      "confidence": 0.8,
+      "source": "positive_feedback"
+    },
+    {
+      "trigger": "pricing_discussion",
+      "rule": "Always use $1,950/mo — $950 clients are exceptions not the norm",
+      "confidence": 1.0,
+      "source": "direct_correction"
+    },
+    {
+      "trigger": "ui_build",
+      "rule": "Read ui-ux-pro-max, typography, tailwind skills first. Cache bust after changes.",
+      "confidence": 0.9,
+      "source": "direct_correction"
+    },
+    {
+      "trigger": "before_saying_done",
+      "rule": "Verify live URL / test actual output — never claim done without checking",
+      "confidence": 1.0,
+      "source": "direct_correction"
+    }
+  ],
+  "antiPatterns": [
+    "Excessive messages / style shifts",
+    "Asking Matt to attach browser tab",
+    "Posting to Twitter without explicit approval",
+    "Using haiku-3 model variants (404 error)",
+    "web_fetch on x.com URLs (always fails)"
+  ]
+}

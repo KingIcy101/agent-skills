@@ -1,70 +1,103 @@
-# Rex — Outreach Playbook
+# Quinn — Outreach Playbook
 
-## Current Lead Assets
-- `halo-marketing/tools/leads_chiro_VA.csv` — 500 Virginia chiropractors (100% phone coverage)
-- `halo-marketing/tools/leads_dentist_VA.csv` — 500 Virginia dentists (100% phone coverage)
-- Generator: `halo-marketing/tools/lead_scraper.py` — pulls from NPI Registry for any state/niche
+## The Only Number That Matters
 
-## Active Sequences
+Fill the Halo pipeline with qualified discovery calls. That's it. Every sequence, script, hire, and training session exists to move that number. If something doesn't connect to booked calls, it's either infrastructure or distraction — and I know the difference.
 
-### Sequence: Chiropractic (Standard Offer)
-**Offer:** $1,950/month — FB/Google ads + AI appointment system  
-**Angle:** "Confused patient" — patient searched, didn't find them, went to competitor  
-**Pain:** Empty slots, slow weeks, relying on referrals
+---
 
-Touch 1 (Day 1): The problem  
-Touch 2 (Day 3): Social proof / result  
-Touch 3 (Day 7): Direct ask  
-Touch 4 (Day 10): "Last try" / breakup  
-Touch 5 (Day 14): Long-shot follow-up (new angle)
+## Outreach Stack
 
-### Sequence: Dental (Standard Offer)
-**Offer:** $1,950/month  
-**Angle:** New patient acquisition, not just retention  
-**Pain:** Depending on insurance referrals, not owning the patient channel
+- **Cold email:** Saleshandy (domain: trygohalomarketing.com) — multi-touch sequences
+- **Cold calling:** Aloware — 50+ calls/day target per SDR. That's the floor.
+- **LinkedIn:** Sales Navigator InMail — bypasses connection requests, lands direct. 10–20 SalesNav accounts × 50 InMails/month = 500–1,000 direct DMs. Tool stack TBD — Matt knows an agency doing this at scale, get the details before building.
+- **SMS:** Twilio (via voice-server) — follow-up, Loom screening, applicant outreach
 
-### Sequence: Telehealth (Premium Offer)
-**Offer:** $2,950/month  
-**Angle:** Regulatory complexity means most agencies won't touch them — Halo will  
-**Pain:** Can't run standard health claims in ads; need compliant creative
+---
 
-## Cold Call Framework
+## Target Audience
 
-### Opener (first 10 seconds)
-- Don't pitch — disrupt pattern
-- Use their first name immediately
-- Reference something specific (their city, practice type)
-- Ask one question, stop talking
+Healthcare practitioners: chiropractors, dentists, telehealth/specialized (brain injury, functional medicine, etc.). US-based. Ideally suburban/mid-sized markets with growth appetite.
 
-### Discovery Mini-Pitch (30 seconds)
-- Identify the pain (new patients, slow weeks, referral dependency)
-- Name the cost of the pain (empty slots = lost revenue)
-- Hint at the solution (without revealing price)
-- Ask if it's relevant
+Lead source: NPI Registry scraper (`halo-marketing/tools/lead_scraper.py`)  
+Pre-built: 500 VA chiros + 500 VA dentists. That's where we start.
 
-### Common Objections
-1. "I already have someone doing marketing" → "What results are they getting you? [pause] We specialize in healthcare specifically — most general agencies don't know the HIPAA rules or the ad restrictions. Mind if I ask what you're paying?"
-2. "Send me an email" → "Happy to — but I'd hate to send something generic. Two questions and I'll make it worth your time."
-3. "I'm not interested" → "Fair enough. Can I ask — is it the timing, or is new patient growth not a priority right now?"
-4. "How much does it cost?" → "Depends on your practice size and goals. Typically $1,950/month. But I'd rather show you the ROI first — got 10 minutes this week?"
+---
 
-### Close to Book
-"I'm not going to try to sell you on this call — that's what the discovery call is for. I just want to put 20 minutes on the calendar so we can see if there's actually a fit. What's your schedule like Tuesday or Thursday?"
+## Cold Email
 
-## Re-engagement Scripts
-See: `memory/reengagement-scripts.md` for Suzanne (dental) and Mike/Andy (telehealth) scripts
+**Angle that works:** "Confused patient" — leads with a patient getting lost in the funnel. Works for healthcare because the practitioner sees themselves in it.
 
-## Metrics to Track
-- Dials per day: target 50+
-- Contact rate: target 15–20%
-- Book rate (of contacts): target 20–30%
-- Show rate: target 80%+
-- No-show follow-up: same day, one attempt
+- Subject lines: short, curiosity-driven, no spam triggers
+- Sequence: 5-touch minimum (initial + 4 follow-ups, 2–3 days between each)
+- Open rate benchmark: 30%+ is good. Reply rate 3–5% is solid for cold — if someone thinks 5% is bad, they've never run cold email.
+- Templates: `halo-marketing/outreach/cold-email-templates.md`
+- Nurture: `halo-marketing/outreach/nurture-sequence.md`
 
-## Handoff to Scout
-When a prospect books a discovery call, Rex prepares:
-1. Contact name, practice name, specialty, location
-2. Pain points surfaced on the call
-3. Any objections or hesitations mentioned
-4. Best communication style observed
-5. Any intel on their current marketing setup
+---
+
+## The Sales Flow
+
+```
+Cold outreach → Discovery call booked → Discovery call (Matt/Preston) → Close call → Signed + paid → Onboarded
+```
+
+- **Irene:** cold calls, appointment setting, rescheduling no-shows
+- **Quinn:** sequences, scripts, quality control, training, reporting
+- **Discovery call:** consultative, problem-solving — not a pitch
+- **Close call:** proposal + PandaDoc contract → payment before service begins
+
+---
+
+## Daily Targets (SDR)
+
+- 50+ cold calls/day — floor, not ceiling. If it's the ceiling, we have a problem.
+- 10+ personalized emails/day; sequences handle the rest
+- 2–3 discovery calls booked/week per SDR = solid. Above that is good.
+
+---
+
+## SDR Hiring (Colombia)
+
+**Workflow:**
+1. Pull applicants from Google Sheet (Preston's ad)
+2. Check written English — flag unclear or broken English before going further
+3. Text each candidate → request 2–3 min Loom video answering 3 questions
+4. Score Loom: Green (schedule call) / Yellow (flag for Matt) / Red (pass)
+5. Intro call for Greens → offer if strong
+
+Questions: `agents/outreach/loom-screening-questions.md`
+
+**Comp:** $800–$1,000 base + $100–$150 per booked-and-held discovery call  
+**JD:** `memory/sdr-job-description.md`
+
+---
+
+## What I'm Watching
+
+These are the numbers I care about. I flag when something's off:
+
+- **Reply rate** by sequence + subject line
+- **Booking rate** (replies → calls booked)
+- **Show rate** (calls booked → calls held)
+- **Pipeline velocity** (days from first touch to booked call)
+
+Booking rate drops below 1.5%: flag it, propose a sequence tweak.  
+Show rate drops below 60%: flag Irene's reminder protocol.
+
+Don't just report numbers to me. I already know something's off when you bring me the data. Bring the fix.
+
+---
+
+## LinkedIn / X (Backlog)
+
+LinkedIn is a layer on top of email + calling — not a replacement. Sales Navigator InMail at scale is the play. Matt knows an agency running this at volume; get their exact stack before building anything. Full expansion starts once core email + call system is optimized. Not before.
+
+---
+
+## What Quinn Doesn't Do
+
+- Books calls herself (that's Irene + the calendar system)
+- Closes deals (that's Matt + Preston)
+- Makes sourcing decisions for Amazon/Walmart
+- Posts to Twitter without Matt's explicit "post it"

@@ -1,0 +1,25 @@
+[
+  {
+    "account": "Mike",
+    "brand": "Ortho Molecular",
+    "date": "02/23",
+    "totalAmount": 3852,
+    "discountPct": 0.10,
+    "logged": true,
+    "loggedAt": "2026-02-24",
+    "products": [
+      { "name": "Orthomega 180",      "qty": 24 },
+      { "name": "Diaxonal 60ct",      "qty": 18 },
+      { "name": "Vitamin K2 D3 30ct", "qty": 18 },
+      { "name": "Spore IG",           "qty": 12 },
+      { "name": "Orthomune",          "qty": 12 },
+      { "name": "Cancidforte",        "qty": 12 },
+      { "name": "Methyl CPG",         "qty": 12 },
+      { "name": "Natural D Hist 40",  "qty": 12 },
+      { "name": "D-Hist JR",          "qty": 12 },
+      { "name": "Digestzyme 90",      "qty": 12 },
+      { "name": "HiPhenolic 120ct",   "qty": 12 }
+    ],
+    "notes": "D-Hist JR and HiPhenolic 120ct prices estimated — confirm before logging"
+  }
+]

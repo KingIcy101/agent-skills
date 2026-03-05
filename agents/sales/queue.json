@@ -1,0 +1,57 @@
+[
+  {
+    "id": "task-1772422806053-pqse",
+    "from": "atlas",
+    "task": "Research Pierce and prep for the close call this week",
+    "context": "",
+    "priority": "medium",
+    "assigned_at": "2026-03-02T03:40:06.053Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-1772356016275-l9e3",
+    "from": "atlas",
+    "task": "Research Dr. Williams chiropractor Chicago",
+    "context": "",
+    "priority": "medium",
+    "assigned_at": "2026-03-01T09:06:56.275Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-1772355961969-1pav",
+    "from": "atlas",
+    "task": "Research Dr. Williams chiropractor Chicago",
+    "context": "",
+    "priority": "medium",
+    "assigned_at": "2026-03-01T09:06:01.969Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-1772340029447-xm1o",
+    "from": "atlas",
+    "task": "Send an email to my friend Mateo convincing him to get Openclaw briefly telling him I said he should asap. His email is: BaltampaExchangeLLC@gmail.com",
+    "context": "",
+    "priority": "medium",
+    "assigned_at": "2026-03-01T04:40:29.447Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  },
+  {
+    "id": "task-1772301612351-p49x",
+    "from": "atlas",
+    "task": "Research Dr. Abretski before Thursdays discovery call",
+    "context": "",
+    "priority": "high",
+    "assigned_at": "2026-02-28T18:00:12.351Z",
+    "status": "pending",
+    "blocker": null,
+    "completed_at": null
+  }
+]

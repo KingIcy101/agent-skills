@@ -1,0 +1,443 @@
+[
+  {
+    "id": "task-1772588067194-fh05",
+    "task": "remind me to send Renee website version over to her tomorrow",
+    "context": "",
+    "routed_to": "nora",
+    "from": "matt",
+    "created": "2026-03-04T01:34:27.194Z",
+    "status": "done",
+    "action_type": "personal",
+    "approved_at": "2026-03-04T01:34:34.307Z",
+    "completed_at": "2026-03-04T03:11:41.606Z",
+    "result": "Reminder set: send Renee website version tomorrow"
+  },
+  {
+    "id": "task-1772561615265-ojnu",
+    "task": "email me hi how are you doing",
+    "context": "",
+    "routed_to": "ember",
+    "from": "matt",
+    "created": "2026-03-03T18:13:35.265Z",
+    "status": "done",
+    "action_type": "email",
+    "draft": {
+      "to_name": "Matt",
+      "to_email": "marketviallc@gmail.com",
+      "subject": "email me hi how are you doing",
+      "body": "hi how are you doing"
+    },
+    "approved_at": "2026-03-03T18:13:49.280Z",
+    "executedAt": "2026-03-03T18:15:00.866Z",
+    "result": "Email sent to marketviallc@gmail.com"
+  },
+  {
+    "id": "task-1772502821225-i68s",
+    "task": "Email",
+    "routed_to": "atlas",
+    "from": "braindump-batch",
+    "created": "2026-03-03T01:53:39.146Z",
+    "status": "dismissed",
+    "action_type": "general",
+    "dismissed_at": "2026-03-03T01:55:15.260Z"
+  },
+  {
+    "id": "task-1772502811573-wn5e",
+    "task": "Email Renee",
+    "routed_to": "ember",
+    "from": "braindump-batch",
+    "created": "2026-03-03T01:53:29.647Z",
+    "status": "dismissed",
+    "action_type": "email",
+    "draft": {
+      "to_name": "renee",
+      "to_email": null,
+      "subject": "Quick check-in — how's everything going?",
+      "body": "Hi Renee,\n\nJust wanted to check in and see how things are going with your campaigns. We're a few weeks in now, and I want to make sure you're seeing what you expected or if there's anything we should adjust.\n\nFeel free to reply here or let me know if you'd like to hop on a quick call to walk through your dashboard.\n\nTalk soon,\nEmber | Halo Marketing"
+    },
+    "dismissed_at": "2026-03-03T01:55:18.128Z"
+  },
+  {
+    "id": "task-1772502697658-p0ji",
+    "task": "Send an email to preston: Send an email to  saying goodnight",
+    "routed_to": "ember",
+    "from": "braindump-batch",
+    "created": "2026-03-03T01:51:35.912Z",
+    "status": "done",
+    "action_type": "email",
+    "draft": {
+      "to_name": "preston",
+      "to_email": "preston@gohalomarketing.com",
+      "subject": "Goodnight",
+      "body": "Hey Preston, just wanted to say goodnight. Talk tomorrow.\n\nEmber"
+    },
+    "approved_at": "2026-03-03T01:52:26.542Z",
+    "executedAt": "2026-03-03T01:55:00.745Z",
+    "result": "Email sent to preston@gohalomarketing.com"
+  },
+  {
+    "id": "task-1772502696721-dl4y",
+    "task": "Send an email to me: Send an email to  saying goodnight",
+    "routed_to": "ember",
+    "from": "braindump-batch",
+    "created": "2026-03-03T01:51:35.912Z",
+    "status": "done",
+    "action_type": "email",
+    "draft": {
+      "to_name": "Matt",
+      "to_email": "marketviallc@gmail.com",
+      "subject": "Goodnight",
+      "body": "Hey Matt,\n\nJust wanted to say goodnight. Get some rest — tomorrow's another day.\n\nEm"
+    },
+    "approved_at": "2026-03-03T01:52:17.025Z",
+    "executedAt": "2026-03-03T01:55:01.386Z",
+    "result": "Email sent to marketviallc@gmail.com"
+  },
+  {
+    "id": "task-1772502351889-lmwk",
+    "task": "I need an email to two people saying hi, how is your day. Send to me and preston (send to: preston only)",
+    "routed_to": "ember",
+    "from": "braindump-batch",
+    "created": "2026-03-03T01:45:48.764Z",
+    "status": "done",
+    "action_type": "email",
+    "draft": {
+      "to_name": "preston",
+      "to_email": "preston@gohalomarketing.com",
+      "subject": "Quick check-in",
+      "body": "Hey Preston,\n\nHow's your day going? Just wanted to touch base and see how things are on your end.\n\nLet me know if there's anything you need from me.\n\nTalk soon."
+    },
+    "approved_at": "2026-03-03T01:46:10.995Z",
+    "executedAt": "2026-03-03T01:48:32.891Z",
+    "result": "Email sent to preston@gohalomarketing.com"
+  },
+  {
+    "id": "task-1772502350802-1264",
+    "task": "I need an email to two people saying hi, how is your day. Send to me and preston (send to: me only)",
+    "routed_to": "ember",
+    "from": "braindump-batch",
+    "created": "2026-03-03T01:45:48.764Z",
+    "status": "dismissed",
+    "action_type": "email",
+    "draft": {
+      "to_name": "Matt",
+      "to_email": "marketviallc@gmail.com",
+      "subject": "Quick check-in",
+      "body": "Hey Preston,\n\nHow's your day going? Just wanted to check in and see how things are moving on your end.\n\nLet me know if you need anything from me.\n\nTalk soon."
+    },
+    "dismissed_at": "2026-03-03T01:51:01.000Z"
+  },
+  {
+    "id": "task-1772501902311-n11x",
+    "task": "I need an email to two people saying hi, how is your day. Send to me and preston",
+    "routed_to": "ember",
+    "from": "braindump-batch",
+    "created": "2026-03-03T01:38:21.487Z",
+    "status": "dismissed",
+    "action_type": "email",
+    "dismissed_at": "2026-03-03T01:44:37.054Z"
+  },
+  {
+    "id": "task-1772501353965-zaar",
+    "task": "I need an email to two people saying hi, how is your day. Send to me and preston",
+    "routed_to": "ember",
+    "from": "braindump-batch",
+    "created": "2026-03-03T01:29:13.058Z",
+    "status": "dismissed",
+    "action_type": "email",
+    "dismissed_at": "2026-03-03T01:41:56.962Z"
+  },
+  {
+    "id": "task-1772500887850-4nte",
+    "task": "email me that this is a test to see if the delegation system works",
+    "context": "",
+    "routed_to": "ember",
+    "from": "matt",
+    "created": "2026-03-03T01:21:27.850Z",
+    "status": "done",
+    "action_type": "email",
+    "draft": {
+      "to_name": "Matt",
+      "to_email": "marketviallc@gmail.com",
+      "subject": "Test email — delegation system check",
+      "body": "Hey Matt,\n\nThis is a test to see if the delegation system works. If you're reading this, it's working.\n\nLet me know if you need anything else.\n\nEmber"
+    },
+    "approved_at": "2026-03-03T01:21:38.787Z",
+    "executedAt": "2026-03-03T01:25:00.780Z",
+    "result": "Email sent to marketviallc@gmail.com"
+  },
+  {
+    "id": "test-executor-1772500789232",
+    "task": "Send Matt a test email confirming the executor is working",
+    "routed_to": "ember",
+    "from": "alo-test",
+    "created": "2026-03-03T01:19:49.232Z",
+    "status": "done",
+    "action_type": "email",
+    "draft": {
+      "to_name": "Matt",
+      "to_email": "marketviallc@gmail.com",
+      "subject": "Executor test — working ✓",
+      "body": "Matt,\n\nThis confirms the auto-executor is working. Approved tasks will now fire within 5 minutes automatically.\n\nAlo"
+    },
+    "executedAt": "2026-03-03T01:19:52.163Z",
+    "result": "Email sent to marketviallc@gmail.com"
+  },
+  {
+    "id": "task-1772486925159-ao9s",
+    "task": "email me a nice message saying hi, you are the best",
+    "context": "",
+    "routed_to": "ember",
+    "from": "matt",
+    "created": "2026-03-02T21:28:45.159Z",
+    "status": "done",
+    "action_type": "email",
+    "draft": {
+      "to_name": "Matt",
+      "to_email": "marketviallc@gmail.com",
+      "subject": "You're crushing it",
+      "body": "Matt,\n\nJust wanted to say — you're doing great work with these clients. The way you handle discovery calls and close deals is what makes this whole thing work. Appreciate you.\n\nEmber"
+    },
+    "approved_at": "2026-03-02T21:29:00.609Z",
+    "executedAt": "2026-03-03T01:15:41.432Z"
+  },
+  {
+    "id": "task-1772486900281-1i1k",
+    "task": "Email preston hey man",
+    "context": "",
+    "routed_to": "ember",
+    "from": "matt",
+    "created": "2026-03-02T21:28:20.281Z",
+    "status": "done",
+    "action_type": "email",
+    "autoSend": true,
+    "draft": {
+      "to_name": "preston",
+      "to_email": "preston@gohalomarketing.com",
+      "subject": "Hey",
+      "body": "Preston — quick question when you get a sec. Let me know what works for you.\n\nThanks,\nMatt"
+    },
+    "executedAt": "2026-03-03T01:15:41.433Z"
+  },
+  {
+    "id": "task-1772428436902-xzud",
+    "task": "email vanessa hey",
+    "context": "",
+    "routed_to": "ember",
+    "from": "matt",
+    "created": "2026-03-02T05:13:56.902Z",
+    "status": "done",
+    "action_type": "email",
+    "draft": {
+      "to_name": "vanessa",
+      "to_email": "vanessaunderwood2003@gmail.com",
+      "subject": "Hey",
+      "body": "Hey Vanessa,\n\nJust checking in. How's your week going?\n\nMatt"
+    },
+    "approved_at": "2026-03-02T05:14:21.702Z",
+    "executedAt": "2026-03-02T06:43:00Z"
+  },
+  {
+    "id": "task-1772425405020-1ngf",
+    "task": "Email vanessa the Luna sleep expert link. Also give her 3-4 things she can ask it so she knows.",
+    "context": "",
+    "routed_to": "ember",
+    "from": "matt",
+    "created": "2026-03-02T04:23:25.020Z",
+    "status": "done",
+    "action_type": "email",
+    "draft": {
+      "to_name": "vanessa",
+      "to_email": "vanessaunderwood2003@gmail.com",
+      "subject": "Built something for you — your personal sleep guide",
+      "body": "Hey Vanessa,\n\nI put together a little sleep guide just for you. It's live here: https://path-concord-ink-visitor.trycloudflare.com/sleep.html\n\nHere's what you can ask it:\n- \"What's a good wind-down routine for tonight?\"\n- \"Why am I waking up at 3 AM?\"\n- \"Give me a sleep tip based on my patterns\"\n- \"What should I avoid before bed?\"\n\nIt learns from what you tell it, so the more you use it, the better it gets. Let me know what you think.\n\nMatt"
+    },
+    "approved_at": "2026-03-02T04:23:53.567Z",
+    "executedAt": "2026-03-02T04:33:35Z",
+    "result": "Email sent to vanessaunderwood2003@gmail.com — message ID 19cacd2a094619a7"
+  },
+  {
+    "id": "task-1772424731063-wy3o",
+    "task": "Email Vanessa link to the Luna sleep expert so she can use it. Make sure the sleep expert link works and is smart!",
+    "context": "",
+    "routed_to": "ember",
+    "from": "matt",
+    "created": "2026-03-02T04:12:11.063Z",
+    "status": "dismissed",
+    "action_type": "email",
+    "draft": {
+      "to_name": "vanessa",
+      "to_email": "vanessaunderwood2003@gmail.com",
+      "subject": "Luna Sleep Expert Resource",
+      "body": "Hi Vanessa,\n\nI wanted to share a great resource with you – a link to the Luna sleep expert that should help with any sleep-related questions or guidance you might need.\n\nPlease let me know if the link works properly on your end, and feel free to reach out if you have any questions.\n\nBest,\nMatt"
+    },
+    "dismissed_at": "2026-03-02T04:14:57.071Z"
+  },
+  {
+    "id": "task-1772424340975-c1at",
+    "task": "Ensure dashboard is mobile compatible fully at 3am est.",
+    "context": "",
+    "routed_to": "forge",
+    "from": "matt",
+    "created": "2026-03-02T04:05:40.975Z",
+    "status": "done",
+    "action_type": "build",
+    "approved_at": "2026-03-02T04:06:07.956Z",
+    "result": "Covered by overnight build queue — Forge running"
+  },
+  {
+    "id": "task-1772424017257-uyfq",
+    "task": "email vanessa the link to talk to Luna sleep expert",
+    "context": "",
+    "routed_to": "ember",
+    "from": "matt",
+    "created": "2026-03-02T04:00:17.257Z",
+    "status": "dismissed",
+    "action_type": "email",
+    "draft": {
+      "to_name": "vanessa",
+      "to_email": "vanessaunderwood2003@gmail.com",
+      "subject": "Luna Sleep Expert Consultation Link",
+      "body": "Hi Vanessa,\n\nI wanted to share this link with you to connect with our Luna sleep expert. They can help address any sleep-related questions or concerns you might have.\n\nLet me know if you have any trouble accessing it or if you need anything else.\n\nBest,\nMatt"
+    },
+    "dismissed_at": "2026-03-02T04:11:50.855Z"
+  },
+  {
+    "id": "task-1772423533791-x74h",
+    "task": "I want a email sent to me about how you rock!",
+    "context": "",
+    "routed_to": "ember",
+    "from": "matt",
+    "created": "2026-03-02T03:52:13.791Z",
+    "status": "done",
+    "action_type": "email",
+    "draft": {
+      "to_name": "matt",
+      "to_email": "marketviallc@gmail.com",
+      "subject": "You Rock!",
+      "body": "Hi Matt,\n\nI wanted to take a moment to tell you that you absolutely rock. Your work, dedication, and positive attitude make a real difference. I appreciate everything you bring to the table.\n\nKeep up the great work!\n\nBest regards,\nAlo"
+    },
+    "approved_at": "2026-03-02T03:52:45.269Z",
+    "executedAt": "2026-03-02T06:43:00Z"
+  },
+  {
+    "id": "task-1772423054037-9gga",
+    "task": "Email Pierce tomorrow morning to follow up on contract",
+    "routed_to": "ember",
+    "from": "braindump-batch",
+    "created": "2026-03-02T03:44:12.876Z",
+    "status": "dismissed",
+    "action_type": "email",
+    "dismissed_at": "2026-03-02T03:52:50.352Z"
+  },
+  {
+    "id": "task-1772422806053-pqse",
+    "task": "Research Pierce and prep for the close call this week",
+    "context": "",
+    "routed_to": "scout",
+    "from": "matt-test",
+    "created": "2026-03-02T03:40:06.053Z",
+    "status": "dismissed",
+    "action_type": "research",
+    "dismissed_at": "2026-03-02T03:52:53.276Z"
+  },
+  {
+    "id": "task-1772422787868-xoa5",
+    "task": "Test delegation - follow up with Pierce about contract status",
+    "routed_to": "ember",
+    "from": "braindump-batch",
+    "created": "2026-03-02T03:39:46.992Z",
+    "status": "dismissed",
+    "action_type": "email",
+    "dismissed_at": "2026-03-02T03:52:57.580Z"
+  },
+  {
+    "id": "task-1772418392235-o8uk",
+    "task": "Let's wrap up the calendar integration, keep forgetting to solve this",
+    "routed_to": "forge",
+    "from": "braindump-batch",
+    "created": "2026-03-02T02:26:29.176Z",
+    "status": "done",
+    "action_type": "build",
+    "approved_at": "2026-03-02T03:53:03.325Z",
+    "result": "Covered by overnight build queue — Forge running"
+  },
+  {
+    "id": "task-1772418391342-pjgx",
+    "task": "In our test SVG illustration office, can you see about improving it even more? Then send me the link to review via telegram too.",
+    "routed_to": "forge",
+    "from": "braindump-batch",
+    "created": "2026-03-02T02:26:29.176Z",
+    "status": "dismissed",
+    "action_type": "build",
+    "dismissed_at": "2026-03-02T03:53:22.192Z"
+  },
+  {
+    "id": "task-1772418390173-7e66",
+    "task": "The analytics page doesn't need win metrics. It can show how many cold calls were taken for the day from the sales dashboards when we build them or sync from Aloware. Only put important analytics here.",
+    "routed_to": "forge",
+    "from": "braindump-batch",
+    "created": "2026-03-02T02:26:29.176Z",
+    "status": "dismissed",
+    "action_type": "build",
+    "dismissed_at": "2026-03-02T03:53:21.391Z"
+  },
+  {
+    "id": "task-1772416811183-bcnz",
+    "task": "Make me a openclaw update for my X based off how I did the last tweet. Should be about the recently things built without being too specific to our businesses.",
+    "context": "Auto-routed from Brain Dump",
+    "routed_to": "prism",
+    "from": "brain-dump",
+    "created": "2026-03-02T02:00:11.183Z",
+    "status": "dismissed",
+    "action_type": "content",
+    "dismissed_at": "2026-03-02T03:53:14.985Z"
+  },
+  {
+    "id": "task-1772416712419-4ytf",
+    "task": "Send me an email just saying something random like a quote to test this works",
+    "context": "Auto-routed from Brain Dump",
+    "routed_to": "ember",
+    "from": "brain-dump",
+    "created": "2026-03-02T01:58:32.419Z",
+    "status": "dismissed",
+    "action_type": "email",
+    "draft": {
+      "to_name": "matt",
+      "to_email": "marketviallc@gmail.com",
+      "subject": "A thought for today",
+      "body": "Hey,\n\nJust wanted to share something I came across: \"The only way to do great work is to love what you do.\" — Steve Jobs\n\nHope this finds you well.\n\nMatt"
+    },
+    "dismissed_at": "2026-03-02T03:53:17.539Z"
+  },
+  {
+    "id": "task-1772412625226-rclh",
+    "task": "Send me an email just saying something random like a quote to test this works",
+    "context": "Auto-routed from Brain Dump",
+    "routed_to": "ember",
+    "from": "brain-dump",
+    "created": "2026-03-02T00:50:25.226Z",
+    "status": "dismissed",
+    "action_type": "email",
+    "draft": {
+      "to_name": "matt",
+      "to_email": "marketviallc@gmail.com",
+      "subject": "A thought for you",
+      "body": "Hi Matt,\n\nI came across this quote today and thought I'd share it with you: \"The only way to do great work is to love what you do.\" — Steve Jobs\n\nHope it resonates with you.\n\nBest,\nMatt"
+    },
+    "dismissed_at": "2026-03-02T03:53:18.652Z"
+  },
+  {
+    "id": "task-1772401812426-itli",
+    "task": "Email the AkiFlow calendar support email asking them for an API integration for Openclaw so I can hook up my AI to the calendar: support@akiflow.com",
+    "context": "",
+    "routed_to": "ember",
+    "from": "matt",
+    "created": "2026-03-01T21:50:12.426Z",
+    "status": "done",
+    "action_type": "email",
+    "approved_at": "2026-03-01T21:50:18.875Z",
+    "result": "Email sent to support@akiflow.com",
+    "completedAt": "2026-03-01T21:56:03.420Z"
+  }
+]

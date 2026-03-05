@@ -9,23 +9,34 @@
 ---
 
 ## Scout — Sales Intelligence
-📁 `agents/sales/`  
-**Job:** Pre-call research, post-discovery packages, proposal prep, pipeline health  
-**Trigger:** "Research [name/website]" · "Just finished discovery with [name]" · "Prep proposal for [name]" · "Pipeline health check"
+📁 `agents/scout/` · Instructions: `agents/scout/INSTRUCTIONS.md`
+**Job:** Prospect research briefs, discovery call prep, market signals  
+**Trigger:** "Research [name/location]" · "Prep brief for [name]" · "Who is [prospect]?"  
+**Rule:** Never runs without explicit direction. No self-initiated research.
 
 ---
 
-## Rex — Outreach
+## Quinn — Outreach
 📁 `agents/outreach/`  
-**Job:** Cold email sequences, cold call scripts, lead lists, follow-up cadences, handoff to Scout  
-**Trigger:** "Build email sequence for [niche]" · "Cold call script for [niche]" · "Pull leads for [city] [niche]" · "Follow-up plan for [name]" · "Rex, prep handoff for [name]"
+**Job:** Cold email sequences, cold call scripts, follow-up cadences  
+**Trigger:** "Build email sequence for [niche]" · "Cold call script for [niche]" · "Follow-up plan for [name]"  
+**Blocked on:** Saleshandy API key
 
 ---
 
-## Ember — Client Success
-📁 `agents/client-success/`  
-**Job:** Onboarding, monthly reports, retention risk, check-in prep, referral asks  
-**Trigger:** "Ember, onboard [client]" · "Monthly report for [client]" · "Who's at risk of churning?" · "Prep check-in with [client]" · "Referral ask for [client]"
+## Ember — Client Success / Email
+📁 `agents/ember/` · Instructions: `agents/ember/INSTRUCTIONS.md`
+**Job:** Gmail triage, draft responses, client onboarding tracking, monthly reports  
+**Trigger:** "Check the inbox" · "Draft response to [client]" · "Renee's monthly report" · "Any urgent emails?"  
+**Active:** Gmail scanner runs every 30min via PM2 (ember-scanner)
+
+---
+
+## Vex — Ad Creatives *(Not Yet Built)*
+📁 `agents/creatives/`  
+**Job:** Ad creative production — hooks, copy, image/video briefs, UGC scripts, angle testing  
+**Works with:** Volt (strategy → Vex executes creative), Ember (knows client context)  
+**Trigger:** "Vex, write ad creatives for [client]" · "Build hooks for [niche]" · "UGC script for [client]" · "Angle test for [campaign]"
 
 ---
 
@@ -43,10 +54,11 @@
 
 ---
 
-## Kargo — Amazon/Walmart
-📁 `agents/amazon/`  
-**Job:** Inventory health, pricing, P&L summaries, VA instructions, Mateo sync  
-**Trigger:** "Inventory check" · "What needs restocking?" · "Monthly Amazon/Walmart summary" · "VA instructions for [situation]" · "Pricing review for [category]"
+## Kargo — Amazon/Walmart Operations
+📁 `agents/kargo/` · Instructions: `agents/kargo/INSTRUCTIONS.md`
+**Job:** Order tracking, Slack PAID sync, Notion status updates, Nova Prep alerts, stuck order flags  
+**Trigger:** "Order status for [brand]" · "Any stuck orders?" · "Sync Notion" · "Check Slack for new PAIDs"  
+**Active:** kargo-slack-sync.js runs every 30min via PM2
 
 ---
 
@@ -61,6 +73,26 @@
 📁 `agents/mentor/`  
 **Job:** Strategic advisor, decision reviewer, mindset calibrator, alignment keeper. Composite of Hormozi, Naval, Bezos, Gadzhi, Frisella, Buffett, Musk, Cuban and more. Pushes back, gives verdicts, keeps the 150-client vision front and center.  
 **Trigger:** "Titan, what do you think about [decision]?" · "Mentor session" · "Am I thinking too small?" · "Critique my offer" · "What's holding us back?" · "Weekly board session"
+
+---
+
+## Sage — Deep Research Agent 🔬
+📁 `agents/sage/`
+**Job:** Deep research and strategic analysis using extended thinking. Returns structured reports with sources, data points, and actionable recommendations for Halo.
+**Cost:** ~$0.50–$2 per session | 50k token hard cap | **ALWAYS confirm with Matt before spawning**
+**Trigger:** "Sage, research [topic]" · "deep dive on [competitor/market]" · "what are agencies charging for [service]?" · "research [strategic question]"
+**Never use for:** Routine tasks, quick lookups, anything time-sensitive
+
+---
+
+## Nora — Personal Assistant & Bookkeeper *(Not Yet Built)*
+📁 `agents/personal/`  
+**Job:** Personal life + personal finances. Appointment booking, reminders, family/Vanessa coordination, gifting — AND tracking all personal + non-inventory business expenses. Acts as Matt's personal accountant/bookkeeper.  
+**Tone:** Warm, organized, proactive. Feels like a trusted personal EA who also keeps the books.  
+**Trigger:** "Nora, remind me to..." · "Book me a [appointment]" · "How much did I spend on X this month?" · "Log a $X expense for [category]" · "What's my real take-home this month?"  
+**Keeps track of:** Matt's family, Vanessa, personal calendar, recurring commitments, ALL personal expenses (rent, car, insurance, utilities, bills, supplies), cross-board P&L  
+**Finance scope:** Personal expenses + Halo burn + Amazon profit = real net. Monthly summary, category breakdowns, statement import (Phase 2).  
+**Does NOT touch:** Amazon inventory orders (Kargo), Halo client ops (Ember/Atlas), agent builds
 
 ---
 

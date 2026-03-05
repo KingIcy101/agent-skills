@@ -1,0 +1,1984 @@
+{
+  "generatedAt": "2026-02-22T23:34:29.844Z",
+  "productMap": {
+    "Alpha Base Capsules without Iron, 240 Count": {
+      "brand": "OrthoMolecular",
+      "supplierName": "Alpha Base Capsules without Iron, 240 Count",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 8,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "Orthomega 820 (180ct)": {
+      "brand": "OrthoMolecular",
+      "supplierName": "Orthomega 820 (180ct)",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 9,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "Natural D-Hist 40ct": {
+      "brand": "OrthoMolecular",
+      "supplierName": "Natural D-Hist 40ct",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 7,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "EstroDIM 60ct": {
+      "brand": "OrthoMolecular",
+      "supplierName": "EstroDIM 60ct",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 8,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "Methyl B12": {
+      "brand": "OrthoMolecular",
+      "supplierName": "Methyl B12",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 6,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "Methyl CpG 60ct": {
+      "brand": "OrthoMolecular",
+      "supplierName": "Methyl CpG 60ct",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 6,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "Turiva®": {
+      "brand": "OrthoMolecular",
+      "supplierName": "Turiva®",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 0,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "Reacted Magnesium 120ct": {
+      "brand": "OrthoMolecular",
+      "supplierName": "Reacted Magnesium 120ct",
+      "amazonName": "BodyHealth Multi Complete (120 Ct) Daily Multivitamin for Me",
+      "asin": "B09YJ2Q2D1",
+      "sellPrice": 54.5,
+      "matchScore": 25,
+      "confirmed": false
+    },
+    "Digestzyme-V 90ct": {
+      "brand": "OrthoMolecular",
+      "supplierName": "Digestzyme-V 90ct",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 10,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "OrthoMune 120ct": {
+      "brand": "OrthoMolecular",
+      "supplierName": "OrthoMune 120ct",
+      "amazonName": "BodyHealth Multi Complete (120 Ct) Daily Multivitamin for Me",
+      "asin": "B09YJ2Q2D1",
+      "sellPrice": 54.5,
+      "matchScore": 25,
+      "confirmed": false
+    },
+    "Time Release Niacin": {
+      "brand": "OrthoMolecular",
+      "supplierName": "Time Release Niacin",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 0,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "BodyBio Tudca": {
+      "brand": "BodyBio",
+      "supplierName": "BodyBio Tudca",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 7,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "BodyBio Butyrate with Calcium & Magnesium 250 ct": {
+      "brand": "BodyBio",
+      "supplierName": "BodyBio Butyrate with Calcium & Magnesium 250 ct",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 9,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "BodyBio PC (Phosphatidylcholine) 100 soft gels": {
+      "brand": "BodyBio",
+      "supplierName": "BodyBio PC (Phosphatidylcholine) 100 soft gels",
+      "amazonName": "BodyBio PC - Phosphatidylcholine for Brain Health, Mental Cl",
+      "asin": "B00116B6FK",
+      "sellPrice": 106.5,
+      "matchScore": 26,
+      "confirmed": false
+    },
+    "BodyBio PC 300 Softgels": {
+      "brand": "BodyBio",
+      "supplierName": "BodyBio PC 300 Softgels",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 7,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "BodyBio PC (Liquid) - 16 oz": {
+      "brand": "BodyBio",
+      "supplierName": "BodyBio PC (Liquid) - 16 oz",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 7,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "BodyHealth PerfectAmino (300 ct) Non coated": {
+      "brand": "BodyHealth",
+      "supplierName": "BodyHealth PerfectAmino (300 ct) Non coated",
+      "amazonName": "BodyHealth PerfectAmino (300 ct) Easy to Swallow Tablets, Es",
+      "asin": "B09SZQZ4B4",
+      "sellPrice": 76.5,
+      "matchScore": 45,
+      "confirmed": false
+    },
+    "Perfect amino powder UNFLAVORED 60 servings": {
+      "brand": "BodyHealth",
+      "supplierName": "Perfect amino powder UNFLAVORED 60 servings",
+      "amazonName": "BodyHealth PerfectAmino - BCAA and EAA Powder for Pre and Po",
+      "asin": "B0DVD9WS8V",
+      "sellPrice": 85.5,
+      "matchScore": 18,
+      "confirmed": false
+    },
+    "Perfect Amino Tablets 600ct coated": {
+      "brand": "BodyHealth",
+      "supplierName": "Perfect Amino Tablets 600ct coated",
+      "amazonName": "BodyHealth PerfectAmino (600 ct) Easy to Swallow Tablets, Es",
+      "asin": "B09SZQ64NQ",
+      "sellPrice": 146,
+      "matchScore": 44,
+      "confirmed": false
+    },
+    "Perfect amino powder Berry 60 servings": {
+      "brand": "BodyHealth",
+      "supplierName": "Perfect amino powder Berry 60 servings",
+      "amazonName": "BodyHealth PerfectAmino - BCAA and EAA Powder for Pre and Po",
+      "asin": "B0DVD9WS8V",
+      "sellPrice": 85.5,
+      "matchScore": 18,
+      "confirmed": false
+    },
+    "Perfect Amino Tablets 600ct (Non Coated)": {
+      "brand": "BodyHealth",
+      "supplierName": "Perfect Amino Tablets 600ct (Non Coated)",
+      "amazonName": "BodyHealth PerfectAmino (600 ct) Easy to Swallow Tablets, Es",
+      "asin": "B09SZQ64NQ",
+      "sellPrice": 146,
+      "matchScore": 44,
+      "confirmed": false
+    },
+    "Perfect amino powder strawberry 60 servings": {
+      "brand": "BodyHealth",
+      "supplierName": "Perfect amino powder strawberry 60 servings",
+      "amazonName": "BodyHealth PerfectAmino - BCAA and EAA Powder for Pre and Po",
+      "asin": "B0DVD9WS8V",
+      "sellPrice": 85.5,
+      "matchScore": 18,
+      "confirmed": false
+    },
+    "BodyHealth Sleep,  with 3 mg 90 Capsules": {
+      "brand": "BodyHealth",
+      "supplierName": "BodyHealth Sleep,  with 3 mg 90 Capsules",
+      "amazonName": "BodyHealth PerfectAmino (300 Tablets) Essential Amino Acid S",
+      "asin": "B06XPJPKRM",
+      "sellPrice": 76.5,
+      "matchScore": 14,
+      "confirmed": false
+    },
+    "BodyBio Liposomal Glutathione": {
+      "brand": "BodyBio",
+      "supplierName": "BodyBio Liposomal Glutathione",
+      "amazonName": "Bodybio Liposomal Glutathione | Body’s Most Powerful Antioxi",
+      "asin": "B09S178H3D",
+      "sellPrice": 66.5,
+      "matchScore": 27,
+      "confirmed": false
+    },
+    "Liposomal Vitamin C": {
+      "brand": "BodyBio",
+      "supplierName": "Liposomal Vitamin C",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 9,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "BodyBio PC 60 Softgels": {
+      "brand": "BodyBio",
+      "supplierName": "BodyBio PC 60 Softgels",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 7,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "BodyBio PC (Phospholipid Complex) 4 floz": {
+      "brand": "BodyBio",
+      "supplierName": "BodyBio PC (Phospholipid Complex) 4 floz",
+      "amazonName": "Bask SPF 50 Sunscreen Stick – Fragrance Free, Reef Safe Face",
+      "asin": "B0FL2Z81XP",
+      "sellPrice": 17.95,
+      "matchScore": 12,
+      "confirmed": false
+    },
+    "BodyBio PC (Liquid) - 8 oz": {
+      "brand": "BodyBio",
+      "supplierName": "BodyBio PC (Liquid) - 8 oz",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 7,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "PectaSol Powder Unflavoured 90 ser": {
+      "brand": "Econugenics",
+      "supplierName": "PectaSol Powder Unflavoured 90 ser",
+      "amazonName": "PectaSol Modified Citrus Pectin – 551g Lime Powder – Total-B",
+      "asin": "B000H8BLDU",
+      "sellPrice": 119,
+      "matchScore": 14,
+      "confirmed": false
+    },
+    "PectaSol Powder Berry Infusion 90 ser": {
+      "brand": "Econugenics",
+      "supplierName": "PectaSol Powder Berry Infusion 90 ser",
+      "amazonName": "PectaSol Modified Citrus Pectin – 551g Lime Powder – Total-B",
+      "asin": "B000H8BLDU",
+      "sellPrice": 119,
+      "matchScore": 14,
+      "confirmed": false
+    },
+    "PectaSol lime infusion 90 servings": {
+      "brand": "Econugenics",
+      "supplierName": "PectaSol lime infusion 90 servings",
+      "amazonName": "PectaSol Modified Citrus Pectin – 551g Lime Powder – Total-B",
+      "asin": "B000H8BLDU",
+      "sellPrice": 119,
+      "matchScore": 12,
+      "confirmed": false
+    },
+    "PectaSol 270 capsules": {
+      "brand": "Econugenics",
+      "supplierName": "PectaSol 270 capsules",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 8,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "PectaSol Chewables": {
+      "brand": "Econugenics",
+      "supplierName": "PectaSol Chewables",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 8,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "Arthur Andrew Medical Neprinol 90": {
+      "brand": "ArthurAndrew",
+      "supplierName": "Arthur Andrew Medical Neprinol 90",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 6,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "Arthur Andrew Medical Neprinol 300": {
+      "brand": "ArthurAndrew",
+      "supplierName": "Arthur Andrew Medical Neprinol 300",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 6,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "Serreti 180": {
+      "brand": "ArthurAndrew",
+      "supplierName": "Serreti 180",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 3,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "Arthur Andrew Medical Syntol 360": {
+      "brand": "ArthurAndrew",
+      "supplierName": "Arthur Andrew Medical Syntol 360",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 6,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "BodyHealth PerfectAmino (300 ct) (Non coated)": {
+      "brand": "BodyHealth",
+      "supplierName": "BodyHealth PerfectAmino (300 ct) (Non coated)",
+      "amazonName": "BodyHealth PerfectAmino (300 ct) Easy to Swallow Tablets, Es",
+      "asin": "B09SZQZ4B4",
+      "sellPrice": 76.5,
+      "matchScore": 45,
+      "confirmed": false
+    },
+    "Perfect amino powder Mixed Berry 60 servings": {
+      "brand": "BodyHealth",
+      "supplierName": "Perfect amino powder Mixed Berry 60 servings",
+      "amazonName": "BodyHealth PerfectAmino - BCAA and EAA Powder for Pre and Po",
+      "asin": "B0DVD9WS8V",
+      "sellPrice": 85.5,
+      "matchScore": 18,
+      "confirmed": false
+    },
+    "Perfect amino powder Strawberry 30 servings": {
+      "brand": "BodyHealth",
+      "supplierName": "Perfect amino powder Strawberry 30 servings",
+      "amazonName": "BodyHealth PerfectAmino - BCAA and EAA Powder for Pre and Po",
+      "asin": "B0DVD9WS8V",
+      "sellPrice": 85.5,
+      "matchScore": 18,
+      "confirmed": false
+    },
+    "BodyHealth Perfect Amino ( Coated), 150 Tablets": {
+      "brand": "BodyHealth",
+      "supplierName": "BodyHealth Perfect Amino ( Coated), 150 Tablets",
+      "amazonName": "BodyHealth PerfectAmino (150 ct) Easy to Swallow Tablets, Es",
+      "asin": "B09SZQHYSL",
+      "sellPrice": 41.9,
+      "matchScore": 32,
+      "confirmed": false
+    },
+    "Perfect Amino Tablets 600ct (Coated)": {
+      "brand": "BodyHealth",
+      "supplierName": "Perfect Amino Tablets 600ct (Coated)",
+      "amazonName": "BodyHealth PerfectAmino (600 ct) Easy to Swallow Tablets, Es",
+      "asin": "B09SZQ64NQ",
+      "sellPrice": 146,
+      "matchScore": 44,
+      "confirmed": false
+    },
+    "BodyHealth PerfectAmino (300 ct) (coated)": {
+      "brand": "BodyHealth",
+      "supplierName": "BodyHealth PerfectAmino (300 ct) (coated)",
+      "amazonName": "BodyHealth PerfectAmino (300 ct) Easy to Swallow Tablets, Es",
+      "asin": "B09SZQZ4B4",
+      "sellPrice": 76.5,
+      "matchScore": 45,
+      "confirmed": false
+    },
+    "Perfect amino Powder Strawberry 120 serving": {
+      "brand": "BodyHealth",
+      "supplierName": "Perfect amino Powder Strawberry 120 serving",
+      "amazonName": "BodyHealth PerfectAmino - BCAA and EAA Powder for Pre and Po",
+      "asin": "B0DVD9WS8V",
+      "sellPrice": 85.5,
+      "matchScore": 18,
+      "confirmed": false
+    },
+    "CitraNOX": {
+      "brand": "OrthoMolecular",
+      "supplierName": "CitraNOX",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 0,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "CollaGEN Tub": {
+      "brand": "OrthoMolecular",
+      "supplierName": "CollaGEN Tub",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 0,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "Diaxinol 60ct": {
+      "brand": "OrthoMolecular",
+      "supplierName": "Diaxinol 60ct",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 0,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "Metagenics HerWellness Estrovera 90 Tablets": {
+      "brand": "Metagenics",
+      "supplierName": "Metagenics HerWellness Estrovera 90 Tablets",
+      "amazonName": "NaturesPlus Source of Life No Iron - 90 Tablets - Multivitam",
+      "asin": "B000W3QGW6",
+      "sellPrice": 37,
+      "matchScore": 27,
+      "confirmed": false
+    },
+    "UltraFlora Balance Probiotic 120 C": {
+      "brand": "Metagenics",
+      "supplierName": "UltraFlora Balance Probiotic 120 C",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 9,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "OmegaGenics  Fish Oil Mega 10": {
+      "brand": "Metagenics",
+      "supplierName": "OmegaGenics  Fish Oil Mega 10",
+      "amazonName": "Momentous Vegan Omega-3 - Plant-Based EPA & DHA Supplement f",
+      "asin": "B0FKPGG1Z4",
+      "sellPrice": 49,
+      "matchScore": 15,
+      "confirmed": false
+    },
+    "CoQ10 ST® 100 mg 120": {
+      "brand": "Metagenics",
+      "supplierName": "CoQ10 ST® 100 mg 120",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 3,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "Ther-Biotic® InterFase® (60 Vegetarian Capsules)": {
+      "brand": "KlaireLabs",
+      "supplierName": "Ther-Biotic® InterFase® (60 Vegetarian Capsules)",
+      "amazonName": "Klaire Labs SFI Health Ther-Biotic InterFase - Multi Enzyme ",
+      "asin": "B07CSJ3BGC",
+      "sellPrice": 30,
+      "matchScore": 19,
+      "confirmed": false
+    },
+    "Ther-Biotic® Complete (120 Vegetarian Capsules)": {
+      "brand": "KlaireLabs",
+      "supplierName": "Ther-Biotic® Complete (120 Vegetarian Capsules)",
+      "amazonName": "Klaire Labs SFI Health Ther-Biotic Complete - Hypoallergenic",
+      "asin": "B0151US0CI",
+      "sellPrice": 161,
+      "matchScore": 18,
+      "confirmed": false
+    },
+    "Ther-Biotic® Synbiotic (60 Capsules)": {
+      "brand": "KlaireLabs",
+      "supplierName": "Ther-Biotic® Synbiotic (60 Capsules)",
+      "amazonName": "Klaire Labs SFI Health Ther-Biotic Complete - Hypoallergenic",
+      "asin": "B0151US0CI",
+      "sellPrice": 161,
+      "matchScore": 19,
+      "confirmed": false
+    },
+    "Cyruta Plus 360 tab": {
+      "brand": "StandardProcess",
+      "supplierName": "Cyruta Plus 360 tab",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 7,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "Immuplex® 150ct": {
+      "brand": "StandardProcess",
+      "supplierName": "Immuplex® 150ct",
+      "amazonName": "BodyHealth PerfectAmino (150 ct) Easy to Swallow Tablets, Es",
+      "asin": "B09SZQHYSL",
+      "sellPrice": 41.9,
+      "matchScore": 25,
+      "confirmed": false
+    },
+    "Catalyn® 360ct": {
+      "brand": "StandardProcess",
+      "supplierName": "Catalyn® 360ct",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 0,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "Cataplex B 360 tab": {
+      "brand": "StandardProcess",
+      "supplierName": "Cataplex B 360 tab",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 3,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "Perfect Amino Electrolytes MIXED BERRY 30 SERVING": {
+      "brand": "BodyHealth",
+      "supplierName": "Perfect Amino Electrolytes MIXED BERRY 30 SERVING",
+      "amazonName": "BodyHealth PerfectAmino (300 ct) Easy to Swallow Tablets, Es",
+      "asin": "B09SZQZ4B4",
+      "sellPrice": 76.5,
+      "matchScore": 12,
+      "confirmed": false
+    },
+    "Perfect amino Powder Strawberry120 Serving Container": {
+      "brand": "BodyHealth",
+      "supplierName": "Perfect amino Powder Strawberry120 Serving Container",
+      "amazonName": "BodyHealth PerfectAmino - BCAA and EAA Powder for Pre and Po",
+      "asin": "B0DVD9WS8V",
+      "sellPrice": 85.5,
+      "matchScore": 18,
+      "confirmed": false
+    },
+    "BodyHealth Multi Complete (120 Ct)": {
+      "brand": "BodyHealth",
+      "supplierName": "BodyHealth Multi Complete (120 Ct)",
+      "amazonName": "BodyHealth Multi Complete (120 Ct) Daily Multivitamin for Me",
+      "asin": "B09YJ2Q2D1",
+      "sellPrice": 54.5,
+      "matchScore": 46,
+      "confirmed": false
+    },
+    "PectaClear 60 cap": {
+      "brand": "Econugenics",
+      "supplierName": "PectaClear 60 cap",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 3,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "Maximum Omega 2000 Lemon, 180 Softgels": {
+      "brand": "Carlson",
+      "supplierName": "Maximum Omega 2000 Lemon, 180 Softgels",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 5,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "Elite EPA Gems 1,000 120ct": {
+      "brand": "Carlson",
+      "supplierName": "Elite EPA Gems 1,000 120ct",
+      "amazonName": "BodyHealth Multi Complete (120 Ct) Daily Multivitamin for Me",
+      "asin": "B09YJ2Q2D1",
+      "sellPrice": 54.5,
+      "matchScore": 25,
+      "confirmed": false
+    },
+    "Carlson - The Very Finest Fish Oil 1600 mg Orange 16.9 Fl Oz": {
+      "brand": "Carlson",
+      "supplierName": "Carlson - The Very Finest Fish Oil 1600 mg Orange 16.9 Fl Oz",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 4,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "Carlson - The Very Finest Fish Oil 1600 mg Lemon 16.9 Fl Oz": {
+      "brand": "Carlson",
+      "supplierName": "Carlson - The Very Finest Fish Oil 1600 mg Lemon 16.9 Fl Oz",
+      "amazonName": null,
+      "asin": null,
+      "sellPrice": null,
+      "matchScore": 4,
+      "confirmed": false,
+      "needsManualMatch": true
+    },
+    "Perfect amino powder Lemon Lime 60 servings": {
+      "brand": "BodyHealth",
+      "supplierName": "Perfect amino powder Lemon Lime 60 servings",
+      "amazonName": "BodyHealth PerfectAmino - BCAA and EAA Powder for Pre and Po",
+      "asin": "B0DVD9WS8V",
+      "sellPrice": 85.5,
+      "matchScore": 18,
+      "confirmed": false
+    }
+  },
+  "recentPurchases": [
+    {
+      "date": "2025-12-15T08:00:00.000Z",
+      "source": "Rebecca",
+      "product": "Alpha Base Capsules without Iron, 240 Count",
+      "units": 18,
+      "wholesale": 25.16,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2025-12-15T08:00:00.000Z",
+      "source": "Rebecca",
+      "product": "Orthomega 820 (180ct)",
+      "units": 16,
+      "wholesale": 38.97,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2025-12-15T08:00:00.000Z",
+      "source": "Rebecca",
+      "product": "Natural D-Hist 40ct",
+      "units": 18,
+      "wholesale": 11.03,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2025-12-15T08:00:00.000Z",
+      "source": "Rebecca",
+      "product": "EstroDIM 60ct",
+      "units": 18,
+      "wholesale": 22.77,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2025-12-15T08:00:00.000Z",
+      "source": "Rebecca",
+      "product": "Methyl B12",
+      "units": 16,
+      "wholesale": 14.4,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2025-12-15T08:00:00.000Z",
+      "source": "Rebecca",
+      "product": "Methyl CpG 60ct",
+      "units": 16,
+      "wholesale": 19.8,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2025-12-15T08:00:00.000Z",
+      "source": "Rebecca",
+      "product": "Turiva®",
+      "units": 20,
+      "wholesale": 23.58,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2025-12-15T08:00:00.000Z",
+      "source": "Rebecca",
+      "product": "Reacted Magnesium 120ct",
+      "units": 20,
+      "wholesale": 15.12,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2025-12-15T08:00:00.000Z",
+      "source": "Rebecca",
+      "product": "Digestzyme-V 90ct",
+      "units": 12,
+      "wholesale": 18.36,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2025-12-15T08:00:00.000Z",
+      "source": "Rebecca",
+      "product": "OrthoMune 120ct",
+      "units": 18,
+      "wholesale": 22.41,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2025-12-15T08:00:00.000Z",
+      "source": "Rebecca",
+      "product": "Time Release Niacin",
+      "units": 6,
+      "wholesale": 13.64,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2026-01-06T08:00:00.000Z",
+      "source": "Rebecca",
+      "product": "OrthoMune 120ct",
+      "units": 60,
+      "wholesale": 23.27,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2026-01-06T08:00:00.000Z",
+      "source": "Rebecca",
+      "product": "Methyl CpG 60ct",
+      "units": 40,
+      "wholesale": 20.57,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2026-01-06T08:00:00.000Z",
+      "source": "Rebecca",
+      "product": "Methyl B12",
+      "units": 24,
+      "wholesale": 15.08,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2026-01-06T08:00:00.000Z",
+      "source": "Rebecca",
+      "product": "EstroDIM 60ct",
+      "units": 60,
+      "wholesale": 23.63,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2026-01-06T08:00:00.000Z",
+      "source": "Rebecca",
+      "product": "Alpha Base Capsules without Iron, 240 Count",
+      "units": 40,
+      "wholesale": 26.1,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": null,
+      "source": "Rebecca",
+      "product": "BodyBio Tudca",
+      "units": 24,
+      "wholesale": 32.99,
+      "brand": "BodyBio"
+    },
+    {
+      "date": null,
+      "source": "Rebecca",
+      "product": "BodyBio Butyrate with Calcium & Magnesium 250 ct",
+      "units": 24,
+      "wholesale": 44.99,
+      "brand": "BodyBio"
+    },
+    {
+      "date": null,
+      "source": "Rebecca",
+      "product": "BodyBio PC (Phosphatidylcholine) 100 soft gels",
+      "units": 24,
+      "wholesale": 55.89,
+      "brand": "BodyBio"
+    },
+    {
+      "date": null,
+      "source": "Rebecca",
+      "product": "BodyBio PC 300 Softgels",
+      "units": 24,
+      "wholesale": 129.99,
+      "brand": "BodyBio"
+    },
+    {
+      "date": null,
+      "source": "Rebecca",
+      "product": "BodyBio PC (Liquid) - 16 oz",
+      "units": 24,
+      "wholesale": 136.49,
+      "brand": "BodyBio"
+    },
+    {
+      "date": null,
+      "source": "Rebecca",
+      "product": "BodyHealth PerfectAmino (300 ct) Non coated",
+      "units": 24,
+      "wholesale": 38.95,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": null,
+      "source": "Rebecca",
+      "product": "Perfect amino powder UNFLAVORED 60 servings",
+      "units": 24,
+      "wholesale": 39.9,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": null,
+      "source": "Rebecca",
+      "product": "Perfect Amino Tablets 600ct coated",
+      "units": 12,
+      "wholesale": 73.15,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": null,
+      "source": "Rebecca",
+      "product": "Perfect amino powder Berry 60 servings",
+      "units": 24,
+      "wholesale": 39.9,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2026-01-08T08:00:00.000Z",
+      "source": "Rebecca",
+      "product": "BodyHealth PerfectAmino (300 ct) Non coated",
+      "units": 24,
+      "wholesale": 38.95,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2026-01-19T08:00:00.000Z",
+      "source": "Rebecca",
+      "product": "Perfect Amino Tablets 600ct coated",
+      "units": 12,
+      "wholesale": 73.15,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2026-02-03T08:00:00.000Z",
+      "source": "Rebecca",
+      "product": "Perfect amino powder Berry 60 servings",
+      "units": 24,
+      "wholesale": 39.9,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2026-02-13T08:00:00.000Z",
+      "source": "Rebecca",
+      "product": "BodyHealth PerfectAmino (300 ct) Non coated",
+      "units": 24,
+      "wholesale": 38.95,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2026-02-18T08:00:00.000Z",
+      "source": "Rebecca",
+      "product": "Perfect Amino Tablets 600ct coated",
+      "units": 12,
+      "wholesale": 73.15,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": null,
+      "source": "DUFFLE",
+      "product": "BodyHealth PerfectAmino (300 ct) Non coated",
+      "units": 24,
+      "wholesale": 38.95,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-10-14T07:00:00.000Z",
+      "source": "DUFFLE",
+      "product": "BodyHealth PerfectAmino (300 ct) Non coated",
+      "units": 24,
+      "wholesale": 38.95,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-10-14T07:00:00.000Z",
+      "source": "DUFFLE",
+      "product": "Perfect Amino Tablets 600ct (Non Coated)",
+      "units": 12,
+      "wholesale": 73.15,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-10-14T07:00:00.000Z",
+      "source": "DUFFLE",
+      "product": "Perfect amino powder strawberry 60 servings",
+      "units": 24,
+      "wholesale": 39.9,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-10-14T07:00:00.000Z",
+      "source": "DUFFLE",
+      "product": "BodyHealth Sleep,  with 3 mg 90 Capsules",
+      "units": 24,
+      "wholesale": 19.71,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-11-12T08:00:00.000Z",
+      "source": "DUFFLE",
+      "product": "BodyBio Liposomal Glutathione",
+      "units": 30,
+      "wholesale": 39.04,
+      "brand": "BodyBio"
+    },
+    {
+      "date": "2025-11-12T08:00:00.000Z",
+      "source": "DUFFLE",
+      "product": "Liposomal Vitamin C",
+      "units": 35,
+      "wholesale": 21.99,
+      "brand": "BodyBio"
+    },
+    {
+      "date": "2025-11-12T08:00:00.000Z",
+      "source": "DUFFLE",
+      "product": "BodyBio Butyrate with Calcium & Magnesium 250 ct",
+      "units": 25,
+      "wholesale": 44.99,
+      "brand": "BodyBio"
+    },
+    {
+      "date": "2025-11-12T08:00:00.000Z",
+      "source": "DUFFLE",
+      "product": "BodyBio PC 60 Softgels",
+      "units": 35,
+      "wholesale": 39.64,
+      "brand": "BodyBio"
+    },
+    {
+      "date": "2025-11-12T08:00:00.000Z",
+      "source": "DUFFLE",
+      "product": "BodyBio PC (Liquid) - 16 oz",
+      "units": 15,
+      "wholesale": 136.49,
+      "brand": "BodyBio"
+    },
+    {
+      "date": "2026-01-14T08:00:00.000Z",
+      "source": "DUFFLE",
+      "product": "BodyBio PC (Phospholipid Complex) 4 floz",
+      "units": 20,
+      "wholesale": 39.64,
+      "brand": "BodyBio"
+    },
+    {
+      "date": "2026-01-14T08:00:00.000Z",
+      "source": "DUFFLE",
+      "product": "BodyBio Tudca",
+      "units": 25,
+      "wholesale": 35.99,
+      "brand": "BodyBio"
+    },
+    {
+      "date": "2026-01-14T08:00:00.000Z",
+      "source": "DUFFLE",
+      "product": "BodyBio PC 60 Softgels",
+      "units": 25,
+      "wholesale": 39.64,
+      "brand": "BodyBio"
+    },
+    {
+      "date": "2026-01-14T08:00:00.000Z",
+      "source": "DUFFLE",
+      "product": "BodyBio PC (Liquid) - 8 oz",
+      "units": 30,
+      "wholesale": 76.99,
+      "brand": "BodyBio"
+    },
+    {
+      "date": "2025-12-15T08:00:00.000Z",
+      "source": "DUFFLE",
+      "product": "BodyBio PC (Liquid) - 16 oz",
+      "units": 21,
+      "wholesale": 136.49,
+      "brand": "BodyBio"
+    },
+    {
+      "date": "2025-12-15T08:00:00.000Z",
+      "source": "DUFFLE",
+      "product": "BodyBio Butyrate with Calcium & Magnesium 250 ct",
+      "units": 20,
+      "wholesale": 44.99,
+      "brand": "BodyBio"
+    },
+    {
+      "date": "2025-12-15T08:00:00.000Z",
+      "source": "DUFFLE",
+      "product": "BodyBio Tudca",
+      "units": 35,
+      "wholesale": 32.99,
+      "brand": "BodyBio"
+    },
+    {
+      "date": null,
+      "source": "DUFFLE",
+      "product": "PectaSol Powder Unflavoured 90 ser",
+      "units": 10,
+      "wholesale": 72,
+      "brand": "Econugenics"
+    },
+    {
+      "date": null,
+      "source": "DUFFLE",
+      "product": "PectaSol Powder Berry Infusion 90 ser",
+      "units": 10,
+      "wholesale": 78,
+      "brand": "Econugenics"
+    },
+    {
+      "date": null,
+      "source": "DUFFLE",
+      "product": "PectaSol lime infusion 90 servings",
+      "units": 10,
+      "wholesale": 78,
+      "brand": "Econugenics"
+    },
+    {
+      "date": null,
+      "source": "DUFFLE",
+      "product": "PectaSol 270 capsules",
+      "units": 13,
+      "wholesale": 52.2,
+      "brand": "Econugenics"
+    },
+    {
+      "date": null,
+      "source": "DUFFLE",
+      "product": "PectaSol Powder Unflavoured 90 ser",
+      "units": 15,
+      "wholesale": 72,
+      "brand": "Econugenics"
+    },
+    {
+      "date": null,
+      "source": "DUFFLE",
+      "product": "PectaSol 270 capsules",
+      "units": 15,
+      "wholesale": 52.2,
+      "brand": "Econugenics"
+    },
+    {
+      "date": null,
+      "source": "DUFFLE",
+      "product": "PectaSol Chewables",
+      "units": 15,
+      "wholesale": 40.8,
+      "brand": "Econugenics"
+    },
+    {
+      "date": null,
+      "source": "DUFFLE",
+      "product": "PectaSol Powder Berry Infusion 90 ser",
+      "units": 12,
+      "wholesale": 78,
+      "brand": "Econugenics"
+    },
+    {
+      "date": null,
+      "source": "DUFFLE",
+      "product": "PectaSol lime infusion 90 servings",
+      "units": 8,
+      "wholesale": 78,
+      "brand": "Econugenics"
+    },
+    {
+      "date": null,
+      "source": "DUFFLE",
+      "product": "PectaSol Powder Unflavoured 90 ser",
+      "units": 12,
+      "wholesale": 72,
+      "brand": "Econugenics"
+    },
+    {
+      "date": null,
+      "source": "DUFFLE",
+      "product": "Arthur Andrew Medical Neprinol 90",
+      "units": 8,
+      "wholesale": 28,
+      "brand": "ArthurAndrew"
+    },
+    {
+      "date": null,
+      "source": "DUFFLE",
+      "product": "Arthur Andrew Medical Neprinol 300",
+      "units": 10,
+      "wholesale": 87.99,
+      "brand": "ArthurAndrew"
+    },
+    {
+      "date": null,
+      "source": "DUFFLE",
+      "product": "Serreti 180",
+      "units": 6,
+      "wholesale": 55.99,
+      "brand": "ArthurAndrew"
+    },
+    {
+      "date": null,
+      "source": "DUFFLE",
+      "product": "Arthur Andrew Medical Syntol 360",
+      "units": 8,
+      "wholesale": 79.99,
+      "brand": "ArthurAndrew"
+    },
+    {
+      "date": "2025-12-18T08:00:00.000Z",
+      "source": "Mike",
+      "product": "BodyHealth PerfectAmino (300 ct) (Non coated)",
+      "units": 24,
+      "wholesale": 38.95,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-12-18T08:00:00.000Z",
+      "source": "Mike",
+      "product": "Perfect Amino Tablets 600ct (Non Coated)",
+      "units": 12,
+      "wholesale": 73.15,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-12-18T08:00:00.000Z",
+      "source": "Mike",
+      "product": "Perfect amino powder Mixed Berry 60 servings",
+      "units": 24,
+      "wholesale": 39.9,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-12-18T08:00:00.000Z",
+      "source": "Mike",
+      "product": "Perfect amino powder Strawberry 30 servings",
+      "units": 24,
+      "wholesale": 21.85,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-12-18T08:00:00.000Z",
+      "source": "Mike",
+      "product": "BodyHealth Perfect Amino ( Coated), 150 Tablets",
+      "units": 24,
+      "wholesale": 21.5,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2026-01-14T08:00:00.000Z",
+      "source": "Mike",
+      "product": "BodyHealth PerfectAmino (300 ct) (Non coated)",
+      "units": 24,
+      "wholesale": 38.95,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2026-01-14T08:00:00.000Z",
+      "source": "Mike",
+      "product": "Perfect Amino Tablets 600ct (Coated)",
+      "units": 12,
+      "wholesale": 73.15,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2026-01-14T08:00:00.000Z",
+      "source": "Mike",
+      "product": "Perfect amino powder strawberry 60 servings",
+      "units": 24,
+      "wholesale": 39.9,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": null,
+      "source": "Mike",
+      "product": "BodyHealth PerfectAmino (300 ct) (coated)",
+      "units": 24,
+      "wholesale": 38.95,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": null,
+      "source": "Mike",
+      "product": "Perfect amino Powder Strawberry 120 serving",
+      "units": 12,
+      "wholesale": 74.01,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-12-15T08:00:00.000Z",
+      "source": "Mike",
+      "product": "EstroDIM 60ct",
+      "units": 12,
+      "wholesale": 24.04,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2025-12-15T08:00:00.000Z",
+      "source": "Mike",
+      "product": "OrthoMune 120ct",
+      "units": 8,
+      "wholesale": 23.66,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2025-12-15T08:00:00.000Z",
+      "source": "Mike",
+      "product": "Alpha Base Capsules without Iron, 240 Count",
+      "units": 12,
+      "wholesale": 26.55,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2025-12-15T08:00:00.000Z",
+      "source": "Mike",
+      "product": "Natural D-Hist 40ct",
+      "units": 8,
+      "wholesale": 11.64,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2025-12-15T08:00:00.000Z",
+      "source": "Mike",
+      "product": "Methyl CpG 60ct",
+      "units": 12,
+      "wholesale": 20.9,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2025-12-15T08:00:00.000Z",
+      "source": "Mike",
+      "product": "Methyl B12",
+      "units": 12,
+      "wholesale": 15.2,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2025-12-15T08:00:00.000Z",
+      "source": "Mike",
+      "product": "Reacted Magnesium 120ct",
+      "units": 12,
+      "wholesale": 15.96,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2025-12-15T08:00:00.000Z",
+      "source": "Mike",
+      "product": "CitraNOX",
+      "units": 5,
+      "wholesale": 24.99,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2026-01-14T08:00:00.000Z",
+      "source": "Mike",
+      "product": "Natural D-Hist 40ct",
+      "units": 16,
+      "wholesale": 11.52,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2026-01-14T08:00:00.000Z",
+      "source": "Mike",
+      "product": "CollaGEN Tub",
+      "units": 12,
+      "wholesale": 29.16,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2026-01-14T08:00:00.000Z",
+      "source": "Mike",
+      "product": "OrthoMune 120ct",
+      "units": 16,
+      "wholesale": 23.27,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2026-01-14T08:00:00.000Z",
+      "source": "Mike",
+      "product": "CitraNOX",
+      "units": 24,
+      "wholesale": 24.57,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2026-01-14T08:00:00.000Z",
+      "source": "Mike",
+      "product": "Methyl CpG 60ct",
+      "units": 16,
+      "wholesale": 20.57,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2026-01-14T08:00:00.000Z",
+      "source": "Mike",
+      "product": "Diaxinol 60ct",
+      "units": 12,
+      "wholesale": 25.07,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2026-01-14T08:00:00.000Z",
+      "source": "Mike",
+      "product": "Alpha Base Capsules without Iron, 240 Count",
+      "units": 12,
+      "wholesale": 26.1,
+      "brand": "OrthoMolecular"
+    },
+    {
+      "date": "2026-02-06T08:00:00.000Z",
+      "source": "Mike",
+      "product": "Metagenics HerWellness Estrovera 90 Tablets",
+      "units": 9,
+      "wholesale": 60.25,
+      "brand": "Metagenics"
+    },
+    {
+      "date": "2026-02-06T08:00:00.000Z",
+      "source": "Mike",
+      "product": "UltraFlora Balance Probiotic 120 C",
+      "units": 10,
+      "wholesale": 45.75,
+      "brand": "Metagenics"
+    },
+    {
+      "date": "2026-02-06T08:00:00.000Z",
+      "source": "Mike",
+      "product": "OmegaGenics  Fish Oil Mega 10",
+      "units": 9,
+      "wholesale": 35.5,
+      "brand": "Metagenics"
+    },
+    {
+      "date": "2026-02-06T08:00:00.000Z",
+      "source": "Mike",
+      "product": "CoQ10 ST® 100 mg 120",
+      "units": 10,
+      "wholesale": 69.33,
+      "brand": "Metagenics"
+    },
+    {
+      "date": "2026-02-04T08:00:00.000Z",
+      "source": "Mike",
+      "product": "Ther-Biotic® InterFase® (60 Vegetarian Capsules)",
+      "units": 471,
+      "wholesale": 16.85,
+      "brand": "KlaireLabs"
+    },
+    {
+      "date": "2026-02-04T08:00:00.000Z",
+      "source": "Mike",
+      "product": "Ther-Biotic® Complete (120 Vegetarian Capsules)",
+      "units": 1455,
+      "wholesale": 51.99,
+      "brand": "KlaireLabs"
+    },
+    {
+      "date": "2026-02-04T08:00:00.000Z",
+      "source": "Mike",
+      "product": "Ther-Biotic® Synbiotic (60 Capsules)",
+      "units": 910,
+      "wholesale": 50.59,
+      "brand": "KlaireLabs"
+    },
+    {
+      "date": null,
+      "source": "Mike",
+      "product": "Cyruta Plus 360 tab",
+      "units": 18,
+      "wholesale": 28.75,
+      "brand": "StandardProcess"
+    },
+    {
+      "date": null,
+      "source": "Mike",
+      "product": "Immuplex® 150ct",
+      "units": 15,
+      "wholesale": 27.75,
+      "brand": "StandardProcess"
+    },
+    {
+      "date": null,
+      "source": "Mike",
+      "product": "Catalyn® 360ct",
+      "units": 15,
+      "wholesale": 27.5,
+      "brand": "StandardProcess"
+    },
+    {
+      "date": null,
+      "source": "Mike",
+      "product": "Cataplex B 360 tab",
+      "units": 18,
+      "wholesale": 23.5,
+      "brand": "StandardProcess"
+    },
+    {
+      "date": "2026-01-12T08:00:00.000Z",
+      "source": "Suzanne",
+      "product": "Perfect Amino Tablets 600ct coated",
+      "units": 12,
+      "wholesale": 73.15,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2026-01-12T08:00:00.000Z",
+      "source": "Suzanne",
+      "product": "BodyHealth PerfectAmino (300 ct) (coated)",
+      "units": 24,
+      "wholesale": 38.95,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2026-01-12T08:00:00.000Z",
+      "source": "Suzanne",
+      "product": "Perfect Amino Electrolytes MIXED BERRY 30 SERVING",
+      "units": 24,
+      "wholesale": 14.25,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2026-01-12T08:00:00.000Z",
+      "source": "Suzanne",
+      "product": "Perfect amino Powder Strawberry120 Serving Container",
+      "units": 12,
+      "wholesale": 74.01,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-10-01T07:00:00.000Z",
+      "source": "Renee",
+      "product": "BodyHealth Perfect Amino ( Coated), 150 Tablets",
+      "units": 24,
+      "wholesale": 21.5,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-10-01T07:00:00.000Z",
+      "source": "Renee",
+      "product": "Perfect Amino Tablets 600ct coated",
+      "units": 12,
+      "wholesale": 73.15,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-10-01T07:00:00.000Z",
+      "source": "Renee",
+      "product": "BodyHealth PerfectAmino (300 ct) (coated)",
+      "units": 24,
+      "wholesale": 38.95,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-11-11T08:00:00.000Z",
+      "source": "Renee",
+      "product": "Perfect Amino Tablets 600ct (Non Coated)",
+      "units": 12,
+      "wholesale": 73.15,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-11-11T08:00:00.000Z",
+      "source": "Renee",
+      "product": "BodyHealth PerfectAmino (300 ct) (coated)",
+      "units": 24,
+      "wholesale": 38.95,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-11-11T08:00:00.000Z",
+      "source": "Renee",
+      "product": "BodyHealth Multi Complete (120 Ct)",
+      "units": 24,
+      "wholesale": 28.26,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-11-11T08:00:00.000Z",
+      "source": "Renee",
+      "product": "BodyHealth Perfect Amino ( Coated), 150 Tablets",
+      "units": 24,
+      "wholesale": 21.5,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-11-27T08:00:00.000Z",
+      "source": "Renee",
+      "product": "Perfect amino powder strawberry 60 servings",
+      "units": 24,
+      "wholesale": 39.9,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-11-27T08:00:00.000Z",
+      "source": "Renee",
+      "product": "BodyHealth Sleep,  with 3 mg 90 Capsules",
+      "units": 24,
+      "wholesale": 20,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-11-27T08:00:00.000Z",
+      "source": "Renee",
+      "product": "BodyHealth Perfect Amino ( Coated), 150 Tablets",
+      "units": 24,
+      "wholesale": 21.5,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-11-27T08:00:00.000Z",
+      "source": "Renee",
+      "product": "Perfect Amino Tablets 600ct coated",
+      "units": 12,
+      "wholesale": 73.15,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2026-01-22T08:00:00.000Z",
+      "source": "Renee",
+      "product": "PectaSol Powder Unflavoured 90 ser",
+      "units": 20,
+      "wholesale": 72,
+      "brand": "Econugenics"
+    },
+    {
+      "date": "2026-01-22T08:00:00.000Z",
+      "source": "Renee",
+      "product": "PectaClear 60 cap",
+      "units": 12,
+      "wholesale": 27,
+      "brand": "Econugenics"
+    },
+    {
+      "date": "2026-01-22T08:00:00.000Z",
+      "source": "Renee",
+      "product": "PectaSol lime infusion 90 servings",
+      "units": 15,
+      "wholesale": 78,
+      "brand": "Econugenics"
+    },
+    {
+      "date": "2026-02-14T08:00:00.000Z",
+      "source": "Renee",
+      "product": "PectaSol Powder Unflavoured 90 ser",
+      "units": 20,
+      "wholesale": 72,
+      "brand": "Econugenics"
+    },
+    {
+      "date": "2026-02-14T08:00:00.000Z",
+      "source": "Renee",
+      "product": "PectaSol 270 capsules",
+      "units": 15,
+      "wholesale": 52.2,
+      "brand": "Econugenics"
+    },
+    {
+      "date": "2026-02-14T08:00:00.000Z",
+      "source": "Renee",
+      "product": "PectaSol Chewables",
+      "units": 12,
+      "wholesale": 40.8,
+      "brand": "Econugenics"
+    },
+    {
+      "date": "2025-12-16T08:00:00.000Z",
+      "source": "Marco",
+      "product": "Maximum Omega 2000 Lemon, 180 Softgels",
+      "units": 24,
+      "wholesale": 53.76,
+      "brand": "Carlson"
+    },
+    {
+      "date": "2025-12-16T08:00:00.000Z",
+      "source": "Marco",
+      "product": "Elite EPA Gems 1,000 120ct",
+      "units": 24,
+      "wholesale": 45.55,
+      "brand": "Carlson"
+    },
+    {
+      "date": "2025-12-16T08:00:00.000Z",
+      "source": "Marco",
+      "product": "Carlson - The Very Finest Fish Oil 1600 mg Orange 16.9 Fl Oz",
+      "units": 12,
+      "wholesale": 26.4,
+      "brand": "Carlson"
+    },
+    {
+      "date": "2025-12-16T08:00:00.000Z",
+      "source": "Marco",
+      "product": "Carlson - The Very Finest Fish Oil 1600 mg Lemon 16.9 Fl Oz",
+      "units": 12,
+      "wholesale": 26.4,
+      "brand": "Carlson"
+    },
+    {
+      "date": "2026-02-05T08:00:00.000Z",
+      "source": "Marco",
+      "product": "Maximum Omega 2000 Lemon, 180 Softgels",
+      "units": 26,
+      "wholesale": 53.76,
+      "brand": "Carlson"
+    },
+    {
+      "date": "2026-02-05T08:00:00.000Z",
+      "source": "Marco",
+      "product": "Elite EPA Gems 1,000 120ct",
+      "units": 26,
+      "wholesale": 45.55,
+      "brand": "Carlson"
+    },
+    {
+      "date": "2026-02-05T08:00:00.000Z",
+      "source": "Marco",
+      "product": "Carlson - The Very Finest Fish Oil 1600 mg Orange 16.9 Fl Oz",
+      "units": 12,
+      "wholesale": 26.4,
+      "brand": "Carlson"
+    },
+    {
+      "date": "2026-02-05T08:00:00.000Z",
+      "source": "Marco",
+      "product": "Carlson - The Very Finest Fish Oil 1600 mg Lemon 16.9 Fl Oz",
+      "units": 12,
+      "wholesale": 26.4,
+      "brand": "Carlson"
+    },
+    {
+      "date": "2026-01-12T08:00:00.000Z",
+      "source": "Carol",
+      "product": "BodyHealth PerfectAmino (300 ct) Non coated",
+      "units": 24,
+      "wholesale": 38.95,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2026-01-12T08:00:00.000Z",
+      "source": "Carol",
+      "product": "Perfect Amino Tablets 600ct (Non Coated)",
+      "units": 12,
+      "wholesale": 73.15,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2026-01-12T08:00:00.000Z",
+      "source": "Carol",
+      "product": "Perfect amino powder strawberry 60 servings",
+      "units": 24,
+      "wholesale": 39.9,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2026-01-12T08:00:00.000Z",
+      "source": "Carol",
+      "product": "BodyHealth Multi Complete (120 Ct)",
+      "units": 24,
+      "wholesale": 28.26,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-12-19T08:00:00.000Z",
+      "source": "Angelica",
+      "product": "BodyHealth PerfectAmino (300 ct) (coated)",
+      "units": 24,
+      "wholesale": 38.95,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-12-19T08:00:00.000Z",
+      "source": "Angelica",
+      "product": "Perfect Amino Tablets 600ct (Non Coated)",
+      "units": 12,
+      "wholesale": 73.15,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-12-19T08:00:00.000Z",
+      "source": "Angelica",
+      "product": "BodyHealth Perfect Amino ( Coated), 150 Tablets",
+      "units": 24,
+      "wholesale": 21.5,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2025-12-19T08:00:00.000Z",
+      "source": "Angelica",
+      "product": "Perfect amino powder Lemon Lime 60 servings",
+      "units": 24,
+      "wholesale": 39.9,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2026-01-21T08:00:00.000Z",
+      "source": "Angelica",
+      "product": "BodyHealth PerfectAmino (300 ct) (coated)",
+      "units": 24,
+      "wholesale": 38.95,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2026-01-21T08:00:00.000Z",
+      "source": "Angelica",
+      "product": "BodyHealth Perfect Amino ( Coated), 150 Tablets",
+      "units": 24,
+      "wholesale": 21.5,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2026-01-21T08:00:00.000Z",
+      "source": "Angelica",
+      "product": "Perfect amino powder UNFLAVORED 60 servings",
+      "units": 24,
+      "wholesale": 39.9,
+      "brand": "BodyHealth"
+    },
+    {
+      "date": "2026-01-21T08:00:00.000Z",
+      "source": "Angelica",
+      "product": "Perfect amino powder Strawberry 30 servings",
+      "units": 24,
+      "wholesale": 21.85,
+      "brand": "BodyHealth"
+    }
+  ],
+  "expectedRevenueSummary": {
+    "total": 514505,
+    "byProduct": [
+      {
+        "product": "Ther-Biotic® Complete (120 Vegetarian Capsules)",
+        "totalUnits": 1455,
+        "totalRevenue": 234255,
+        "sellPrice": 161,
+        "asin": "B0151US0CI"
+      },
+      {
+        "product": "Ther-Biotic® Synbiotic (60 Capsules)",
+        "totalUnits": 910,
+        "totalRevenue": 146510,
+        "sellPrice": 161,
+        "asin": "B0151US0CI"
+      },
+      {
+        "product": "Ther-Biotic® InterFase® (60 Vegetarian Capsules)",
+        "totalUnits": 471,
+        "totalRevenue": 14130,
+        "sellPrice": 30,
+        "asin": "B07CSJ3BGC"
+      },
+      {
+        "product": "BodyHealth PerfectAmino (300 ct) Non coated",
+        "totalUnits": 144,
+        "totalRevenue": 11016,
+        "sellPrice": 76.5,
+        "asin": "B09SZQZ4B4"
+      },
+      {
+        "product": "BodyHealth PerfectAmino (300 ct) (coated)",
+        "totalUnits": 144,
+        "totalRevenue": 11016,
+        "sellPrice": 76.5,
+        "asin": "B09SZQZ4B4"
+      },
+      {
+        "product": "Perfect Amino Tablets 600ct coated",
+        "totalUnits": 72,
+        "totalRevenue": 10512,
+        "sellPrice": 146,
+        "asin": "B09SZQ64NQ"
+      },
+      {
+        "product": "PectaSol Powder Unflavoured 90 ser",
+        "totalUnits": 77,
+        "totalRevenue": 9163,
+        "sellPrice": 119,
+        "asin": "B000H8BLDU"
+      },
+      {
+        "product": "Perfect Amino Tablets 600ct (Non Coated)",
+        "totalUnits": 60,
+        "totalRevenue": 8760,
+        "sellPrice": 146,
+        "asin": "B09SZQ64NQ"
+      },
+      {
+        "product": "Perfect amino powder strawberry 60 servings",
+        "totalUnits": 96,
+        "totalRevenue": 8208,
+        "sellPrice": 85.5,
+        "asin": "B0DVD9WS8V"
+      },
+      {
+        "product": "BodyHealth Perfect Amino ( Coated), 150 Tablets",
+        "totalUnits": 144,
+        "totalRevenue": 6033.6,
+        "sellPrice": 41.9,
+        "asin": "B09SZQHYSL"
+      },
+      {
+        "product": "OrthoMune 120ct",
+        "totalUnits": 102,
+        "totalRevenue": 5559,
+        "sellPrice": 54.5,
+        "asin": "B09YJ2Q2D1"
+      },
+      {
+        "product": "Perfect amino powder UNFLAVORED 60 servings",
+        "totalUnits": 48,
+        "totalRevenue": 4104,
+        "sellPrice": 85.5,
+        "asin": "B0DVD9WS8V"
+      },
+      {
+        "product": "Perfect amino powder Berry 60 servings",
+        "totalUnits": 48,
+        "totalRevenue": 4104,
+        "sellPrice": 85.5,
+        "asin": "B0DVD9WS8V"
+      },
+      {
+        "product": "Perfect amino powder Strawberry 30 servings",
+        "totalUnits": 48,
+        "totalRevenue": 4104,
+        "sellPrice": 85.5,
+        "asin": "B0DVD9WS8V"
+      },
+      {
+        "product": "PectaSol lime infusion 90 servings",
+        "totalUnits": 33,
+        "totalRevenue": 3927,
+        "sellPrice": 119,
+        "asin": "B000H8BLDU"
+      },
+      {
+        "product": "BodyHealth Sleep,  with 3 mg 90 Capsules",
+        "totalUnits": 48,
+        "totalRevenue": 3672,
+        "sellPrice": 76.5,
+        "asin": "B06XPJPKRM"
+      },
+      {
+        "product": "BodyHealth PerfectAmino (300 ct) (Non coated)",
+        "totalUnits": 48,
+        "totalRevenue": 3672,
+        "sellPrice": 76.5,
+        "asin": "B09SZQZ4B4"
+      },
+      {
+        "product": "Elite EPA Gems 1,000 120ct",
+        "totalUnits": 50,
+        "totalRevenue": 2725,
+        "sellPrice": 54.5,
+        "asin": "B09YJ2Q2D1"
+      },
+      {
+        "product": "PectaSol Powder Berry Infusion 90 ser",
+        "totalUnits": 22,
+        "totalRevenue": 2618,
+        "sellPrice": 119,
+        "asin": "B000H8BLDU"
+      },
+      {
+        "product": "BodyHealth Multi Complete (120 Ct)",
+        "totalUnits": 48,
+        "totalRevenue": 2616,
+        "sellPrice": 54.5,
+        "asin": "B09YJ2Q2D1"
+      },
+      {
+        "product": "BodyBio PC (Phosphatidylcholine) 100 soft gels",
+        "totalUnits": 24,
+        "totalRevenue": 2556,
+        "sellPrice": 106.5,
+        "asin": "B00116B6FK"
+      },
+      {
+        "product": "Perfect amino powder Mixed Berry 60 servings",
+        "totalUnits": 24,
+        "totalRevenue": 2052,
+        "sellPrice": 85.5,
+        "asin": "B0DVD9WS8V"
+      },
+      {
+        "product": "Perfect amino powder Lemon Lime 60 servings",
+        "totalUnits": 24,
+        "totalRevenue": 2052,
+        "sellPrice": 85.5,
+        "asin": "B0DVD9WS8V"
+      },
+      {
+        "product": "BodyBio Liposomal Glutathione",
+        "totalUnits": 30,
+        "totalRevenue": 1995,
+        "sellPrice": 66.5,
+        "asin": "B09S178H3D"
+      },
+      {
+        "product": "Perfect Amino Electrolytes MIXED BERRY 30 SERVING",
+        "totalUnits": 24,
+        "totalRevenue": 1836,
+        "sellPrice": 76.5,
+        "asin": "B09SZQZ4B4"
+      },
+      {
+        "product": "Perfect Amino Tablets 600ct (Coated)",
+        "totalUnits": 12,
+        "totalRevenue": 1752,
+        "sellPrice": 146,
+        "asin": "B09SZQ64NQ"
+      },
+      {
+        "product": "Reacted Magnesium 120ct",
+        "totalUnits": 32,
+        "totalRevenue": 1744,
+        "sellPrice": 54.5,
+        "asin": "B09YJ2Q2D1"
+      },
+      {
+        "product": "Perfect amino Powder Strawberry 120 serving",
+        "totalUnits": 12,
+        "totalRevenue": 1026,
+        "sellPrice": 85.5,
+        "asin": "B0DVD9WS8V"
+      },
+      {
+        "product": "Perfect amino Powder Strawberry120 Serving Contain",
+        "totalUnits": 12,
+        "totalRevenue": 1026,
+        "sellPrice": 85.5,
+        "asin": "B0DVD9WS8V"
+      },
+      {
+        "product": "Immuplex® 150ct",
+        "totalUnits": 15,
+        "totalRevenue": 628.5,
+        "sellPrice": 41.9,
+        "asin": "B09SZQHYSL"
+      },
+      {
+        "product": "OmegaGenics  Fish Oil Mega 10",
+        "totalUnits": 9,
+        "totalRevenue": 441,
+        "sellPrice": 49,
+        "asin": "B0FKPGG1Z4"
+      },
+      {
+        "product": "BodyBio PC (Phospholipid Complex) 4 floz",
+        "totalUnits": 20,
+        "totalRevenue": 359,
+        "sellPrice": 17.95,
+        "asin": "B0FL2Z81XP"
+      },
+      {
+        "product": "Metagenics HerWellness Estrovera 90 Tablets",
+        "totalUnits": 9,
+        "totalRevenue": 333,
+        "sellPrice": 37,
+        "asin": "B000W3QGW6"
+      }
+    ]
+  }
+}
